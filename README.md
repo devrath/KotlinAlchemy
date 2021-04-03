@@ -48,17 +48,17 @@ Unit Tests exist for most use cases.
 
 This use case performs a single network request to get the latest Android Versions and displays them on the screen.
 
-[[code](app/src/main/java/com/demo/code/usecases/usecase1/PerformSingleNetworkRequestViewModel.kt)]
+[[code](app/src/main/java/com/demo/code/usecases/coroutines/coroutines/usecase1/PerformSingleNetworkRequestViewModel.kt)]
 
 ### 2. Perform two sequential network requests
 
 This use case performs two network requests sequentially. First it retrieves recent Android Versions and then it requests the features of the latest version.
 
 There are also 2 alternative implementations included. One is using old-school [callbacks](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecases/usecase2/callbacks/SequentialNetworkRequestsCallbacksViewModel.kt).
-The other one uses [RxJava](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecase2/rx/SequentialNetworkRequestsRxViewModel.kt). You can compare each implementation.
+The other one uses [RxJava](app/src/main/java/com/demo/code/usecases/coroutines/coroutines/usecase2/rx/SequentialNetworkRequestsRxViewModel.kt). You can compare each implementation.
 If you compare all three implementations, it is really interesting to see, in my opinion, how simple the Coroutine-based version actually is.
 
-[[code](app/src/main/java/com/demo/code/usecases/usecase2/Perform2SequentialNetworkRequestsViewModel.kt)]
+[[code](app/src/main/java/com/demo/code/usecases/coroutines/coroutines/usecase2/Perform2SequentialNetworkRequestsViewModel.kt)]
 
 ### 3. Perform several network requests concurrently
 
@@ -67,14 +67,14 @@ that performs the requests sequentially is included. The UI shows how much time 
 requests in the concurrent version are actually performed in parallel. The included unit test is also interesting, as it shows how you can use virtual time to
 verify that the concurrent version really gets performed in parallel.
 
-[[code](app/src/main/java/com/demo/code/usecases/usecase3/PerformNetworkRequestsConcurrentlyViewModel.kt)]
+[[code](app/src/main/java/com/demo/code/usecases/coroutines/coroutines/usecase3/PerformNetworkRequestsConcurrentlyViewModel.kt)]
 
 ### 4. Perform variable amount of network requests
 
 Demonstrates the simple usage of `map()` to perform a dynamic amount of network requests. At first, this use case performs a network request to load all Android versions.
 Then it performs a network request for each Android version to load its features. It contains an implementation that performs the network requests sequentially and another one that performs them concurrently.
 
-[[code](app/src/main/java/com/demo/code/usecases/usecase4/VariableAmountOfNetworkRequestsViewModel.kt)]
+[[code](app/src/main/java/com/demo/code/usecases/coroutines/usecase4/VariableAmountOfNetworkRequestsViewModel.kt)]
 
 ### 5. Perform network request with timeout
 
@@ -83,7 +83,7 @@ You can set the duration of the request in the UI and check the behaviour when t
 
 General networking timeouts can also be [configured in the okhttp client](https://square.github.io/okhttp/recipes/#timeouts-kt-java).
 
-[[code](aapp/src/main/java/com/demo/code/usecases/usecase5/NetworkRequestWithTimeoutViewModel.kt)]
+[[code](app/src/main/java/com/demo/code/usecases/coroutines/usecase5/NetworkRequestWithTimeoutViewModel.kt)]
 
 ### 6. Retrying network requests
 
@@ -91,7 +91,7 @@ Demonstrates the usage of higher order functions together with coroutines. The h
 It uses an exponential backoff for retries, which means that the delay between retries increases exponentially. The behavior of the Mock API is defined in a way that it responses
 with 2 unsuccessful responses followed by a successful response.
 
-[[code](app/src/main/java/com/demo/code/usecases/usecase6/RetryNetworkRequestViewModel.kt)]
+[[code](app/src/main/java/com/demo/code/usecases/coroutines/usecase6/RetryNetworkRequestViewModel.kt)]
 
 Unit tests verify the amount of request that are performed in different scenarios. Furthermore they check if the exponential backoff is working properly
 by asserting the amount of elapsed virtual time.
@@ -101,11 +101,11 @@ by asserting the amount of elapsed virtual time.
 Composes higher level functions `retry()` and `withTimeout()`. Demonstrates how simple and readable code written with Coroutines can be.
 The mock API first responds after the timeout and then returns an unsuccessful response. The third attempt is then successful.
 
-Take a look at the included [callback-based implementation](app/src/main/java/com/demo/code/usecases/usecase7/callbacks/TimeoutAndRetryCallbackViewModel.kt) to see how tricky this use case is to implement without Coroutines.
+Take a look at the included [callback-based implementation](app/src/main/java/com/demo/code/usecases/coroutines/usecase7/callbacks/TimeoutAndRetryCallbackViewModel.kt) to see how tricky this use case is to implement without Coroutines.
 
-I also implemented the use case with [RxJava](app/src/main/java/com/demo/code/usecases/usecase7/rx/TimeoutAndRetryRxViewModel.kt).
+I also implemented the use case with [RxJava](app/src/main/java/com/demo/code/usecases/coroutines/usecase7/rx/TimeoutAndRetryRxViewModel.kt).
 
-[[code](app/src/main/java/com/demo/code/usecases/usecase7/TimeoutAndRetryViewModel.kt)]
+[[code](app/src/main/java/com/demo/code/usecases/coroutines/usecase7/TimeoutAndRetryViewModel.kt)]
 
 ### 8. Room and Coroutines
 
@@ -113,7 +113,7 @@ This example stores the response data of each network request in a Room database
 If the `View` requests data, the `ViewModel` first checks if there is data available in the database. If so, this data is returned before performing
 a network request to get fresh data.
 
-[[code](app/src/main/java/com/demo/code/usecases/usecase8/RoomAndCoroutinesViewModel.kt)]
+[[code](app/src/main/java/com/demo/code/usecases/coroutines/usecase8/RoomAndCoroutinesViewModel.kt)]
 
 ### 9. Debugging Coroutines
 
@@ -121,7 +121,7 @@ This is not really a use case, but I wanted to show how you can add additional d
 It will add the Coroutine name next to the thread name when calling `Thread.currentThread.name()`
 This is done by enabling Coroutine Debug mode by setting the property `kotlinx.coroutines.debug` to `true`.
 
-[[code](app/src/main/java/com/demo/code/usecases/usecase9/DebuggingCoroutinesViewModel.kt)]
+[[code](app/src/main/java/com/demo/code/usecases/coroutines/usecase9/DebuggingCoroutinesViewModel.kt)]
 
 ### 10. Offload expensive calculation to background thread
 
@@ -129,7 +129,7 @@ This use case calculates the factorial of a number. The calculation is performed
 
 **Attention: This use case does not support cancellation! UseCase#11 fixes this!**
 
-[[code](app/src/main/java/com/demo/code/usecases/usecase10/CalculationInBackgroundViewModel.kt)]
+[[code](app/src/main/java/com/demo/code/usecases/coroutines/usecase10/CalculationInBackgroundViewModel.kt)]
 
 In the respective unit test, we have to pass the testDispatcher to the ViewModel, so that the calculation is not performed on a background thread but on the main thread.
 
@@ -142,21 +142,21 @@ Button. Note: Only the calculation can be cancelled prematurely but not the `toS
 There are several ways to make your coroutines cooperative regarding cancellation: You can use either use `isActive()`, `ensureActive()` or `yield()`.
 More information about cancellation can be found [here](https://medium.com/androiddevelopers/exceptions-in-coroutines-ce8da1ec060c)
 
-[[code](app/src/main/java/com/demo/code/usecases/usecase11/CooperativeCancellationViewModel.kt)]
+[[code](app/src/main/java/com/demo/code/usecases/coroutines/usecase11/CooperativeCancellationViewModel.kt)]
 
 ### 12. Offload expensive calculation to several Coroutines
 
 The factorial calculation here is not performed by a single coroutine, but by an amount of coroutines that can be defined in the UI. Each coroutine calculates the factorial of a sub-range.
 
-[[code viewmodel](app/src/main/java/com/demo/code/usecases/usecase12/CalculationInSeveralCoroutinesViewModel.kt)]
-[[code factorial calculator](app/src/main/java/com/demo/code/usecases/usecase12/FactorialCalculator.kt)]
+[[code viewmodel](app/src/main/java/com/demo/code/usecases/coroutines/usecase12/CalculationInSeveralCoroutinesViewModel.kt)]
+[[code factorial calculator](app/src/main/java/com/demo/code/usecases/coroutines/usecase12/FactorialCalculator.kt)]
 
 ### 13. Exception Handling
 
 This use case demonstrates different ways of handling exceptions using `try/catch` and `CoroutineExceptionHandler`. It also demonstrates when you should to use `supervisorScope{}`: In situations when you don't want a failing coroutine to cancel
 its sibling coroutines. In one implementation of this use case, the results of the successful responses are shown even tough one response wasn't successful.
 
-[[code](app/src/main/java/com/demo/code/usecases/usecase13/ExceptionHandlingViewModel.kt)]
+[[code](app/src/main/java/com/demo/code/usecases/coroutines/usecase13/ExceptionHandlingViewModel.kt)]
 
 ### 14. Continue Coroutine execution when the user leaves the screen
 
@@ -168,8 +168,8 @@ cache when the user leaves the screen. This makes sense in real world applicatio
 You can test this behavior in the UI by clearing the database, then loading the Android version and instantly close the screen. You will see in LogCat that the response
 still gets executed and the result still gets stored. The respective unit test `AndroidVersionRepositoryTest` also verifies this behavior.
 
-[[code viewmodel](app/src/main/java/com/demo/code/usecases/usecase14/ContinueCoroutineWhenUserLeavesScreenViewModel.kt)]
-[[code repository](app/src/main/java/com/demo/code/usecases/usecase14/AndroidVersionRepository.kt)]
+[[code viewmodel](app/src/main/java/com/demo/code/usecases/coroutines/usecase14/ContinueCoroutineWhenUserLeavesScreenViewModel.kt)]
+[[code repository](app/src/main/java/com/demo/code/usecases/coroutines/usecase14/AndroidVersionRepository.kt)]
 
 ### 15. Using WorkManager with Coroutines
 
@@ -177,8 +177,8 @@ Demonstrates how you can use WorkManager together with Coroutines. When creating
 the `doWork()` function is now a `suspend function` which means that we can now call other suspend functions. In this
 example, we are sending an analytics request when the user enters the screen, which is a nice use case for using WorkManager.
 
-[[code viewmodel](app/src/main/java/com/demo/code/usecases/usecase15/WorkManagerViewModel.kt)]
-[[code worker](aapp/src/main/java/com/demo/code/usecases/usecase15/AnalyticsWorker.kt)]
+[[code viewmodel](app/src/main/java/com/demo/code/usecases/coroutines/usecase15/WorkManagerViewModel.kt)]
+[[code worker](app/src/main/java/com/demo/code/usecases/coroutines/usecase15/AnalyticsWorker.kt)]
 
 
 ### 16. Performance analysis of dispatchers, number of coroutines and yielding
