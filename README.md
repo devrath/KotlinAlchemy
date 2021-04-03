@@ -48,17 +48,17 @@ Unit Tests exist for most use cases.
 
 This use case performs a single network request to get the latest Android Versions and displays them on the screen.
 
-[[code](app/src/main/java/com/demo/code/usecases/coroutines/coroutines/usecase1/PerformSingleNetworkRequestViewModel.kt)]
+[[code](app/src/main/java/com/demo/code/usecases/coroutines/usecase1/PerformSingleNetworkRequestViewModel.kt)]
 
 ### 2. Perform two sequential network requests
 
 This use case performs two network requests sequentially. First it retrieves recent Android Versions and then it requests the features of the latest version.
 
-There are also 2 alternative implementations included. One is using old-school [callbacks](app/src/main/java/com/lukaslechner/coroutineusecasesonandroid/usecases/coroutines/usecases/usecase2/callbacks/SequentialNetworkRequestsCallbacksViewModel.kt).
-The other one uses [RxJava](app/src/main/java/com/demo/code/usecases/coroutines/coroutines/usecase2/rx/SequentialNetworkRequestsRxViewModel.kt). You can compare each implementation.
+There are also 2 alternative implementations included. One is using old-school [callbacks](app/src/main/java/com/demo/code/usecases/coroutines/usecase2/callbacks/SequentialNetworkRequestsCallbacksViewModel.kt).
+The other one uses [RxJava](app/src/main/java/com/demo/code/usecases/coroutines/usecase2/rx/SequentialNetworkRequestsRxViewModel.kt). You can compare each implementation.
 If you compare all three implementations, it is really interesting to see, in my opinion, how simple the Coroutine-based version actually is.
 
-[[code](app/src/main/java/com/demo/code/usecases/coroutines/coroutines/usecase2/Perform2SequentialNetworkRequestsViewModel.kt)]
+[[code](app/src/main/java/com/demo/code/usecases/coroutines/usecase2/Perform2SequentialNetworkRequestsViewModel.kt)]
 
 ### 3. Perform several network requests concurrently
 
@@ -67,7 +67,7 @@ that performs the requests sequentially is included. The UI shows how much time 
 requests in the concurrent version are actually performed in parallel. The included unit test is also interesting, as it shows how you can use virtual time to
 verify that the concurrent version really gets performed in parallel.
 
-[[code](app/src/main/java/com/demo/code/usecases/coroutines/coroutines/usecase3/PerformNetworkRequestsConcurrentlyViewModel.kt)]
+[[code](app/src/main/java/com/demo/code/usecases/coroutines/usecase3/PerformNetworkRequestsConcurrentlyViewModel.kt)]
 
 ### 4. Perform variable amount of network requests
 
