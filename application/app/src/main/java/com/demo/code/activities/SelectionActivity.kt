@@ -25,6 +25,9 @@ class SelectionActivity : BaseActivity() {
             jobsId.setOnClickListener {
                 startActivity(Intent(this@SelectionActivity, JobsActivity::class.java))
             }
+            suspendingFunctionsId.setOnClickListener {
+                startActivity(Intent(this@SelectionActivity, SuspendingFuncActivity::class.java))
+            }
         }
     }
 
