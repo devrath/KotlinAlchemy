@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_cooperativecancellation.xml" value="0.19293478260869565" />
+        <entry key="app/src/main/res/layout/activity_flow_usecase1.xml" value="0.19293478260869565" />
+        <entry key="app/src/main/res/layout/activity_jobs.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_selection.xml" value="0.19293478260869565" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

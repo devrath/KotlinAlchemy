@@ -21,6 +21,8 @@
     <string name="workmanager_request">A work manager worker was requested to send an analytics request.</string>
     <string name="dispatcher">Coroutine Dispatcher:</string>
     <string name="yield_during_calculation">yield() during calculation</string>
+    <string name="use_cases">Use Cases</string>
+    <string name="jobs">Jobs</string>
 
     <string-array name="dispatchers">
         <item>Default</item>

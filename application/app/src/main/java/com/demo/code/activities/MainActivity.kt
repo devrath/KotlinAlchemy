@@ -1,9 +1,10 @@
-package com.demo.code
+package com.demo.code.activities
 
 import android.os.Bundle
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.demo.code.R
 import com.demo.code.base.*
 import com.demo.code.databinding.ActivityMainBinding
 

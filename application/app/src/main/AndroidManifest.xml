@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name="com.demo.code.MainActivity">
+        <activity android:name=".activities.SelectionActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -22,6 +23,10 @@
 
         <activity
             android:name="com.demo.code.usecases.coroutines.usecase1.PerformSingleNetworkRequestActivity"
+            android:exported="true" />
+
+        <activity
+            android:name="com.demo.code.activities.MainActivity"
             android:exported="true" />
 
         <activity
@@ -101,6 +106,10 @@
 
         <activity
             android:name="com.demo.code.usecases.flow.usecase1.FlowUseCase1Activity"
+            android:exported="true" />
+
+        <activity
+            android:name="com.demo.code.activities.JobsActivity"
             android:exported="true" />
 
     </application>
