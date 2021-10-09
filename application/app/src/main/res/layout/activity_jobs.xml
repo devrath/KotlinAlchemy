@@ -16,11 +16,25 @@
         android:layout_margin="5dp">
 
         <Button
-            android:id="@+id/launchId"
+            android:id="@+id/simpleDemoOneId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Launch" />
+            android:text="Simple demo one" />
+
+        <Button
+            android:id="@+id/simpleDemoTwoId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Simple demo two" />
+
+        <Button
+            android:id="@+id/retryDemoId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="retry demo" />
 
     </LinearLayout>
 

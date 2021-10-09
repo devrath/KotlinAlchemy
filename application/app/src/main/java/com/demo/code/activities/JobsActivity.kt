@@ -22,8 +22,14 @@ class JobsActivity : BaseActivity() {
 
     private fun setOnClickListeners() {
         binding.apply {
-            launchId.setOnClickListener {
+            retryDemoId.setOnClickListener {
                 retryDemo()
+            }
+            simpleDemoOneId.setOnClickListener {
+                simpleJobOneDemo()
+            }
+            simpleDemoTwoId.setOnClickListener {
+                simpleJobTwoDemo()
             }
         }
     }
@@ -95,7 +101,6 @@ class JobsActivity : BaseActivity() {
          * 2021-10-09 12:08:38.519 18586-18711/com.demo.code I/System.out: Three
          */
     }
-
 
     private fun retryDemo(){
         GlobalScope.launch {
