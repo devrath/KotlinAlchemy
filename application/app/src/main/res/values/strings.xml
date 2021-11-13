@@ -29,6 +29,7 @@
     <string name="flow">Flow</string>
     <string name="state_flow">State Flow</string>
     <string name="live_data">Live Data</string>
+    <string name="initial_value">Initial Value</string>
 
     <string-array name="dispatchers">
         <item>Default</item>

@@ -117,7 +117,7 @@
             android:exported="true" />
 
         <activity
-            android:name="com.demo.code.activities.ObservableTypesActivity"
+            android:name="com.demo.code.modules.observabletypes.ObservableTypesActivity"
             android:exported="true" />
 
     </application>

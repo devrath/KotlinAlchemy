@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import com.demo.code.base.BaseActivity
 import com.demo.code.databinding.ActivitySelectionBinding
+import com.demo.code.modules.observabletypes.ObservableTypesActivity
 
 class SelectionActivity : BaseActivity() {
 

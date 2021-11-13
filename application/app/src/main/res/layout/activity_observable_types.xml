@@ -6,45 +6,67 @@
 
     <include layout="@layout/toolbar" />
 
-    <LinearLayout
+
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="16dp">
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/liveDataId"
+        <TextView
+            android:id="@+id/outputTextId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:text="@string/live_data" />
+            android:gravity="center"
+            android:textSize="@dimen/output_text_size"
+            android:padding="@dimen/btn_margin_top_bottom"
+            android:text="@string/initial_value"/>
 
-        <Button
-            android:id="@+id/stateFlowId"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:text="@string/state_flow" />
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/btn_margin_top_bottom">
 
-        <Button
-            android:id="@+id/flowId"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:text="@string/flow" />
+            <Button
+                android:id="@+id/liveDataId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/btn_margin_top_bottom"
+                android:layout_marginBottom="@dimen/btn_margin_top_bottom"
+                android:text="@string/live_data" />
+
+            <Button
+                android:id="@+id/stateFlowId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/btn_margin_top_bottom"
+                android:layout_marginBottom="@dimen/btn_margin_top_bottom"
+                android:text="@string/state_flow" />
+
+            <Button
+                android:id="@+id/flowId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/btn_margin_top_bottom"
+                android:layout_marginBottom="@dimen/btn_margin_top_bottom"
+                android:text="@string/flow" />
 
 
-        <Button
-            android:id="@+id/sharedFlowId"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:text="@string/shared_flow" />
+            <Button
+                android:id="@+id/sharedFlowId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/btn_margin_top_bottom"
+                android:layout_marginBottom="@dimen/btn_margin_top_bottom"
+                android:text="@string/shared_flow" />
 
-    </LinearLayout>
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
 
 </LinearLayout>

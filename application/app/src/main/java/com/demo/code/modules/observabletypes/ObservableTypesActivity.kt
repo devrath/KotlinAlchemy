@@ -1,9 +1,14 @@
-package com.demo.code.activities
+package com.demo.code.modules.observabletypes
 
 import android.os.Bundle
+import androidx.activity.viewModels
+import androidx.lifecycle.Observer
+import androidx.lifecycle.lifecycleScope
 import com.demo.code.base.BaseActivity
 import com.demo.code.databinding.ActivityObservableTypesBinding
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.flow.collectLatest
 
 @AndroidEntryPoint
 class ObservableTypesActivity  : BaseActivity() {
@@ -11,6 +16,7 @@ class ObservableTypesActivity  : BaseActivity() {
     override fun getToolbarTitle() = "Observable Types"
 
     private lateinit var binding: ActivityObservableTypesBinding
+    private val viewModel: ObservableTypesViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,41 +24,38 @@ class ObservableTypesActivity  : BaseActivity() {
         setContentView(binding.root)
         hideUpButton()
         setOnClickListeners()
+        subscribeData()
     }
 
     private fun setOnClickListeners() {
         binding.apply {
             liveDataId.setOnClickListener {
-                liveDataDemo()
+                viewModel.liveDataDemo()
             }
 
             stateFlowId.setOnClickListener {
-                stateFlowDemo()
+                viewModel.stateFlowDemo()
             }
 
             flowId.setOnClickListener {
-                flowDemo()
+                viewModel.flowDemo()
             }
 
             sharedFlowId.setOnClickListener {
-                sharedFlowDemo()
+                viewModel.sharedFlowDemo()
             }
         }
     }
 
-    private fun liveDataDemo() {
+    private fun subscribeData() {
+        viewModel.liveData.observe(this, {
+            binding.outputTextId.text = it
+        })
 
-    }
-
-    private fun stateFlowDemo() {
-
-    }
-
-    private fun flowDemo() {
-
-    }
-
-    private fun sharedFlowDemo() {
-
+        lifecycleScope.launchWhenCreated {
+            viewModel.stateFlow.collectLatest {
+                binding.outputTextId.text = it
+            }
+        }
     }
 }
