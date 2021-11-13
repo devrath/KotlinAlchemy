@@ -1,0 +1,32 @@
+object Versions {
+    //app level
+    const val gradle = "4.0.1"
+    const val kotlin = "1.4.0"
+
+    //test
+    const val junit = "4.12"
+    const val extJunit = "1.1.1"
+    const val espresso = "3.2.0"
+    const val version_coroutines = "1.5.0"
+    const val version_appcompat = "1.3.1"
+    const val version_google_material = "1.4.0"
+    const val version_ktx_core = "1.7.0"
+    const val version_ktx_activity = "1.4.0"
+    const val version_constraint_layout= "2.1.1"
+    const val version_recyclerview = "1.2.1"
+    const val version_card_view = "1.0.0"
+    const val version_lifecycle = "2.4.0"
+    const val version_retrofit = "2.9.0"
+    const val version_adapter_rxjava2 = "2.7.1"
+    const val version_gson = "2.4.0"
+    const val version_converter_gson = "2.9.0"
+    const val version_rx_android = "2.1.1"
+    const val version_rxjava = "2.2.19"
+    const val version_rxkotlin = "2.4.0"
+    const val version_work_manager = "2.7.0"
+    const val version_timber = "4.7.1"
+    const val version_room = "2.3.0"
+    const val version_dagger = "2.38.1"
+    const val version_core_testing = "2.1.0"
+    const val version_retrofit_mock = "2.7.1"
+}
