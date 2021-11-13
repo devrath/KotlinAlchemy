@@ -25,6 +25,10 @@
     <string name="jobs">Jobs</string>
     <string name="suspending_functions">Suspending Functions</string>
     <string name="observable_types">Observable Types</string>
+    <string name="shared_flow">Shared Flow</string>
+    <string name="flow">Flow</string>
+    <string name="state_flow">State Flow</string>
+    <string name="live_data">Live Data</string>
 
     <string-array name="dispatchers">
         <item>Default</item>

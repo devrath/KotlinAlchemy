@@ -20,15 +20,37 @@ class ObservableTypesActivity  : BaseActivity() {
 
     private fun setOnClickListeners() {
         binding.apply {
-            /*btnLaunchId.setOnClickListener {
-                simpleDemo()
-            }*/
+            liveDataId.setOnClickListener {
+                liveDataDemo()
+            }
+
+            stateFlowId.setOnClickListener {
+                stateFlowDemo()
+            }
+
+            flowId.setOnClickListener {
+                flowDemo()
+            }
+
+            sharedFlowId.setOnClickListener {
+                sharedFlowDemo()
+            }
         }
     }
 
-    private fun simpleDemo() {
-        /*lifecycleScope.launch {
-            LegacyCallbackSampleTwo(this.coroutineContext).initiateDemo()
-        }*/
+    private fun liveDataDemo() {
+
+    }
+
+    private fun stateFlowDemo() {
+
+    }
+
+    private fun flowDemo() {
+
+    }
+
+    private fun sharedFlowDemo() {
+
     }
 }
