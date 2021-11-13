@@ -38,11 +38,23 @@ class ObservableTypesActivity  : BaseActivity() {
             }
 
             flowId.setOnClickListener {
-                viewModel.flowDemo()
+                flowDemo()
             }
 
             sharedFlowId.setOnClickListener {
-                viewModel.sharedFlowDemo()
+                sharedFlowDemo()
+            }
+        }
+    }
+
+    private fun sharedFlowDemo() {
+        viewModel.sharedFlowDemo()
+    }
+
+    private fun flowDemo() {
+        lifecycleScope.launchWhenStarted {
+            viewModel.flowDemo().collectLatest {
+                binding.outputTextId.text = it
             }
         }
     }
@@ -54,6 +66,12 @@ class ObservableTypesActivity  : BaseActivity() {
 
         lifecycleScope.launchWhenCreated {
             viewModel.stateFlow.collectLatest {
+                binding.outputTextId.text = it
+            }
+        }
+
+        lifecycleScope.launchWhenStarted {
+            viewModel.sharedFlow.collect {
                 binding.outputTextId.text = it
             }
         }

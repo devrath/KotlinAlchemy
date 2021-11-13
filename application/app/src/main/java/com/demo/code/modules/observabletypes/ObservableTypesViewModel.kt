@@ -3,7 +3,9 @@ package com.demo.code.modules.observabletypes
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.flow.*
+import kotlinx.coroutines.launch
 
 class ObservableTypesViewModel : ViewModel() {
 
@@ -24,12 +26,16 @@ class ObservableTypesViewModel : ViewModel() {
         _stateFlow.value = "State Flow"
     }
 
-    fun flowDemo() {
-
+    fun flowDemo() : Flow<String>{
+        return flow {
+            emit("Flow")
+        }
     }
 
     fun sharedFlowDemo() {
-
+        viewModelScope.launch {
+            _sharedFlow.emit("Shared Flow")
+        }
     }
 
 
