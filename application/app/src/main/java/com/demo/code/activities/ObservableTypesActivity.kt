@@ -3,7 +3,9 @@ package com.demo.code.activities
 import android.os.Bundle
 import com.demo.code.base.BaseActivity
 import com.demo.code.databinding.ActivityObservableTypesBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class ObservableTypesActivity  : BaseActivity() {
 
     override fun getToolbarTitle() = "Observable Types"
