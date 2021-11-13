@@ -116,6 +116,10 @@
             android:name="com.demo.code.activities.SuspendingFuncActivity"
             android:exported="true" />
 
+        <activity
+            android:name="com.demo.code.activities.ObservableTypesActivity"
+            android:exported="true" />
+
     </application>
 
 </manifest>

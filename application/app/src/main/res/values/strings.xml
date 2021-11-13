@@ -24,6 +24,7 @@
     <string name="use_cases">Use Cases</string>
     <string name="jobs">Jobs</string>
     <string name="suspending_functions">Suspending Functions</string>
+    <string name="observable_types">Observable Types</string>
 
     <string-array name="dispatchers">
         <item>Default</item>

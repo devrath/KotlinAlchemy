@@ -28,6 +28,9 @@ class SelectionActivity : BaseActivity() {
             suspendingFunctionsId.setOnClickListener {
                 startActivity(Intent(this@SelectionActivity, SuspendingFuncActivity::class.java))
             }
+            typesOfObservablesId.setOnClickListener {
+                startActivity(Intent(this@SelectionActivity, ObservableTypesActivity::class.java))
+            }
         }
     }
 

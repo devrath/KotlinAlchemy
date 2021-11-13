@@ -35,6 +35,13 @@
            android:layout_marginTop="16dp"
            android:text="@string/suspending_functions" />
 
+       <Button
+           android:id="@+id/typesOfObservablesId"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="16dp"
+           android:text="@string/observable_types" />
+
    </LinearLayout>
 
 </LinearLayout>
