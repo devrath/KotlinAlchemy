@@ -5,6 +5,8 @@
 # DroidCoroutinesUsecases
 This project contains a practical demonstration of the usage of co-routines in android. With these examples, we can use coroutines in many scenarios. It also demonstrates exception handling etc.
 
+<div align="center">
+
 | **` Fundamental concepts of coroutines `** |
 | - |
 | [**`How asynchronous programming works`**](https://github.com/devrath/DroidCoroutinesUsecases/wiki/How-asynchronous-programming-works) |
@@ -14,7 +16,10 @@ This project contains a practical demonstration of the usage of co-routines in a
 | [**`How suspending function works`**](https://github.com/devrath/DroidCoroutinesUsecases/wiki/How-suspending-functions-works) |
 | [**`How async/await works`**](https://github.com/devrath/DroidCoroutinesUsecases/wiki/How-async-await-works) |
 
+</div>
 
+
+<div align="center">
 
 | **` Gist examples of coroutines in action `** |
 | - |
@@ -34,3 +39,5 @@ This project contains a practical demonstration of the usage of co-routines in a
 | [**`How to run the coroutine even if the user leaves the screen`**](https://github.com/devrath/DroidCoroutinesUsecases/wiki/How-to-run-the-coroutine-even-if-the-user-leaves-the-screen) |
 | [**`Using work manager along with coroutines`**](https://github.com/devrath/DroidCoroutinesUsecases/wiki/Using-work-manager-along-with-coroutines) |
 | [**`Difference between LiveData, StateFlow, Flow, SharedFlow`**](https://github.com/devrath/DroidCoroutinesUsecases/wiki/Difference-between-LiveData,-StateFlow,-Flow,-SharedFlow) |
+
+</div>
