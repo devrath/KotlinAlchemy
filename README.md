@@ -57,3 +57,4 @@ This project contains various concepts and learnings of kotlin used for android 
 * [**`𝙰𝚌𝚌𝚎𝚜𝚜𝚒𝚗𝚐 𝚊 𝚟𝚊𝚛𝚒𝚊𝚋𝚕𝚎 𝚘𝚏 𝚊 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Accessing-a-variable-of-a-sealed-class)
 * [**`𝙰𝚌𝚌𝚎𝚜𝚜𝚒𝚗𝚐 𝚊 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚒𝚗 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Accessing-a-function-in-sealed-class)
 * [**`𝚁𝚘𝚕𝚎 𝚘𝚏 𝚊𝚋𝚜𝚝𝚛𝚊𝚌𝚝 𝚟𝚊𝚛𝚒𝚊𝚋𝚕𝚎 𝚒𝚗 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Role-of-abstract-variable-in-sealed-class)
+* [**`𝙴𝚗𝚞𝚖 𝚌𝚘𝚖𝚙𝚊𝚛𝚎𝚍 𝚠𝚒𝚝𝚑 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Enum-compared-with-sealed-classes)
