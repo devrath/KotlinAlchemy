@@ -46,3 +46,7 @@ This project contains various concepts and learnings of kotlin used for android 
 * [**`𝙷𝚘𝚠 𝚝𝚘 𝚛𝚞𝚗 𝚝𝚑𝚎 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚎𝚟𝚎𝚗 𝚒𝚏 𝚝𝚑𝚎 𝚞𝚜𝚎𝚛 𝚕𝚎𝚊𝚟𝚎𝚜 𝚝𝚑𝚎 𝚜𝚌𝚛𝚎𝚎𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-to-run-the-coroutine-even-if-the-user-leaves-the-screen)
 * [**`𝚄𝚜𝚒𝚗𝚐 𝚠𝚘𝚛𝚔 𝚖𝚊𝚗𝚊𝚐𝚎𝚛 𝚊𝚕𝚘𝚗𝚐 𝚠𝚒𝚝𝚑 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Using-work-manager-along-with-coroutines)
 * [**`𝙳𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚌𝚎 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝙻𝚒𝚟𝚎𝙳𝚊𝚝𝚊, 𝚂𝚝𝚊𝚝𝚎𝙵𝚕𝚘𝚠, 𝙵𝚕𝚘𝚠, 𝚂𝚑𝚊𝚛𝚎𝚍𝙵𝚕𝚘𝚠`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Difference-between-LiveData,-StateFlow,-Flow,-SharedFlow)
+
+## `Sealed classes`
+* [About sealed class in android](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/About-sealed-class-in-android)
+* [Suggesting all possible options of state using sealed class](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Suggesting-all-possible-options-of-state-using-sealed-class)
