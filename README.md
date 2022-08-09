@@ -18,7 +18,7 @@ This project contains various concepts and learnings of kotlin used for android 
 
 ## `Kotlin Coroutines`
 <p align="center">
-    <img src="documentation/images/coroutines.png" height="256" />
+    <img src="documentation/images/coroutines.png" height="200" />
 </p>
 
 ### `Fundamental concepts of coroutines`
@@ -48,5 +48,11 @@ This project contains various concepts and learnings of kotlin used for android 
 * [**`𝙳𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚌𝚎 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝙻𝚒𝚟𝚎𝙳𝚊𝚝𝚊, 𝚂𝚝𝚊𝚝𝚎𝙵𝚕𝚘𝚠, 𝙵𝚕𝚘𝚠, 𝚂𝚑𝚊𝚛𝚎𝚍𝙵𝚕𝚘𝚠`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Difference-between-LiveData,-StateFlow,-Flow,-SharedFlow)
 
 ## `Sealed classes`
-* [𝙰𝚋𝚘𝚞𝚝 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜 𝚒𝚗 𝚊𝚗𝚍𝚛𝚘𝚒𝚍](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/About-sealed-class-in-android)
-* [𝚂𝚞𝚐𝚐𝚎𝚜𝚝𝚒𝚗𝚐 𝚊𝚕𝚕 𝚙𝚘𝚜𝚜𝚒𝚋𝚕𝚎 𝚘𝚙𝚝𝚒𝚘𝚗𝚜 𝚘𝚏 𝚜𝚝𝚊𝚝𝚎 𝚞𝚜𝚒𝚗𝚐 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Suggesting-all-possible-options-of-state-using-sealed-class)
+<p align="center">
+    <img src="documentation/images/sealed_class.png" height="200" />
+</p>
+
+* [**`𝙰𝚋𝚘𝚞𝚝 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜 𝚒𝚗 𝚊𝚗𝚍𝚛𝚘𝚒𝚍`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/About-sealed-class-in-android)
+* [**`𝚂𝚞𝚐𝚐𝚎𝚜𝚝𝚒𝚗𝚐 𝚊𝚕𝚕 𝚙𝚘𝚜𝚜𝚒𝚋𝚕𝚎 𝚘𝚙𝚝𝚒𝚘𝚗𝚜 𝚘𝚏 𝚜𝚝𝚊𝚝𝚎 𝚞𝚜𝚒𝚗𝚐 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Suggesting-all-possible-options-of-state-using-sealed-class)
+* [**`𝙰𝚌𝚌𝚎𝚜𝚜𝚒𝚗𝚐 𝚊 𝚟𝚊𝚛𝚒𝚊𝚋𝚕𝚎 𝚘𝚏 𝚊 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Accessing-a-variable-of-a-sealed-class)
+* [**`𝙰𝚌𝚌𝚎𝚜𝚜𝚒𝚗𝚐 𝚊 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚒𝚗 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Accessing-a-function-in-sealed-class)
