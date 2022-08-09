@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">Currency</string>
+  <string name="convert">Convert</string>
+  <string name="amount">Amount</string>
+  <string name="from">From</string>
+  <string name="to">To</string>
+  <string name="low_amount">Low Amount</string>
+  <string name="high_amount">High Amount</string>
+</resources>
