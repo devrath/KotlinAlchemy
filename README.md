@@ -16,7 +16,7 @@ This project contains various concepts and learnings of kotlin used for android 
 </div>
 
 
-## Kotlin Coroutines
+## `Kotlin Coroutines`
 <p align="center">
     <img src="documentation/images/coroutines.png" height="256" />
 </p>
