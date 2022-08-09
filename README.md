@@ -11,7 +11,7 @@ This project contains various concepts and learnings of kotlin used for android 
 | `𝙲𝙾𝙽𝚃𝙴𝙽𝚃𝚂` |
 | ---------- |
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#kotlin-coroutines) |
-| [`𝚂𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/About-sealed-class-in-android#all-the-members-of-the-sealed-class-must-be-defined-in-the-same-file) |
+| [`𝚂𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#sealed-classes) |
 
 </div>
 
@@ -48,5 +48,5 @@ This project contains various concepts and learnings of kotlin used for android 
 * [**`𝙳𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚌𝚎 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝙻𝚒𝚟𝚎𝙳𝚊𝚝𝚊, 𝚂𝚝𝚊𝚝𝚎𝙵𝚕𝚘𝚠, 𝙵𝚕𝚘𝚠, 𝚂𝚑𝚊𝚛𝚎𝚍𝙵𝚕𝚘𝚠`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Difference-between-LiveData,-StateFlow,-Flow,-SharedFlow)
 
 ## `Sealed classes`
-* [About sealed class in android](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/About-sealed-class-in-android)
-* [Suggesting all possible options of state using sealed class](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Suggesting-all-possible-options-of-state-using-sealed-class)
+* [𝙰𝚋𝚘𝚞𝚝 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜 𝚒𝚗 𝚊𝚗𝚍𝚛𝚘𝚒𝚍](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/About-sealed-class-in-android)
+* [𝚂𝚞𝚐𝚐𝚎𝚜𝚝𝚒𝚗𝚐 𝚊𝚕𝚕 𝚙𝚘𝚜𝚜𝚒𝚋𝚕𝚎 𝚘𝚙𝚝𝚒𝚘𝚗𝚜 𝚘𝚏 𝚜𝚝𝚊𝚝𝚎 𝚞𝚜𝚒𝚗𝚐 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Suggesting-all-possible-options-of-state-using-sealed-class)
