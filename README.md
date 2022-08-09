@@ -6,6 +6,15 @@
 
 This project contains various concepts and learnings of kotlin used for android development
 
+<div align="center">
+
+| `𝙲𝙾𝙽𝚃𝙴𝙽𝚃𝚂` |
+| ---------- |
+| [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/About-sealed-class-in-android#sealed-classes-are-abstract-classes) |
+| [`𝚂𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/About-sealed-class-in-android#all-the-members-of-the-sealed-class-must-be-defined-in-the-same-file) |
+
+</div>
+
 
 ## `𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`
 <p align="center">
