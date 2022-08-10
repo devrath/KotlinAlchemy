@@ -59,3 +59,10 @@ This project contains various concepts and learnings of kotlin used for android 
 * [**`𝚁𝚘𝚕𝚎 𝚘𝚏 𝚊𝚋𝚜𝚝𝚛𝚊𝚌𝚝 𝚟𝚊𝚛𝚒𝚊𝚋𝚕𝚎 𝚒𝚗 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Role-of-abstract-variable-in-sealed-class)
 * [**`𝙴𝚗𝚞𝚖 𝚌𝚘𝚖𝚙𝚊𝚛𝚎𝚍 𝚠𝚒𝚝𝚑 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Enum-compared-with-sealed-classes)
 * [**`𝚁𝚎𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚗𝚐 𝚝𝚑𝚎 𝚎𝚗𝚞𝚖 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚊𝚕𝚒𝚝𝚢 𝚞𝚜𝚒𝚗𝚐 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Replicating-the-enum-functionality-using-sealed-classes)
+
+## `Higher order functions`
+<p align="center">
+    <img src="documentation/images/sealed_class.png" height="200" />
+</p>
+* [**`𝙰𝚋𝚘𝚞𝚝 𝚝𝚑𝚎 𝚑𝚒𝚐𝚑𝚎𝚛 𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Higher-order-functions)
+
