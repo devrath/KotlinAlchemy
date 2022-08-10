@@ -61,8 +61,5 @@ This project contains various concepts and learnings of kotlin used for android 
 * [**`𝚁𝚎𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚗𝚐 𝚝𝚑𝚎 𝚎𝚗𝚞𝚖 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚊𝚕𝚒𝚝𝚢 𝚞𝚜𝚒𝚗𝚐 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Replicating-the-enum-functionality-using-sealed-classes)
 
 ## `Higher order functions`
-<p align="center">
-    <img src="documentation/images/sealed_class.png" height="200" />
-</p>
 * [**`𝙰𝚋𝚘𝚞𝚝 𝚝𝚑𝚎 𝚑𝚒𝚐𝚑𝚎𝚛 𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Higher-order-functions)
 
