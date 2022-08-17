@@ -13,7 +13,7 @@ This project contains various concepts and learnings of kotlin used for android 
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#kotlin-coroutines) |
 | [`𝚂𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#sealed-classes) |
 | [`𝙷𝚒𝚐𝚑𝚎𝚛-𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`]( https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#higher-order-functions) |
-
+| [`𝙾𝚋𝚓𝚎𝚌𝚝 & 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗-𝚘𝚋𝚓𝚎𝚌𝚝`]( https://github.com/devrath/DroidAndroidKotlinWiki#object--companion-object) |
 </div>
 
 
