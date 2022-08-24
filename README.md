@@ -68,4 +68,8 @@ This project contains various concepts and learnings of kotlin used for android 
 ## `Object & Companion-object`
 <img align="right" src="documentation/images/obj_and_companion.png" height="200"/>
 
+:label: [Kotlin Object]()</br>
+:label: [Kotlin Companion Object]()</br>
+:label: [Kotlin Object VS Kotlin Companion Object]()</br>
+:label: [How to access the fields and methods of companion object from a java class]()</br>
 
