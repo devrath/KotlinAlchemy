@@ -71,5 +71,5 @@ This project contains various concepts and learnings of kotlin used for android 
 :label: [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙾𝚋𝚓𝚎𝚌𝚝`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Object)</br>
 :label: [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝙾𝚋𝚓𝚎𝚌𝚝`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Companion-Object)</br>
 :label: [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙾𝚋𝚓𝚎𝚌𝚝 𝚅𝚂 𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝙾𝚋𝚓𝚎𝚌𝚝`**]()</br>
-:label: [**`𝙷𝚘𝚠 𝚝𝚘 𝚊𝚌𝚌𝚎𝚜𝚜 𝚝𝚑𝚎 𝚏𝚒𝚎𝚕𝚍𝚜 𝚊𝚗𝚍 𝚖𝚎𝚝𝚑𝚘𝚍𝚜 𝚘𝚏 𝚌𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝚘𝚋𝚓𝚎𝚌𝚝 𝚏𝚛𝚘𝚖 𝚊 𝚓𝚊𝚟𝚊 𝚌𝚕𝚊𝚜𝚜`**]()</br>
+:label: [**`𝙷𝚘𝚠 𝚝𝚘 𝚊𝚌𝚌𝚎𝚜𝚜 𝚝𝚑𝚎 𝚏𝚒𝚎𝚕𝚍𝚜 𝚊𝚗𝚍 𝚖𝚎𝚝𝚑𝚘𝚍𝚜 𝚘𝚏 𝚌𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝚘𝚋𝚓𝚎𝚌𝚝 𝚏𝚛𝚘𝚖 𝚊 𝚓𝚊𝚟𝚊 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-to-access-fields-and-methods-of-companion-object-from-a-java-class)</br>
 
