@@ -55,6 +55,8 @@ This project contains various concepts and learnings of kotlin used for android 
 | `Operators` |
 | ----------- |
 | [𝙵𝚕𝚘𝚠-𝙵𝚒𝚕𝚝𝚎𝚛 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow-filter-Operator) |
+| [𝙵𝚕𝚘𝚠-𝙼𝚊𝚙 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow-map-Operator) |
+
 
 ## `Sealed classes`
 <img align="left" src="documentation/images/sealed_class.png" height="200"/>
