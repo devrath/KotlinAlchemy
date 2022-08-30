@@ -50,6 +50,12 @@ This project contains various concepts and learnings of kotlin used for android 
 * [**`𝙼𝚊𝚔𝚒𝚗𝚐 𝚙𝚊𝚛𝚎𝚗𝚝 𝚌𝚘 𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚝𝚘 𝚠𝚊𝚒𝚝 𝚞𝚗𝚝𝚒𝚕 𝚊𝚕𝚕 𝚝𝚑𝚎 𝚌𝚑𝚒𝚕𝚍𝚛𝚎𝚗 𝚌𝚘 𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚊𝚛𝚎 𝚏𝚒𝚗𝚒𝚜𝚑𝚎𝚍`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Making-parent-co-routine-to-wait-until-all-the-children-co-routines-are-finished)
 * [**`𝙲𝚊𝚗𝚌𝚎𝚕𝚒𝚗𝚐 𝚝𝚑𝚎 𝚙𝚊𝚛𝚎𝚗𝚝 𝚊𝚗𝚍 𝚌𝚑𝚒𝚕𝚍 𝚓𝚘𝚋`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Canceling-the-parent-and-child-job) 
 
+## `𝙺𝚘𝚝𝚕𝚒𝚗 𝚏𝚕𝚘𝚠 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`
+
+| `Operators` |
+| ----------- |
+| [𝙵𝚕𝚘𝚠-𝙵𝚒𝚕𝚝𝚎𝚛 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow-filter-Operator) |
+
 ## `Sealed classes`
 <img align="left" src="documentation/images/sealed_class.png" height="200"/>
 
@@ -74,11 +80,7 @@ This project contains various concepts and learnings of kotlin used for android 
 :label: [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙾𝚋𝚓𝚎𝚌𝚝 𝚅𝚂 𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝙾𝚋𝚓𝚎𝚌𝚝`**]()</br>
 :label: [**`𝙷𝚘𝚠 𝚝𝚘 𝚊𝚌𝚌𝚎𝚜𝚜 𝚝𝚑𝚎 𝚏𝚒𝚎𝚕𝚍𝚜 𝚊𝚗𝚍 𝚖𝚎𝚝𝚑𝚘𝚍𝚜 𝚘𝚏 𝚌𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝚘𝚋𝚓𝚎𝚌𝚝 𝚏𝚛𝚘𝚖 𝚊 𝚓𝚊𝚟𝚊 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-to-access-fields-and-methods-of-companion-object-from-a-java-class)</br>
 
-## `𝙺𝚘𝚝𝚕𝚒𝚗 𝚏𝚕𝚘𝚠 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`
 
-| `Operators` |
-| ----------- |
-| [Flow-Filter Operator]() |
 
 
 
