@@ -4,7 +4,7 @@
 [![Android Best practices](https://img.shields.io/badge/Android-best--practices-red)](https://www.android.com/intl/en_in/what-is-android/) [![Kotlin](https://img.shields.io/badge/Kotlin-Sealed%20class-blue)](https://kotlinlang.org/docs/sealed-classes.html)
 </br>
 
-This project contains various concepts and learnings of kotlin used for android development
+𝚃𝚑𝚒𝚜 𝚙𝚛𝚘𝚓𝚎𝚌𝚝 𝚌𝚘𝚗𝚝𝚊𝚒𝚗𝚜 𝚟𝚊𝚛𝚒𝚘𝚞𝚜 𝚌𝚘𝚗𝚌𝚎𝚙𝚝𝚜 𝚊𝚗𝚍 𝚕𝚎𝚊𝚛𝚗𝚒𝚗𝚐𝚜 𝚘𝚏 𝚔𝚘𝚝𝚕𝚒𝚗 𝚞𝚜𝚎𝚍 𝚏𝚘𝚛 𝚊𝚗𝚍𝚛𝚘𝚒𝚍 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚖𝚎𝚗𝚝
 
 <div align="center">
 
