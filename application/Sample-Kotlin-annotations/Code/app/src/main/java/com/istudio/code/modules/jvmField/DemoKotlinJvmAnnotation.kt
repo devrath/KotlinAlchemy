@@ -1,4 +1,4 @@
-package com.istudio.code.jvmField
+package com.istudio.code.modules.jvmField
 
 import com.istudio.code.utils.PrintUtils
 

@@ -3,7 +3,7 @@ package com.istudio.code
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.istudio.code.databinding.ActivitySelectionBinding
-import com.istudio.code.jvmField.DemoJavaJvmAnnotation
+import com.istudio.code.modules.jvmField.DemoJavaJvmAnnotation
 
 class SelectionActivity : AppCompatActivity() {
 
