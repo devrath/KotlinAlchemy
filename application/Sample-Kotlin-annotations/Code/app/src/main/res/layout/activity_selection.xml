@@ -14,5 +14,10 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="@string/annotation_jvmfield" />
+  <Button
+      android:id="@+id/jvmOverloadsId"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/annotation_jvmoverloads" />
 
 </LinearLayout>

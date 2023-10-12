@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Code</string>
     <string name="annotation_jvmfield">Annotation - @JvmField</string>
+    <string name="annotation_jvmoverloads">Annotation - @JvmOverloads</string>
 </resources>

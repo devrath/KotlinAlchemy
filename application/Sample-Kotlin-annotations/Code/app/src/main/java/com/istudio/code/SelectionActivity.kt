@@ -3,7 +3,8 @@ package com.istudio.code
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.istudio.code.databinding.ActivitySelectionBinding
-import com.istudio.code.modules.jvmField.DemoJavaJvmAnnotation
+import com.istudio.code.modules.jvmField.DemoJavaAnnotation
+import com.istudio.code.modules.jvmOverloads.DemoJvmOverloadsAnnotation
 
 class SelectionActivity : AppCompatActivity() {
 
@@ -19,7 +20,10 @@ class SelectionActivity : AppCompatActivity() {
     private fun setOnClickListeners() {
         binding.apply {
             jvmFieldId.setOnClickListener {
-                DemoJavaJvmAnnotation().initiate()
+                DemoJavaAnnotation().initiate()
+            }
+            jvmOverloadsId.setOnClickListener {
+                DemoJvmOverloadsAnnotation().initiate()
             }
         }
     }
