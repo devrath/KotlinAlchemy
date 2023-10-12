@@ -84,8 +84,11 @@
 :label: [**`𝙷𝚘𝚠 𝚝𝚘 𝚊𝚌𝚌𝚎𝚜𝚜 𝚝𝚑𝚎 𝚏𝚒𝚎𝚕𝚍𝚜 𝚊𝚗𝚍 𝚖𝚎𝚝𝚑𝚘𝚍𝚜 𝚘𝚏 𝚌𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝚘𝚋𝚓𝚎𝚌𝚝 𝚏𝚛𝚘𝚖 𝚊 𝚓𝚊𝚟𝚊 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-to-access-fields-and-methods-of-companion-object-from-a-java-class)</br>
 
 ## `Annotations in kotlin`
-:label: [**`𝚄𝚜𝚒𝚗𝚐 @𝙹𝚟𝚖𝙵𝚒𝚎𝚕𝚍 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Annotations-in-kotlin-%E2%80%90-@JvmField)</br>
+<img align="left" src="documentation/images/annotation_kotlin.png" height="200"/>
 
+:label: [**`𝚄𝚜𝚒𝚗𝚐 @𝙹𝚟𝚖𝙵𝚒𝚎𝚕𝚍 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Annotations-in-kotlin-%E2%80%90-@JvmField)</br>
+:label: [**`𝚄𝚜𝚒𝚗𝚐 @𝙹𝚟𝚖𝙾𝚟𝚎𝚛𝚕𝚘𝚊𝚍𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Using-@JvmOverloads-in-kotlin)</br>
+:label: [**`𝚄𝚜𝚒𝚗𝚐 @𝙹𝚟𝚖𝚂𝚝𝚊𝚝𝚒𝚌 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Using-@JvmStatic-in-kotlin)</br>
 
 
 
