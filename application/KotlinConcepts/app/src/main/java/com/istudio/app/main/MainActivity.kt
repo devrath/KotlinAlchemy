@@ -11,6 +11,13 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
+import com.istudio.app.modules.module_demos.channels.ChannelsDemo
+import com.istudio.app.modules.module_demos.sealed_class.SealedClassDemo
+import com.istudio.app.modules.module_selection.ModuleDemo
+import com.istudio.app.modules.module_selection.ModuleSelectionScreen
 import com.istudio.app.ui.theme.KotlinConceptsTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -23,30 +30,33 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             KotlinConceptsTheme {
-                // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+
+                    val navController = rememberNavController()
+
+                    NavHost(
+                        navController = navController,
+                        startDestination = ModuleDemo.DemoSelection.rout
+                    ) {
+                        // Selection Screen
+                        composable(ModuleDemo.DemoSelection.rout) {
+                            ModuleSelectionScreen(navController = navController)
+                        }
+                        // Channel demo
+                        composable(ModuleDemo.ChannelsDemo.rout) {
+                            ChannelsDemo(navController = navController)
+                        }
+                        // Sealed Class demo
+                        composable(ModuleDemo.SealedClassDemo.rout) {
+                            SealedClassDemo(navController = navController)
+                        }
+                    }
+
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    KotlinConceptsTheme {
-        Greeting("Android")
     }
 }
