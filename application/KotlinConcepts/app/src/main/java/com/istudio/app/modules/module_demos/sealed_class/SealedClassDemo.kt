@@ -12,10 +12,15 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
+import com.istudio.app.modules.module_demos.channels.ChannelsDemoVm
 
 @Composable
 fun SealedClassDemo(navController: NavHostController) {
+
+    val viewModel: SealedClassDemoVm = hiltViewModel()
+
     Column(
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
