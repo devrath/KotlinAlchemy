@@ -11,19 +11,32 @@
 | `𝙲𝙾𝙽𝚃𝙴𝙽𝚃𝚂` |
 | ---------- |
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#kotlin-coroutines) |
-| [`𝚂𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#sealed-classes) |
-| [`𝙷𝚒𝚐𝚑𝚎𝚛-𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#higher-order-functions) |
-| [`𝙾𝚋𝚓𝚎𝚌𝚝 & 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗-𝚘𝚋𝚓𝚎𝚌𝚝`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#object--companion-object) |
-| [`𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Annotations-in-kotlin-%E2%80%90-@JvmField) |
+| [`𝚂𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%9A%82%F0%9D%9A%8E%F0%9D%9A%8A%F0%9D%9A%95%F0%9D%9A%8E%F0%9D%9A%8D-%F0%9D%99%B2%F0%9D%9A%95%F0%9D%9A%8A%F0%9D%9A%9C%F0%9D%9A%9C) |
+| [`𝙷𝚒𝚐𝚑𝚎𝚛-𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%99%B7%F0%9D%9A%92%F0%9D%9A%90%F0%9D%9A%91%F0%9D%9A%8E%F0%9D%9A%9B-%F0%9D%9A%98%F0%9D%9A%9B%F0%9D%9A%8D%F0%9D%9A%8E%F0%9D%9A%9B-%F0%9D%9A%8F%F0%9D%9A%9E%F0%9D%9A%97%F0%9D%9A%8C%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97%F0%9D%9A%9C) |
+| [`𝙾𝚋𝚓𝚎𝚌𝚝 & 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗-𝚘𝚋𝚓𝚎𝚌𝚝`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%99%BE%F0%9D%9A%8B%F0%9D%9A%93%F0%9D%9A%8E%F0%9D%9A%8C%F0%9D%9A%9D--%F0%9D%99%B2%F0%9D%9A%98%F0%9D%9A%96%F0%9D%9A%99%F0%9D%9A%8A%F0%9D%9A%97%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97-%F0%9D%9A%98%F0%9D%9A%8B%F0%9D%9A%93%F0%9D%9A%8E%F0%9D%9A%8C%F0%9D%9A%9D) |
+| [`𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%99%B0%F0%9D%9A%97%F0%9D%9A%97%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97%F0%9D%9A%9C-%F0%9D%9A%92%F0%9D%9A%97-%F0%9D%9A%94%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%97) |
 </div>
 
 
-## `Kotlin Coroutines`
+# `Kotlin Coroutines`
 <p align="center">
     <img src="documentation/images/coroutines.png" height="200" />
 </p>
 
-### `Fundamental concepts of coroutines`
+<div align="center">
+
+| `Contents` |
+| ---------- |
+| [𝙵𝚞𝚗𝚍𝚊𝚖𝚎𝚗𝚝𝚊𝚕 𝚌𝚘𝚗𝚌𝚎𝚙𝚝𝚜 𝚘𝚏 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%99%B5%F0%9D%9A%9E%F0%9D%9A%97%F0%9D%9A%8D%F0%9D%9A%8A%F0%9D%9A%96%F0%9D%9A%8E%F0%9D%9A%97%F0%9D%9A%9D%F0%9D%9A%8A%F0%9D%9A%95-%F0%9D%9A%8C%F0%9D%9A%98%F0%9D%9A%97%F0%9D%9A%8C%F0%9D%9A%8E%F0%9D%9A%99%F0%9D%9A%9D%F0%9D%9A%9C-%F0%9D%9A%98%F0%9D%9A%8F-%F0%9D%9A%8C%F0%9D%9A%98%F0%9D%9A%9B%F0%9D%9A%98%F0%9D%9A%9E%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%8E%F0%9D%9A%9C) |
+| [𝙶𝚒𝚜𝚝 𝚎𝚡𝚊𝚖𝚙𝚕𝚎𝚜 𝚘𝚏 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚌𝚝𝚒𝚘𝚗](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%99%B6%F0%9D%9A%92%F0%9D%9A%9C%F0%9D%9A%9D-%F0%9D%9A%8E%F0%9D%9A%A1%F0%9D%9A%8A%F0%9D%9A%96%F0%9D%9A%99%F0%9D%9A%95%F0%9D%9A%8E%F0%9D%9A%9C-%F0%9D%9A%98%F0%9D%9A%8F-%F0%9D%9A%8C%F0%9D%9A%98%F0%9D%9A%9B%F0%9D%9A%98%F0%9D%9A%9E%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%8E%F0%9D%9A%9C-%F0%9D%9A%92%F0%9D%9A%97-%F0%9D%9A%8A%F0%9D%9A%8C%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97) |
+| [𝙺𝚘𝚝𝚕𝚒𝚗 𝙵𝚕𝚘𝚠 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%99%BA%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%97-%F0%9D%99%B5%F0%9D%9A%95%F0%9D%9A%98%F0%9D%9A%A0-%F0%9D%99%BE%F0%9D%9A%99%F0%9D%9A%8E%F0%9D%9A%9B%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%98%F0%9D%9A%9B%F0%9D%9A%9C) |
+| [𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%99%BA%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%97-%F0%9D%99%B2%F0%9D%9A%91%F0%9D%9A%8A%F0%9D%9A%97%F0%9D%9A%97%F0%9D%9A%8E%F0%9D%9A%95%F0%9D%9A%9C) |
+| [𝙳𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚌𝚎 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝙻𝚒𝚟𝚎𝙳𝚊𝚝𝚊, 𝚂𝚝𝚊𝚝𝚎𝙵𝚕𝚘𝚠, 𝙵𝚕𝚘𝚠, 𝚂𝚑𝚊𝚛𝚎𝚍𝙵𝚕𝚘𝚠](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Difference-between-LiveData,-StateFlow,-Flow,-SharedFlow) |
+
+
+</div>
+
+## `𝙵𝚞𝚗𝚍𝚊𝚖𝚎𝚗𝚝𝚊𝚕 𝚌𝚘𝚗𝚌𝚎𝚙𝚝𝚜 𝚘𝚏 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`
 * [**`𝙷𝚘𝚠 𝚊𝚜𝚢𝚗𝚌𝚑𝚛𝚘𝚗𝚘𝚞𝚜 𝚙𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚒𝚗𝚐 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-asynchronous-programming-works)
 * [**`𝙷𝚘𝚠 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚙𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚒𝚗𝚐 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-coroutines-programming-works)
 * [**`𝙷𝚘𝚠 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚗𝚍𝚛𝚘𝚒𝚍 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-coroutines-in-android-works)
@@ -31,7 +44,7 @@
 * [**`𝙷𝚘𝚠 𝚜𝚞𝚜𝚙𝚎𝚗𝚍𝚒𝚗𝚐 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-suspending-functions-works)
 * [**`𝙷𝚘𝚠 𝚊𝚜𝚢𝚗𝚌/𝚊𝚠𝚊𝚒𝚝 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-async-await-works)
 
-### `𝙶𝚒𝚜𝚝 𝚎𝚡𝚊𝚖𝚙𝚕𝚎𝚜 𝚘𝚏 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚌𝚝𝚒𝚘𝚗`
+## `𝙶𝚒𝚜𝚝 𝚎𝚡𝚊𝚖𝚙𝚕𝚎𝚜 𝚘𝚏 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚌𝚝𝚒𝚘𝚗`
 * [**`𝚂𝚒𝚗𝚐𝚕𝚎 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Single-network-request)
 * [**`𝚂𝚎𝚚𝚞𝚎𝚗𝚝𝚒𝚊𝚕 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Sequential-network-request)
 * [**`𝙲𝚘𝚗𝚌𝚞𝚛𝚛𝚎𝚗𝚝 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Concurrent-network-request)
@@ -47,20 +60,20 @@
 * [**`𝙷𝚘𝚠 𝚝𝚘 𝚙𝚎𝚛𝚏𝚘𝚛𝚖 𝚎𝚡𝚌𝚎𝚙𝚝𝚒𝚘𝚗 𝚑𝚊𝚗𝚍𝚕𝚒𝚗𝚐 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-to-perform-exception-handling-in-the-coroutines)
 * [**`𝙷𝚘𝚠 𝚝𝚘 𝚛𝚞𝚗 𝚝𝚑𝚎 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚎𝚟𝚎𝚗 𝚒𝚏 𝚝𝚑𝚎 𝚞𝚜𝚎𝚛 𝚕𝚎𝚊𝚟𝚎𝚜 𝚝𝚑𝚎 𝚜𝚌𝚛𝚎𝚎𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-to-run-the-coroutine-even-if-the-user-leaves-the-screen)
 * [**`𝚄𝚜𝚒𝚗𝚐 𝚠𝚘𝚛𝚔 𝚖𝚊𝚗𝚊𝚐𝚎𝚛 𝚊𝚕𝚘𝚗𝚐 𝚠𝚒𝚝𝚑 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Using-work-manager-along-with-coroutines)
-* [**`𝙳𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚌𝚎 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝙻𝚒𝚟𝚎𝙳𝚊𝚝𝚊, 𝚂𝚝𝚊𝚝𝚎𝙵𝚕𝚘𝚠, 𝙵𝚕𝚘𝚠, 𝚂𝚑𝚊𝚛𝚎𝚍𝙵𝚕𝚘𝚠`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Difference-between-LiveData,-StateFlow,-Flow,-SharedFlow)
 * [**`𝙼𝚊𝚔𝚒𝚗𝚐 𝚙𝚊𝚛𝚎𝚗𝚝 𝚌𝚘 𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚝𝚘 𝚠𝚊𝚒𝚝 𝚞𝚗𝚝𝚒𝚕 𝚊𝚕𝚕 𝚝𝚑𝚎 𝚌𝚑𝚒𝚕𝚍𝚛𝚎𝚗 𝚌𝚘 𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚊𝚛𝚎 𝚏𝚒𝚗𝚒𝚜𝚑𝚎𝚍`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Making-parent-co-routine-to-wait-until-all-the-children-co-routines-are-finished)
 * [**`𝙲𝚊𝚗𝚌𝚎𝚕𝚒𝚗𝚐 𝚝𝚑𝚎 𝚙𝚊𝚛𝚎𝚗𝚝 𝚊𝚗𝚍 𝚌𝚑𝚒𝚕𝚍 𝚓𝚘𝚋`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Canceling-the-parent-and-child-job) 
 
-## `𝙺𝚘𝚝𝚕𝚒𝚗 𝚏𝚕𝚘𝚠 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`
+## `𝙺𝚘𝚝𝚕𝚒𝚗 𝙵𝚕𝚘𝚠 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`
 
 | `Operators` |
 | ----------- |
 | [𝙵𝚕𝚘𝚠-𝙵𝚒𝚕𝚝𝚎𝚛 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow-filter-Operator) |
 | [𝙵𝚕𝚘𝚠-𝙼𝚊𝚙 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow-map-Operator) |
 
+## `𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜`
 
-## `Sealed classes`
-<img align="left" src="documentation/images/sealed_class.png" height="200"/>
+
+# `𝚂𝚎𝚊𝚕𝚎𝚍 𝙲𝚕𝚊𝚜𝚜`
 
 :label: [**`𝙰𝚋𝚘𝚞𝚝 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜 𝚒𝚗 𝚊𝚗𝚍𝚛𝚘𝚒𝚍`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/About-sealed-class-in-android)</br>
 :label: [**`𝚂𝚞𝚐𝚐𝚎𝚜𝚝𝚒𝚗𝚐 𝚊𝚕𝚕 𝚙𝚘𝚜𝚜𝚒𝚋𝚕𝚎 𝚘𝚙𝚝𝚒𝚘𝚗𝚜 𝚘𝚏 𝚜𝚝𝚊𝚝𝚎 𝚞𝚜𝚒𝚗𝚐 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Suggesting-all-possible-options-of-state-using-sealed-class)</br>
@@ -71,24 +84,23 @@
 :label: [**`𝚁𝚎𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚗𝚐 𝚝𝚑𝚎 𝚎𝚗𝚞𝚖 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚊𝚕𝚒𝚝𝚢 𝚞𝚜𝚒𝚗𝚐 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Replicating-the-enum-functionality-using-sealed-classes)</br>
 </br>
 
-## `Higher order functions`
+# `𝙷𝚒𝚐𝚑𝚎𝚛-𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`
 * [**`𝙰𝚋𝚘𝚞𝚝 𝚝𝚑𝚎 𝚑𝚒𝚐𝚑𝚎𝚛 𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Higher-order-functions)
 
 
-## `Object & Companion-object`
-<img align="right" src="documentation/images/obj_and_companion.png" height="200"/>
+# `𝙾𝚋𝚓𝚎𝚌𝚝 & 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗-𝚘𝚋𝚓𝚎𝚌𝚝`
 
 :label: [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙾𝚋𝚓𝚎𝚌𝚝`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Object)</br>
 :label: [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝙾𝚋𝚓𝚎𝚌𝚝`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Companion-Object)</br>
 :label: [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙾𝚋𝚓𝚎𝚌𝚝 𝚅𝚂 𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝙾𝚋𝚓𝚎𝚌𝚝`**]()</br>
 :label: [**`𝙷𝚘𝚠 𝚝𝚘 𝚊𝚌𝚌𝚎𝚜𝚜 𝚝𝚑𝚎 𝚏𝚒𝚎𝚕𝚍𝚜 𝚊𝚗𝚍 𝚖𝚎𝚝𝚑𝚘𝚍𝚜 𝚘𝚏 𝚌𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝚘𝚋𝚓𝚎𝚌𝚝 𝚏𝚛𝚘𝚖 𝚊 𝚓𝚊𝚟𝚊 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-to-access-fields-and-methods-of-companion-object-from-a-java-class)</br>
 
-## `Annotations in kotlin`
-<img align="left" src="documentation/images/annotation_kotlin.png" height="200"/>
+# `𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`
 
 :label: [**`𝚄𝚜𝚒𝚗𝚐 @𝙹𝚟𝚖𝙵𝚒𝚎𝚕𝚍 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Annotations-in-kotlin-%E2%80%90-@JvmField)</br>
 :label: [**`𝚄𝚜𝚒𝚗𝚐 @𝙹𝚟𝚖𝙾𝚟𝚎𝚛𝚕𝚘𝚊𝚍𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Using-@JvmOverloads-in-kotlin)</br>
 :label: [**`𝚄𝚜𝚒𝚗𝚐 @𝙹𝚟𝚖𝚂𝚝𝚊𝚝𝚒𝚌 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Using-@JvmStatic-in-kotlin)</br>
+:label: [**`𝚄𝚜𝚒𝚗𝚐 @𝚂𝚝𝚛𝚒𝚗𝚐𝚁𝚎𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Using-@StringRes-in-kotlin)</br>
 
 
 
