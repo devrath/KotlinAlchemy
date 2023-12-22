@@ -13,6 +13,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
@@ -48,7 +49,8 @@ fun AppButton(
             Text(
                 text = text,
                 fontSize = 20.sp,
-                color = Color.White
+                color = Color.White,
+                textAlign = TextAlign.Center
             )
         }
     }

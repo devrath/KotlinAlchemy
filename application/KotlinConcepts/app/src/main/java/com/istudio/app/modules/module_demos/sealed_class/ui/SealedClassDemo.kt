@@ -35,23 +35,33 @@ fun SealedClassDemo(navController: NavHostController) {
             viewModel.createSealedClassObject()
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
         AppButton(text = "Access public members of sealed class", onClick = {
             viewModel.accessPublicMembers()
         })
+
+        Spacer(modifier = Modifier.height(16.dp))
 
         AppButton(text = "Access public function of sealed class", onClick = {
             viewModel.accessPublicFunction()
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
         AppButton(text = "Replicating Enum function using sealed class", onClick = {
             viewModel.replicatingEnumFunction()
         })
+
+        Spacer(modifier = Modifier.height(16.dp))
 
         AppButton(text = "Suggesting all possible options of state", onClick = {
             viewModel.suggestAllPossibleOptions(
                 Payment.BankTransfer(amount = 10, orderId = 20)
             )
         })
+
+        Spacer(modifier = Modifier.height(16.dp))
 
         AppButton(text = "Using Abstract variable", onClick = {
             viewModel.usingAbstractVariable()
