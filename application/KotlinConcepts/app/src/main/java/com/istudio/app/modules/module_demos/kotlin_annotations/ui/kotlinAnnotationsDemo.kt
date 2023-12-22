@@ -27,8 +27,26 @@ fun KotlinAnnotationsDemo(navController: NavHostController) {
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        AppButton(text = "Test1", onClick = {
+        AppButton(text = "@JvmField", onClick = {
+            viewModel.jvmFieldDemo()
+        })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "@JvmOverloads", onClick = {
+            viewModel.jvmOverloadsDemo()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "@JvmStatic", onClick = {
+            viewModel.jvmStaticDemo()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "@StringRes", onClick = {
+            viewModel.stringResDemo()
         })
 
     }
