@@ -24,12 +24,28 @@ fun HigherOrderFunctionDemo(navController: NavHostController) {
         verticalArrangement = Arrangement.Center
     ) {
 
+
         Spacer(modifier = Modifier.height(16.dp))
 
-        AppButton(text = "Create Sealed class Object", onClick = {
-            //viewModel.createSealedClassObject()
+        AppButton(text = "Passing Functions as parameter", onClick = {
+            // Here will will calculate the square of a number
+            val input = 5
+            // Call the functionality
+            val result = viewModel.performOperation(input) { input ->
+                input * input
+            }
+            println(result)
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Returning Function", onClick = {
+            // We pass a operation here
+            val addFunction = viewModel.createCalculator("add")
+            // We use the operation passed above to pass values for it
+            val resultAdd = addFunction(5, 3) // Result is 8
+            println("Result (Add): $resultAdd")
+        })
     }
 
 
