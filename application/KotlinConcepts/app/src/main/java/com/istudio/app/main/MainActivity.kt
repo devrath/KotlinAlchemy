@@ -12,6 +12,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.istudio.app.modules.module_demos.channels.ChannelsDemo
+import com.istudio.app.modules.module_demos.higher_order_functions.ui.HigherOrderFunctionDemo
 import com.istudio.app.modules.module_demos.sealed_class.ui.SealedClassDemo
 import com.istudio.app.modules.module_selection.ModuleDemo
 import com.istudio.app.modules.module_selection.ModuleSelectionScreen
@@ -49,6 +50,10 @@ class MainActivity : ComponentActivity() {
                         // Sealed Class demo
                         composable(ModuleDemo.SealedClassDemo.rout) {
                             SealedClassDemo(navController = navController)
+                        }
+                        // Higher Order functions demo
+                        composable(ModuleDemo.HigherOrderFunctions.rout) {
+                            HigherOrderFunctionDemo(navController = navController)
                         }
                     }
 

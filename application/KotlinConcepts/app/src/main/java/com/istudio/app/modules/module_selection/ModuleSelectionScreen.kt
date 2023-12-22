@@ -28,8 +28,16 @@ fun ModuleSelectionScreen(navController: NavHostController) {
             navController.navigate(ModuleDemo.ChannelsDemo.rout)
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
         AppButton(text = "Sealed Class", onClick = {
             navController.navigate(ModuleDemo.SealedClassDemo.rout)
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Higher Order Functions", onClick = {
+            navController.navigate(ModuleDemo.HigherOrderFunctions.rout)
         })
 
     }
