@@ -1,4 +1,4 @@
-package com.istudio.app.modules.module_demos.sealed_class
+package com.istudio.app.modules.module_demos.sealed_class.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -14,7 +14,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
-import com.istudio.app.modules.module_demos.channels.ChannelsDemoVm
+import com.istudio.app.modules.module_selection.ModuleDemo
+import com.istudio.app.ui.composables.AppButton
 
 @Composable
 fun SealedClassDemo(navController: NavHostController) {
@@ -26,19 +27,12 @@ fun SealedClassDemo(navController: NavHostController) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        Text(
-            text = "Sealed class Demo",
-            fontSize = 20.sp
-        )
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        Button(onClick = {
-            //navController.navigate(Screen.Second.rout + "/www.url.com/44")
-        }) {
-            Text(
-                text = "Go To Second",
-            )
-        }
+        AppButton(text = "Create Sealed class Object", onClick = {
+            viewModel.createSealedClassObject()
+        })
+
     }
 }
