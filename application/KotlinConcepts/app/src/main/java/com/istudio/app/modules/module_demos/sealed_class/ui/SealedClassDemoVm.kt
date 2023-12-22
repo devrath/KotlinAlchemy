@@ -1,8 +1,10 @@
 package com.istudio.app.modules.module_demos.sealed_class.ui
 
 import androidx.lifecycle.ViewModel
+import com.istudio.app.modules.module_demos.sealed_class.utils.Student.Student
 import com.istudio.app.modules.module_demos.sealed_class.utils.animals.Tiger
 import com.istudio.app.modules.module_demos.sealed_class.utils.payment.Payment
+import com.istudio.app.modules.module_demos.sealed_class.utils.superHero.Hero
 import javax.inject.Inject
 
 class SealedClassDemoVm @Inject constructor( ) : ViewModel() {
@@ -35,6 +37,15 @@ class SealedClassDemoVm @Inject constructor( ) : ViewModel() {
                 println("Cash Payment")
             }
         }
+    }
+
+    fun usingAbstractVariable() {
+        val instance = Hero("DC")
+        instance.printCompany()
+    }
+
+    fun replicatingEnumFunction() {
+        println(Student.Mahesh)
     }
 
 }

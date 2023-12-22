@@ -43,10 +43,18 @@ fun SealedClassDemo(navController: NavHostController) {
             viewModel.accessPublicFunction()
         })
 
+        AppButton(text = "Replicating Enum function using sealed class", onClick = {
+            viewModel.replicatingEnumFunction()
+        })
+
         AppButton(text = "Suggesting all possible options of state", onClick = {
             viewModel.suggestAllPossibleOptions(
                 Payment.BankTransfer(amount = 10, orderId = 20)
             )
+        })
+
+        AppButton(text = "Using Abstract variable", onClick = {
+            viewModel.usingAbstractVariable()
         })
 
     }
