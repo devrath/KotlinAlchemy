@@ -4,4 +4,5 @@ sealed class ModuleDemo(val rout: String) {
     data object DemoSelection : ModuleDemo("DemoSelection")
     data object SealedClassDemo : ModuleDemo("SealedClassDemo")
     data object HigherOrderFunctions : ModuleDemo("HigherOrderFunctions")
+    data object AnnotationsInKotlin : ModuleDemo("AnnotationsInKotlin")
 }

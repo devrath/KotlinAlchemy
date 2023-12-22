@@ -13,6 +13,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.istudio.app.modules.module_demos.channels.ChannelsDemo
 import com.istudio.app.modules.module_demos.higher_order_functions.ui.HigherOrderFunctionDemo
+import com.istudio.app.modules.module_demos.kotlin_annotations.ui.KotlinAnnotationsDemo
 import com.istudio.app.modules.module_demos.sealed_class.ui.SealedClassDemo
 import com.istudio.app.modules.module_selection.ModuleDemo
 import com.istudio.app.modules.module_selection.ModuleSelectionScreen
@@ -55,6 +56,11 @@ class MainActivity : ComponentActivity() {
                         composable(ModuleDemo.HigherOrderFunctions.rout) {
                             HigherOrderFunctionDemo(navController = navController)
                         }
+                        // Kotlin Annotations demo
+                        composable(ModuleDemo.AnnotationsInKotlin.rout) {
+                            KotlinAnnotationsDemo(navController = navController)
+                        }
+
                     }
 
                 }

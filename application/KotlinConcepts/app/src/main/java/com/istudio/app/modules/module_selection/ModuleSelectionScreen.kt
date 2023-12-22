@@ -24,20 +24,26 @@ fun ModuleSelectionScreen(navController: NavHostController) {
         verticalArrangement = Arrangement.Center,
     ) {
 
-        AppButton(text = "Channels", onClick = {
-            navController.navigate(ModuleDemo.ChannelsDemo.rout)
-        })
-
-        Spacer(modifier = Modifier.height(16.dp))
-
         AppButton(text = "Sealed Class", onClick = {
             navController.navigate(ModuleDemo.SealedClassDemo.rout)
         })
 
         Spacer(modifier = Modifier.height(16.dp))
 
+        AppButton(text = "Annotations in kotlin", onClick = {
+            navController.navigate(ModuleDemo.AnnotationsInKotlin.rout)
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
         AppButton(text = "Higher Order Functions", onClick = {
             navController.navigate(ModuleDemo.HigherOrderFunctions.rout)
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Channels", onClick = {
+            navController.navigate(ModuleDemo.ChannelsDemo.rout)
         })
 
     }
