@@ -14,6 +14,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
+import com.istudio.app.modules.module_demos.sealed_class.utils.payment.Payment
 import com.istudio.app.modules.module_selection.ModuleDemo
 import com.istudio.app.ui.composables.AppButton
 
@@ -32,6 +33,20 @@ fun SealedClassDemo(navController: NavHostController) {
 
         AppButton(text = "Create Sealed class Object", onClick = {
             viewModel.createSealedClassObject()
+        })
+
+        AppButton(text = "Access public members of sealed class", onClick = {
+            viewModel.accessPublicMembers()
+        })
+
+        AppButton(text = "Access public function of sealed class", onClick = {
+            viewModel.accessPublicFunction()
+        })
+
+        AppButton(text = "Suggesting all possible options of state", onClick = {
+            viewModel.suggestAllPossibleOptions(
+                Payment.BankTransfer(amount = 10, orderId = 20)
+            )
         })
 
     }
