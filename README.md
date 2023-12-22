@@ -37,31 +37,52 @@
 </div>
 
 ## `𝙵𝚞𝚗𝚍𝚊𝚖𝚎𝚗𝚝𝚊𝚕 𝚌𝚘𝚗𝚌𝚎𝚙𝚝𝚜 𝚘𝚏 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`
-* [**`𝙷𝚘𝚠 𝚊𝚜𝚢𝚗𝚌𝚑𝚛𝚘𝚗𝚘𝚞𝚜 𝚙𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚒𝚗𝚐 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-asynchronous-programming-works)
-* [**`𝙷𝚘𝚠 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚙𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚒𝚗𝚐 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-coroutines-programming-works)
-* [**`𝙷𝚘𝚠 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚗𝚍𝚛𝚘𝚒𝚍 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-coroutines-in-android-works)
-* [**`𝙷𝚘𝚠 𝚓𝚘𝚋 𝚒𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-Job-in-coroutine-works)
-* [**`𝙷𝚘𝚠 𝚜𝚞𝚜𝚙𝚎𝚗𝚍𝚒𝚗𝚐 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-suspending-functions-works)
-* [**`𝙷𝚘𝚠 𝚊𝚜𝚢𝚗𝚌/𝚊𝚠𝚊𝚒𝚝 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-async-await-works)
+:label: [**`𝙷𝚘𝚠 𝚊𝚜𝚢𝚗𝚌𝚑𝚛𝚘𝚗𝚘𝚞𝚜 𝚙𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚒𝚗𝚐 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-asynchronous-programming-works)
+
+:label: [**`𝙷𝚘𝚠 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚙𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚒𝚗𝚐 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-coroutines-programming-works)
+
+:label: [**`𝙷𝚘𝚠 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚗𝚍𝚛𝚘𝚒𝚍 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-coroutines-in-android-works)
+
+:label: [**`𝙷𝚘𝚠 𝚓𝚘𝚋 𝚒𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-Job-in-coroutine-works)
+
+:label: [**`𝙷𝚘𝚠 𝚜𝚞𝚜𝚙𝚎𝚗𝚍𝚒𝚗𝚐 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-suspending-functions-works)
+
+:label: [**`𝙷𝚘𝚠 𝚊𝚜𝚢𝚗𝚌/𝚊𝚠𝚊𝚒𝚝 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-async-await-works)
 
 ## `𝙶𝚒𝚜𝚝 𝚎𝚡𝚊𝚖𝚙𝚕𝚎𝚜 𝚘𝚏 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚌𝚝𝚒𝚘𝚗`
-* [**`𝚂𝚒𝚗𝚐𝚕𝚎 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Single-network-request)
-* [**`𝚂𝚎𝚚𝚞𝚎𝚗𝚝𝚒𝚊𝚕 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Sequential-network-request)
-* [**`𝙲𝚘𝚗𝚌𝚞𝚛𝚛𝚎𝚗𝚝 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Concurrent-network-request)
-* [**`𝚅𝚊𝚛𝚒𝚊𝚋𝚕𝚎 𝚗𝚞𝚖𝚋𝚎𝚛 𝚘𝚏 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Variable-number-of-network-requests)
-* [**`𝙸𝚖𝚙𝚕𝚎𝚖𝚎𝚗𝚝𝚒𝚗𝚐 𝚊 𝚝𝚒𝚖𝚎𝚘𝚞𝚝 𝚏𝚘𝚛 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Implementing-a-timeout-for-network-request)
-* [**`𝚁𝚎𝚝𝚛𝚢𝚒𝚗𝚐 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝𝚜 𝚒𝚗 𝚌𝚊𝚜𝚎 𝚘𝚏 𝚏𝚊𝚒𝚕𝚞𝚛𝚎`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Retrying-network-requests-in-case-of-failure)
-* [**`𝙲𝚘𝚖𝚋𝚒𝚗𝚒𝚗𝚐 𝚝𝚒𝚖𝚎𝚘𝚞𝚝 𝚊𝚗𝚍 𝚛𝚎𝚝𝚛𝚢 𝚘𝚏 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Combining-timeout-and-retry-of-network-request)
-* [**`𝚄𝚜𝚒𝚗𝚐 𝚛𝚘𝚘𝚖 𝚒𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Using-room-in-coroutines)
-* [**`𝙰𝚗𝚊𝚕𝚢𝚣𝚒𝚗𝚐 𝚊𝚗𝚍 𝚍𝚎𝚋𝚞𝚐𝚐𝚒𝚗𝚐 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Analysing-and-debugging-of-coroutines)
-* [**`𝙷𝚘𝚠 𝚝𝚘 𝚙𝚎𝚛𝚏𝚘𝚛𝚖 𝚊 𝚑𝚎𝚊𝚟𝚢 𝚘𝚙𝚎𝚛𝚊𝚝𝚒𝚘𝚗 𝚒𝚗 𝚝𝚑𝚎 𝚋𝚊𝚌𝚔𝚐𝚛𝚘𝚞𝚗𝚍 𝚝𝚑𝚛𝚎𝚊𝚍`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-to-perform-a-heavy-operation-in-background-thread)
-* [**`𝙷𝚘𝚠 𝚝𝚘 𝚙𝚎𝚛𝚏𝚘𝚛𝚖 𝚝𝚑𝚎 𝚌𝚊𝚗𝚌𝚎𝚕𝚕𝚊𝚝𝚒𝚘𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-to-perform-cancellation)
-* [**`𝚄𝚜𝚒𝚗𝚐 𝚖𝚊𝚗𝚢 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚝𝚘 𝚙𝚊𝚜𝚜 𝚘𝚗 𝚝𝚑𝚎 𝚠𝚘𝚛𝚔`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Using-many-coroutines-to-pass-on-the-work)
-* [**`𝙷𝚘𝚠 𝚝𝚘 𝚙𝚎𝚛𝚏𝚘𝚛𝚖 𝚎𝚡𝚌𝚎𝚙𝚝𝚒𝚘𝚗 𝚑𝚊𝚗𝚍𝚕𝚒𝚗𝚐 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-to-perform-exception-handling-in-the-coroutines)
-* [**`𝙷𝚘𝚠 𝚝𝚘 𝚛𝚞𝚗 𝚝𝚑𝚎 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚎𝚟𝚎𝚗 𝚒𝚏 𝚝𝚑𝚎 𝚞𝚜𝚎𝚛 𝚕𝚎𝚊𝚟𝚎𝚜 𝚝𝚑𝚎 𝚜𝚌𝚛𝚎𝚎𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-to-run-the-coroutine-even-if-the-user-leaves-the-screen)
-* [**`𝚄𝚜𝚒𝚗𝚐 𝚠𝚘𝚛𝚔 𝚖𝚊𝚗𝚊𝚐𝚎𝚛 𝚊𝚕𝚘𝚗𝚐 𝚠𝚒𝚝𝚑 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Using-work-manager-along-with-coroutines)
-* [**`𝙼𝚊𝚔𝚒𝚗𝚐 𝚙𝚊𝚛𝚎𝚗𝚝 𝚌𝚘 𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚝𝚘 𝚠𝚊𝚒𝚝 𝚞𝚗𝚝𝚒𝚕 𝚊𝚕𝚕 𝚝𝚑𝚎 𝚌𝚑𝚒𝚕𝚍𝚛𝚎𝚗 𝚌𝚘 𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚊𝚛𝚎 𝚏𝚒𝚗𝚒𝚜𝚑𝚎𝚍`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Making-parent-co-routine-to-wait-until-all-the-children-co-routines-are-finished)
-* [**`𝙲𝚊𝚗𝚌𝚎𝚕𝚒𝚗𝚐 𝚝𝚑𝚎 𝚙𝚊𝚛𝚎𝚗𝚝 𝚊𝚗𝚍 𝚌𝚑𝚒𝚕𝚍 𝚓𝚘𝚋`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Canceling-the-parent-and-child-job) 
+:label: [**`𝚂𝚒𝚗𝚐𝚕𝚎 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Single-network-request)
+
+:label: [**`𝚂𝚎𝚚𝚞𝚎𝚗𝚝𝚒𝚊𝚕 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Sequential-network-request)
+
+:label: [**`𝙲𝚘𝚗𝚌𝚞𝚛𝚛𝚎𝚗𝚝 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Concurrent-network-request)
+
+:label: [**`𝚅𝚊𝚛𝚒𝚊𝚋𝚕𝚎 𝚗𝚞𝚖𝚋𝚎𝚛 𝚘𝚏 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Variable-number-of-network-requests)
+
+:label: [**`𝙸𝚖𝚙𝚕𝚎𝚖𝚎𝚗𝚝𝚒𝚗𝚐 𝚊 𝚝𝚒𝚖𝚎𝚘𝚞𝚝 𝚏𝚘𝚛 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Implementing-a-timeout-for-network-request)
+
+:label: [**`𝚁𝚎𝚝𝚛𝚢𝚒𝚗𝚐 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝𝚜 𝚒𝚗 𝚌𝚊𝚜𝚎 𝚘𝚏 𝚏𝚊𝚒𝚕𝚞𝚛𝚎`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Retrying-network-requests-in-case-of-failure)
+
+:label: [**`𝙲𝚘𝚖𝚋𝚒𝚗𝚒𝚗𝚐 𝚝𝚒𝚖𝚎𝚘𝚞𝚝 𝚊𝚗𝚍 𝚛𝚎𝚝𝚛𝚢 𝚘𝚏 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Combining-timeout-and-retry-of-network-request)
+
+:label:* [**`𝚄𝚜𝚒𝚗𝚐 𝚛𝚘𝚘𝚖 𝚒𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Using-room-in-coroutines)
+
+:label: [**`𝙰𝚗𝚊𝚕𝚢𝚣𝚒𝚗𝚐 𝚊𝚗𝚍 𝚍𝚎𝚋𝚞𝚐𝚐𝚒𝚗𝚐 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Analysing-and-debugging-of-coroutines)
+
+:label: [**`𝙷𝚘𝚠 𝚝𝚘 𝚙𝚎𝚛𝚏𝚘𝚛𝚖 𝚊 𝚑𝚎𝚊𝚟𝚢 𝚘𝚙𝚎𝚛𝚊𝚝𝚒𝚘𝚗 𝚒𝚗 𝚝𝚑𝚎 𝚋𝚊𝚌𝚔𝚐𝚛𝚘𝚞𝚗𝚍 𝚝𝚑𝚛𝚎𝚊𝚍`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-to-perform-a-heavy-operation-in-background-thread)
+
+:label: [**`𝙷𝚘𝚠 𝚝𝚘 𝚙𝚎𝚛𝚏𝚘𝚛𝚖 𝚝𝚑𝚎 𝚌𝚊𝚗𝚌𝚎𝚕𝚕𝚊𝚝𝚒𝚘𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-to-perform-cancellation)
+
+:label: [**`𝚄𝚜𝚒𝚗𝚐 𝚖𝚊𝚗𝚢 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚝𝚘 𝚙𝚊𝚜𝚜 𝚘𝚗 𝚝𝚑𝚎 𝚠𝚘𝚛𝚔`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Using-many-coroutines-to-pass-on-the-work)
+
+:label: [**`𝙷𝚘𝚠 𝚝𝚘 𝚙𝚎𝚛𝚏𝚘𝚛𝚖 𝚎𝚡𝚌𝚎𝚙𝚝𝚒𝚘𝚗 𝚑𝚊𝚗𝚍𝚕𝚒𝚗𝚐 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-to-perform-exception-handling-in-the-coroutines)
+
+:label: [**`𝙷𝚘𝚠 𝚝𝚘 𝚛𝚞𝚗 𝚝𝚑𝚎 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚎𝚟𝚎𝚗 𝚒𝚏 𝚝𝚑𝚎 𝚞𝚜𝚎𝚛 𝚕𝚎𝚊𝚟𝚎𝚜 𝚝𝚑𝚎 𝚜𝚌𝚛𝚎𝚎𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/How-to-run-the-coroutine-even-if-the-user-leaves-the-screen)
+
+:label: [**`𝚄𝚜𝚒𝚗𝚐 𝚠𝚘𝚛𝚔 𝚖𝚊𝚗𝚊𝚐𝚎𝚛 𝚊𝚕𝚘𝚗𝚐 𝚠𝚒𝚝𝚑 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Using-work-manager-along-with-coroutines)
+
+:label: [**`𝙼𝚊𝚔𝚒𝚗𝚐 𝚙𝚊𝚛𝚎𝚗𝚝 𝚌𝚘 𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚝𝚘 𝚠𝚊𝚒𝚝 𝚞𝚗𝚝𝚒𝚕 𝚊𝚕𝚕 𝚝𝚑𝚎 𝚌𝚑𝚒𝚕𝚍𝚛𝚎𝚗 𝚌𝚘 𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚊𝚛𝚎 𝚏𝚒𝚗𝚒𝚜𝚑𝚎𝚍`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Making-parent-co-routine-to-wait-until-all-the-children-co-routines-are-finished)
+
+:label: [**`𝙲𝚊𝚗𝚌𝚎𝚕𝚒𝚗𝚐 𝚝𝚑𝚎 𝚙𝚊𝚛𝚎𝚗𝚝 𝚊𝚗𝚍 𝚌𝚑𝚒𝚕𝚍 𝚓𝚘𝚋`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Canceling-the-parent-and-child-job) 
 
 ## `𝙺𝚘𝚝𝚕𝚒𝚗 𝙵𝚕𝚘𝚠 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`
 
@@ -85,7 +106,7 @@
 </br>
 
 # `𝙷𝚒𝚐𝚑𝚎𝚛-𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`
-* [**`𝙰𝚋𝚘𝚞𝚝 𝚝𝚑𝚎 𝚑𝚒𝚐𝚑𝚎𝚛 𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Higher-order-functions)
+:label: [**`𝙰𝚋𝚘𝚞𝚝 𝚝𝚑𝚎 𝚑𝚒𝚐𝚑𝚎𝚛 𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Higher-order-functions)
 
 
 # `𝙾𝚋𝚓𝚎𝚌𝚝 & 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗-𝚘𝚋𝚓𝚎𝚌𝚝`
