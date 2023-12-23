@@ -27,11 +27,93 @@ fun KotlinBasicsDemo(navController: NavHostController) {
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        AppButton(text = "@JvmField", onClick = {
-            viewModel.jvmFieldDemo()
+        AppButton(text = "Strings in kotlin", onClick = {
+            //viewModel.jvmFieldDemo()
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
 
+        AppButton(text = "Comparison operators", onClick = {
+            //viewModel.jvmFieldDemo()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Scope in kotlin", onClick = {
+            //viewModel.jvmFieldDemo()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Large tree in conditions", onClick = {
+            //viewModel.jvmFieldDemo()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Defining & using nullable", onClick = {
+            //viewModel.jvmFieldDemo()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Pairs & Triplets", onClick = {
+            //viewModel.jvmFieldDemo()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Pairs & Triplets", onClick = {
+            //viewModel.jvmFieldDemo()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Arrays in kotlin", onClick = {
+            //viewModel.jvmFieldDemo()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "List in kotlin", onClick = {
+            //viewModel.jvmFieldDemo()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Map in kotlin", onClick = {
+            //viewModel.jvmFieldDemo()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Set in kotlin", onClick = {
+            //viewModel.jvmFieldDemo()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Looping Mechanisms", onClick = {
+            //viewModel.jvmFieldDemo()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Custom Accessors", onClick = {
+            //viewModel.jvmFieldDemo()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Delegated properties", onClick = {
+            //viewModel.jvmFieldDemo()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Enum in kotlin", onClick = {
+            //viewModel.jvmFieldDemo()
+        })
 
     }
 
