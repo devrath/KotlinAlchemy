@@ -73,7 +73,8 @@
 ## `𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜`
 :label: [**`𝙰𝚋𝚘𝚞𝚝 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Channels-%E2%80%90-About)</br>
 :label: [**`𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Channels-%E2%80%90-Communication-between-coroutines)</br>
-
+:label: [**`𝚄𝚜𝚒𝚗𝚐 𝙿𝚛𝚘𝚍𝚞𝚌𝚎`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Channel-%E2%80%90-Using-produce
+)</br>
 
 # `𝚂𝚎𝚊𝚕𝚎𝚍 𝙲𝚕𝚊𝚜𝚜`
 
