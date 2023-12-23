@@ -34,64 +34,52 @@ fun ChannelsDemo(navController: NavHostController) {
         verticalArrangement = Arrangement.Center
     ) {
 
+        // <! ------------------- COMMUNICATING BETWEEN COROUTINES ------------------->
         AppText(text = "Basics")
 
         Spacer(modifier = Modifier.height(16.dp))
-
         AppButton(text = "Simple Communication", onClick = {
             viewModel.simpleCommunication()
         })
-
         Spacer(modifier = Modifier.height(16.dp))
-
         AppButton(text = "Sending/Receiving multiple values", onClick = {
             viewModel.sendingMultipleValues()
         })
-
         Spacer(modifier = Modifier.height(16.dp))
-
         AppButton(text = "Canceling a channel", onClick = {
             viewModel.cancellingChannel()
         })
-
         Spacer(modifier = Modifier.height(16.dp))
-
         AppButton(text = "Closing a channel", onClick = {
             viewModel.closingChannel()
         })
-
         Spacer(modifier = Modifier.height(16.dp))
-
         AppButton(text = "Using Produce", onClick = {
             viewModel.usingProduce()
         })
-
         Spacer(modifier = Modifier.height(20.dp))
+        // <! ------------------- COMMUNICATING BETWEEN COROUTINES ------------------->
 
+        // <! ------------------- USING CHANNELS - BUFFERED -------------------------->
         AppText(text = "Channel Types")
 
         Spacer(modifier = Modifier.height(16.dp))
-
         AppButton(text = "Channel - Buffered", onClick = {
 
         })
-
         Spacer(modifier = Modifier.height(16.dp))
-
         AppButton(text = "Channel - Conflated", onClick = {
 
         })
-
         Spacer(modifier = Modifier.height(16.dp))
-
         AppButton(text = "Channel - Rendezvous", onClick = {
 
         })
-
         Spacer(modifier = Modifier.height(16.dp))
-
         AppButton(text = "Channel - Unlimited", onClick = {
 
         })
+        // <! ------------------- USING CHANNELS - BUFFERED -------------------------->
+
     }
 }
