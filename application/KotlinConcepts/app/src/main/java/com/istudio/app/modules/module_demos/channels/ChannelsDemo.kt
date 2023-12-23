@@ -14,6 +14,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
+import com.istudio.app.ui.composables.AppButton
 
 @Composable
 fun ChannelsDemo(navController: NavHostController) {
@@ -25,19 +26,28 @@ fun ChannelsDemo(navController: NavHostController) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        Text(
-            text = "Channels Demo",
-            fontSize = 20.sp
-        )
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Simple Communication", onClick = {
+            viewModel.simpleCommunication()
+        })
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        Button(onClick = {
-            //navController.navigate(Screen.Second.rout + "/www.url.com/44")
-        }) {
-            Text(
-                text = "Go To Second",
-            )
-        }
+        AppButton(text = "Sending/Receiving multiple values", onClick = {
+            viewModel.sendingMultipleValues()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Canceling a channel", onClick = {
+            viewModel.cancellingChannel()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Closing a channel", onClick = {
+            viewModel.closingChannel()
+        })
     }
 }
