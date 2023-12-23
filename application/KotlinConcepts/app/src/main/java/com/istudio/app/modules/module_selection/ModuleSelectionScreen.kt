@@ -24,6 +24,14 @@ fun ModuleSelectionScreen(navController: NavHostController) {
         verticalArrangement = Arrangement.Center,
     ) {
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Kotlin Basics", onClick = {
+            navController.navigate(ModuleDemo.KotlinBasicsDemo.rout)
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
         AppButton(text = "Sealed Class", onClick = {
             navController.navigate(ModuleDemo.SealedClassDemo.rout)
         })

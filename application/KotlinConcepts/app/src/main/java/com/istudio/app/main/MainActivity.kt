@@ -11,6 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.istudio.app.modules.module_demos.basic_fundamentals.ui.KotlinBasicsDemo
 import com.istudio.app.modules.module_demos.channels.ChannelsDemo
 import com.istudio.app.modules.module_demos.higher_order_functions.ui.HigherOrderFunctionDemo
 import com.istudio.app.modules.module_demos.kotlin_annotations.ui.KotlinAnnotationsDemo
@@ -43,6 +44,10 @@ class MainActivity : ComponentActivity() {
                         // Selection Screen
                         composable(ModuleDemo.DemoSelection.rout) {
                             ModuleSelectionScreen(navController = navController)
+                        }
+                        // Kotlin basics Screen
+                        composable(ModuleDemo.KotlinBasicsDemo.rout) {
+                            KotlinBasicsDemo(navController = navController)
                         }
                         // Channel demo
                         composable(ModuleDemo.ChannelsDemo.rout) {
