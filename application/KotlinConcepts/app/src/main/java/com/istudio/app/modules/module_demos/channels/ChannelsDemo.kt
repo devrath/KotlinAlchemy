@@ -49,5 +49,11 @@ fun ChannelsDemo(navController: NavHostController) {
         AppButton(text = "Closing a channel", onClick = {
             viewModel.closingChannel()
         })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Using Produce", onClick = {
+            viewModel.closingChannel()
+        })
     }
 }

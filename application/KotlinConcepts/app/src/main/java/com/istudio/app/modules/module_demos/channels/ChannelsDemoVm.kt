@@ -13,6 +13,7 @@ import javax.inject.Inject
 @HiltViewModel
 class ChannelsDemoVm @Inject constructor( ) : ViewModel() {
 
+    // <! ------------------- COMMUNICATING BETWEEN COROUTINES ------------------->
     // A channel of languages
     private var languageChannel = Channel<Languages>()
 
@@ -112,5 +113,16 @@ class ChannelsDemoVm @Inject constructor( ) : ViewModel() {
 
 
     enum class Languages { English , Hindi , French }
+
+    // <! ------------------- COMMUNICATING BETWEEN COROUTINES ------------------->
+
+
+    // <! ------------------- USING PRODUCE IN CHANNELS -------------------------->
+
+
+
+    enum class Superheroes { Batman , Superman , Spiderman }
+    // <! ------------------- USING PRODUCE IN CHANNELS -------------------------->
+
 
 }
