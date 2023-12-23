@@ -71,6 +71,8 @@
 | [𝙵𝚕𝚘𝚠-𝙼𝚊𝚙 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow-map-Operator) |
 
 ## `𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜`
+:label: [**`𝙰𝚋𝚘𝚞𝚝 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Channels-%E2%80%90-About)</br>
+:label: [**`𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Channels-%E2%80%90-Communication-between-coroutines)</br>
 
 
 # `𝚂𝚎𝚊𝚕𝚎𝚍 𝙲𝚕𝚊𝚜𝚜`
