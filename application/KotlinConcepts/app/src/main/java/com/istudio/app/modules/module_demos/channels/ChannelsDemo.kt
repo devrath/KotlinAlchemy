@@ -5,13 +5,12 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
-import androidx.compose.material3.Button
-import androidx.compose.material3.Text
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import com.istudio.app.ui.composables.AppButton
@@ -21,8 +20,12 @@ fun ChannelsDemo(navController: NavHostController) {
 
     val viewModel: ChannelsDemoVm = hiltViewModel()
 
+    val scrollState = rememberScrollState()
+
     Column(
-        modifier = Modifier.fillMaxSize(),
+        modifier = Modifier
+            .verticalScroll(state = scrollState)
+            .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
@@ -53,7 +56,7 @@ fun ChannelsDemo(navController: NavHostController) {
         Spacer(modifier = Modifier.height(16.dp))
 
         AppButton(text = "Using Produce", onClick = {
-            viewModel.closingChannel()
+            viewModel.usingProduce()
         })
     }
 }

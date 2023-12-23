@@ -5,7 +5,9 @@ import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.channels.Channel
+import kotlinx.coroutines.channels.ReceiveChannel
 import kotlinx.coroutines.channels.consumeEach
+import kotlinx.coroutines.channels.produce
 import kotlinx.coroutines.launch
 import java.lang.Exception
 import javax.inject.Inject
@@ -111,7 +113,6 @@ class ChannelsDemoVm @Inject constructor( ) : ViewModel() {
 
     }
 
-
     enum class Languages { English , Hindi , French }
 
     // <! ------------------- COMMUNICATING BETWEEN COROUTINES ------------------->
@@ -119,7 +120,29 @@ class ChannelsDemoVm @Inject constructor( ) : ViewModel() {
 
     // <! ------------------- USING PRODUCE IN CHANNELS -------------------------->
 
+    private var receiveChannel : ReceiveChannel<Superheroes> = Channel()
 
+    fun usingProduce() {
+
+        // Co-Routine - 1
+        viewModelScope.launch {
+            receiveChannel = produce {
+                send(Superheroes.Batman)
+                send(Superheroes.Superman)
+                send(Superheroes.Spiderman)
+            }
+        }
+
+        // Co-Routine - 2
+        viewModelScope.launch {
+            println("Is closed to receive -->"+ receiveChannel.isClosedForReceive)
+            receiveChannel.consumeEach { superHero ->
+                println(superHero)
+            }
+            println("Is closed to receive -->"+ receiveChannel.isClosedForReceive)
+        }
+
+    }
 
     enum class Superheroes { Batman , Superman , Spiderman }
     // <! ------------------- USING PRODUCE IN CHANNELS -------------------------->
