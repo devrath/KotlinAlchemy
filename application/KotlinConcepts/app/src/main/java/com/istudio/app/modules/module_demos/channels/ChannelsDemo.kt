@@ -65,19 +65,19 @@ fun ChannelsDemo(navController: NavHostController) {
 
         Spacer(modifier = Modifier.height(16.dp))
         AppButton(text = "Channel - Buffered", onClick = {
-
+            viewModel.usingBuffered()
         })
         Spacer(modifier = Modifier.height(16.dp))
         AppButton(text = "Channel - Conflated", onClick = {
-
+            viewModel.usingConflated()
         })
         Spacer(modifier = Modifier.height(16.dp))
         AppButton(text = "Channel - Rendezvous", onClick = {
-
+            viewModel.usingRendezvous()
         })
         Spacer(modifier = Modifier.height(16.dp))
         AppButton(text = "Channel - Unlimited", onClick = {
-
+            viewModel.usingUnlimited()
         })
         // <! ------------------- USING CHANNELS - BUFFERED -------------------------->
 
