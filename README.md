@@ -29,7 +29,7 @@
 | `3` | [ **`What is the scope in kotlin`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-Using-Scopes-in-kotlin) |
 | `4`| [ **`Large tree of condition statements`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics:-Large-tree-of-condition-statements) |
 | `5`| [ **`Defining and using Nullable values`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics:-Defining-and-using-Nullable-values) |
-| `6`| [ **`What are pairs and triplets`**]() |
+| `6`| [ **`What are pairs and triplets`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-What-are-pairs-and-triplets) |
 | `7`| [ **`Using arrays in the code`**]() |
 | `8`| [ **`Using list in the code`**]() |
 | `9`| [ **`Using Map in the code`**]() |
