@@ -54,5 +54,11 @@ fun ModuleSelectionScreen(navController: NavHostController) {
             navController.navigate(ModuleDemo.ChannelsDemo.rout)
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Flows", onClick = {
+            navController.navigate(ModuleDemo.FlowsSelection.rout)
+        })
+
     }
 }

@@ -7,5 +7,6 @@ sealed class ModuleDemo(val rout: String) {
     data object HigherOrderFunctions : ModuleDemo("HigherOrderFunctions")
     data object AnnotationsInKotlin : ModuleDemo("AnnotationsInKotlin")
     data object ChannelsDemo : ModuleDemo("ChannelsDemo")
+    data object FlowsSelection : ModuleDemo("FlowsSelection")
 
 }
