@@ -14,7 +14,7 @@ import androidx.navigation.compose.rememberNavController
 import com.istudio.app.modules.module_demos.basic_fundamentals.ui.KotlinBasicsDemo
 import com.istudio.app.modules.module_demos.channels.ChannelsDemo
 import com.istudio.app.modules.module_demos.flows.FlowsDemo
-import com.istudio.app.modules.module_demos.flows.modules.flow_basics.FlowBasics
+import com.istudio.app.modules.module_demos.flows.modules.flow_basics.ui.FlowBasics
 import com.istudio.app.modules.module_demos.higher_order_functions.ui.HigherOrderFunctionDemo
 import com.istudio.app.modules.module_demos.kotlin_annotations.ui.KotlinAnnotationsDemo
 import com.istudio.app.modules.module_demos.sealed_class.ui.SealedClassDemo
@@ -41,7 +41,7 @@ class MainActivity : ComponentActivity() {
 
                     NavHost(
                         navController = navController,
-                        startDestination = ModuleDemo.DemoSelection.rout
+                        startDestination = ModuleDemo.FlowBasics.rout
                     ) {
                         // Selection Screen
                         composable(ModuleDemo.DemoSelection.rout) {

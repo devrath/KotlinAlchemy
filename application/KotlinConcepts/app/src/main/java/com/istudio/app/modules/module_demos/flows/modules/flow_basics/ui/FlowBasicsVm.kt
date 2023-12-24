@@ -1,4 +1,4 @@
-package com.istudio.app.modules.module_demos.flows.modules.flow_basics
+package com.istudio.app.modules.module_demos.flows.modules.flow_basics.ui
 
 import androidx.lifecycle.ViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
