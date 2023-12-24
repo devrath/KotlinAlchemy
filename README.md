@@ -4,13 +4,15 @@
 [![Android Best practices](https://img.shields.io/badge/Android-best--practices-red)](https://www.android.com/intl/en_in/what-is-android/) [![Kotlin](https://img.shields.io/badge/Kotlin-Sealed%20class-blue)](https://kotlinlang.org/docs/sealed-classes.html)
 </br>
 
-𝚃𝚑𝚒𝚜 𝚙𝚛𝚘𝚓𝚎𝚌𝚝 𝚌𝚘𝚗𝚝𝚊𝚒𝚗𝚜 𝚟𝚊𝚛𝚒𝚘𝚞𝚜 𝚌𝚘𝚗𝚌𝚎𝚙𝚝𝚜 𝚊𝚗𝚍 𝚕𝚎𝚊𝚛𝚗𝚒𝚗𝚐𝚜 𝚘𝚏 𝚔𝚘𝚝𝚕𝚒𝚗 𝚞𝚜𝚎𝚍 𝚏𝚘𝚛 𝚊𝚗𝚍𝚛𝚘𝚒𝚍 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚖𝚎𝚗𝚝
+📚 𝚃𝚑𝚒𝚜 𝚙𝚛𝚘𝚓𝚎𝚌𝚝 𝚌𝚘𝚗𝚝𝚊𝚒𝚗𝚜 𝚟𝚊𝚛𝚒𝚘𝚞𝚜 𝚌𝚘𝚗𝚌𝚎𝚙𝚝𝚜 𝚊𝚗𝚍 𝚕𝚎𝚊𝚛𝚗𝚒𝚗𝚐𝚜 𝚘𝚏 𝚔𝚘𝚝𝚕𝚒𝚗 𝚞𝚜𝚎𝚍 𝚏𝚘𝚛 𝚊𝚗𝚍𝚛𝚘𝚒𝚍 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚖𝚎𝚗𝚝
 
 <div align="center">
 
 | `𝙲𝙾𝙽𝚃𝙴𝙽𝚃𝚂` |
 | ---------- |
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙱𝚊𝚜𝚒𝚌 𝙵𝚞𝚗𝚍𝚊𝚖𝚎𝚗𝚝𝚊𝚕𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basic-Fundamentals) |
+| [`𝙺𝚘𝚝𝚕𝚒𝚗 𝚂𝚌𝚘𝚙𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-scope-functions) |
+| [`𝙺𝚘𝚝𝚕𝚒𝚗: 𝙲𝚕𝚊𝚜𝚜 𝚟𝚜 𝙳𝚊𝚝𝚊𝙲𝚕𝚊𝚜𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin:-Class-vs-DataClass) |
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#kotlin-coroutines) |
 | [`𝚂𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%9A%82%F0%9D%9A%8E%F0%9D%9A%8A%F0%9D%9A%95%F0%9D%9A%8E%F0%9D%9A%8D-%F0%9D%99%B2%F0%9D%9A%95%F0%9D%9A%8A%F0%9D%9A%9C%F0%9D%9A%9C) |
 | [`𝙷𝚒𝚐𝚑𝚎𝚛-𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%99%B7%F0%9D%9A%92%F0%9D%9A%90%F0%9D%9A%91%F0%9D%9A%8E%F0%9D%9A%9B-%F0%9D%9A%98%F0%9D%9A%9B%F0%9D%9A%8D%F0%9D%9A%8E%F0%9D%9A%9B-%F0%9D%9A%8F%F0%9D%9A%9E%F0%9D%9A%97%F0%9D%9A%8C%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97%F0%9D%9A%9C) |
@@ -80,13 +82,14 @@
 :label: [**`𝙲𝚊𝚗𝚌𝚎𝚕𝚒𝚗𝚐 𝚝𝚑𝚎 𝚙𝚊𝚛𝚎𝚗𝚝 𝚊𝚗𝚍 𝚌𝚑𝚒𝚕𝚍 𝚓𝚘𝚋`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Canceling-the-parent-and-child-job) 
 
 ## `𝙺𝚘𝚝𝚕𝚒𝚗 𝙵𝚕𝚘𝚠 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`
+![002](https://github.com/devrath/DroidAndroidKotlinWiki/assets/1456191/ccbd7ff9-f293-4ac9-90b7-28c3c37ddc52)
 
-| `Operators` |
-| ----------- |
-| [𝙵𝚕𝚘𝚠-𝙵𝚒𝚕𝚝𝚎𝚛 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow-filter-Operator) |
-| [𝙵𝚕𝚘𝚠-𝙼𝚊𝚙 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow-map-Operator) |
+:label: [𝙵𝚕𝚘𝚠-𝙵𝚒𝚕𝚝𝚎𝚛 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow-filter-Operator) </br>
+:label: [𝙵𝚕𝚘𝚠-𝙼𝚊𝚙 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow-map-Operator)
 
 ## `𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜`
+![1_m4-G7nduzkr20JGSv409dw](https://github.com/devrath/DroidAndroidKotlinWiki/assets/1456191/43e55d7d-fbd2-42ad-936c-cd8bfe977054)
+
 :label: [**`𝙰𝚋𝚘𝚞𝚝 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Channels-%E2%80%90-About)</br>
 :label: [**`𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Channels-%E2%80%90-Communication-between-coroutines)</br>
 :label: [**`𝚄𝚜𝚒𝚗𝚐 𝙿𝚛𝚘𝚍𝚞𝚌𝚎`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Channel-%E2%80%90-Using-produce
