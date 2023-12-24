@@ -34,7 +34,7 @@
 | `8`| [ **`Using list in the code`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Using-list-in-the-code) |
 | `9`| [ **`Using Map in the code`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Using-Map-in-the-code) |
 | `10`| [ **`Using Set in the code`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/kotlin-basics-:-Using-Set-in-the-code) |
-| `11`| [ **`Looping mechanisms in kotlin`**]() |
+| `11`| [ **`Looping mechanisms in kotlin`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Looping-mechanisms) |
 | `12`| [ **`Custom Accessors in kotlin`**]() |
 | `14`| [ **`Delegated properties in Kotlin`**]() |
 | `18`| [ **`Enum in Kotlin`**]() |
