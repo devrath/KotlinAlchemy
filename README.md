@@ -24,11 +24,11 @@
 
 | | **` Contents in Wiki `** |
 | - | ---------------------- |
-| `1` | [ **`Using Strings in Kotlin`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basic-Fundamentals#using-strings-in-kotlin) |
-| `2` | [ **`Using comparison operators`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basic-Fundamentals#using-comparison-operators) |
-| `3` | [ **`What is the scope in kotlin`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basic-Fundamentals#what-is-the-scope-in-kotlin) |
-| `4`| [ **`Large tree of condition statements`**]() |
-| `5`| [ **`Defining and using Nullable values`**]() |
+| `1` | [ **`Using Strings in Kotlin`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-Strings) |
+| `2` | [ **`Using comparison operators`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-Comparison-Operators) |
+| `3` | [ **`What is the scope in kotlin`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-Using-Scopes-in-kotlin) |
+| `4`| [ **`Large tree of condition statements`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics:-Large-tree-of-condition-statements) |
+| `5`| [ **`Defining and using Nullable values`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics:-Defining-and-using-Nullable-values) |
 | `6`| [ **`What are pairs and triplets`**]() |
 | `7`| [ **`Using arrays in the code`**]() |
 | `8`| [ **`Using list in the code`**]() |
