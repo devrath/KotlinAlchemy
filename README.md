@@ -19,8 +19,6 @@
 </div>
 
 # `Kotlin Basic Fundamentals`
-<div align="center">
-
 :label: **`𝚄𝚜𝚒𝚗𝚐 𝚂𝚝𝚛𝚒𝚗𝚐𝚜 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-Strings) </br>
 :label: **`𝚄𝚜𝚒𝚗𝚐 𝚌𝚘𝚖𝚙𝚊𝚛𝚒𝚜𝚘𝚗 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-Comparison-Operators) </br>
 :label: **`𝚆𝚑𝚊𝚝 𝚒𝚜 𝚝𝚑𝚎 𝚜𝚌𝚘𝚙𝚎 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-Using-Scopes-in-kotlin) </br>
@@ -34,9 +32,6 @@
 :label: **`𝙻𝚘𝚘𝚙𝚒𝚗𝚐 𝚖𝚎𝚌𝚑𝚊𝚗𝚒𝚜𝚖𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Looping-mechanisms) </br>
 :label: **`𝙲𝚞𝚜𝚝𝚘𝚖 𝙰𝚌𝚌𝚎𝚜𝚜𝚘𝚛𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Custom-Accessors) </br>
 :label: **`𝙴𝚗𝚞𝚖 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Enum-in-Kotlin) </br>
-
-</div>
-
 
 # `Kotlin Coroutines`
 <p align="center">
