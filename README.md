@@ -36,7 +36,6 @@
 | `10`| [ **`Using Set in the code`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/kotlin-basics-:-Using-Set-in-the-code) |
 | `11`| [ **`Looping mechanisms in kotlin`**]() |
 | `12`| [ **`Custom Accessors in kotlin`**]() |
-| `13`| [ **`Companion Objects in Kotlin`**]() |
 | `14`| [ **`Delegated properties in Kotlin`**]() |
 | `18`| [ **`Enum in Kotlin`**]() |
 
