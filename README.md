@@ -21,19 +21,19 @@
 # `Kotlin Basic Fundamentals`
 <div align="center">
 
-:label: **`𝚄𝚜𝚒𝚗𝚐 𝚂𝚝𝚛𝚒𝚗𝚐𝚜 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-Strings) 
-:label: **`𝚄𝚜𝚒𝚗𝚐 𝚌𝚘𝚖𝚙𝚊𝚛𝚒𝚜𝚘𝚗 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-Comparison-Operators) 
-:label: **`𝚆𝚑𝚊𝚝 𝚒𝚜 𝚝𝚑𝚎 𝚜𝚌𝚘𝚙𝚎 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-Using-Scopes-in-kotlin) 
-:label: **`𝙻𝚊𝚛𝚐𝚎 𝚝𝚛𝚎𝚎 𝚘𝚏 𝚌𝚘𝚗𝚍𝚒𝚝𝚒𝚘𝚗 𝚜𝚝𝚊𝚝𝚎𝚖𝚎𝚗𝚝𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics:-Large-tree-of-condition-statements) 
-:label: **`𝙳𝚎𝚏𝚒𝚗𝚒𝚗𝚐 𝚊𝚗𝚍 𝚞𝚜𝚒𝚗𝚐 𝙽𝚞𝚕𝚕𝚊𝚋𝚕𝚎 𝚟𝚊𝚕𝚞𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics:-Defining-and-using-Nullable-values) 
-:label: **`𝚆𝚑𝚊𝚝 𝚊𝚛𝚎 𝚙𝚊𝚒𝚛𝚜 𝚊𝚗𝚍 𝚝𝚛𝚒𝚙𝚕𝚎𝚝𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-What-are-pairs-and-triplets) 
-:label: **`𝚄𝚜𝚒𝚗𝚐 𝚊𝚛𝚛𝚊𝚢𝚜 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Using-arrays-in-the-code) 
-:label: **`𝚄𝚜𝚒𝚗𝚐 𝚕𝚒𝚜𝚝 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Using-list-in-the-code) 
-:label: **`𝚄𝚜𝚒𝚗𝚐 𝙼𝚊𝚙 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Using-Map-in-the-code) 
-:label: **`𝚄𝚜𝚒𝚗𝚐 𝚂𝚎𝚝 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/kotlin-basics-:-Using-Set-in-the-code) 
-:label: **`𝙻𝚘𝚘𝚙𝚒𝚗𝚐 𝚖𝚎𝚌𝚑𝚊𝚗𝚒𝚜𝚖𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Looping-mechanisms) 
-:label: **`𝙲𝚞𝚜𝚝𝚘𝚖 𝙰𝚌𝚌𝚎𝚜𝚜𝚘𝚛𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Custom-Accessors) 
-:label: **`𝙴𝚗𝚞𝚖 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Enum-in-Kotlin) 
+:label: **`𝚄𝚜𝚒𝚗𝚐 𝚂𝚝𝚛𝚒𝚗𝚐𝚜 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-Strings) </br>
+:label: **`𝚄𝚜𝚒𝚗𝚐 𝚌𝚘𝚖𝚙𝚊𝚛𝚒𝚜𝚘𝚗 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-Comparison-Operators) </br>
+:label: **`𝚆𝚑𝚊𝚝 𝚒𝚜 𝚝𝚑𝚎 𝚜𝚌𝚘𝚙𝚎 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-Using-Scopes-in-kotlin) </br>
+:label: **`𝙻𝚊𝚛𝚐𝚎 𝚝𝚛𝚎𝚎 𝚘𝚏 𝚌𝚘𝚗𝚍𝚒𝚝𝚒𝚘𝚗 𝚜𝚝𝚊𝚝𝚎𝚖𝚎𝚗𝚝𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics:-Large-tree-of-condition-statements) </br>
+:label: **`𝙳𝚎𝚏𝚒𝚗𝚒𝚗𝚐 𝚊𝚗𝚍 𝚞𝚜𝚒𝚗𝚐 𝙽𝚞𝚕𝚕𝚊𝚋𝚕𝚎 𝚟𝚊𝚕𝚞𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics:-Defining-and-using-Nullable-values) </br>
+:label: **`𝚆𝚑𝚊𝚝 𝚊𝚛𝚎 𝚙𝚊𝚒𝚛𝚜 𝚊𝚗𝚍 𝚝𝚛𝚒𝚙𝚕𝚎𝚝𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-What-are-pairs-and-triplets) </br>
+:label: **`𝚄𝚜𝚒𝚗𝚐 𝚊𝚛𝚛𝚊𝚢𝚜 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Using-arrays-in-the-code) </br>
+:label: **`𝚄𝚜𝚒𝚗𝚐 𝚕𝚒𝚜𝚝 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Using-list-in-the-code) </br>
+:label: **`𝚄𝚜𝚒𝚗𝚐 𝙼𝚊𝚙 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Using-Map-in-the-code) </br>
+:label: **`𝚄𝚜𝚒𝚗𝚐 𝚂𝚎𝚝 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/kotlin-basics-:-Using-Set-in-the-code) </br>
+:label: **`𝙻𝚘𝚘𝚙𝚒𝚗𝚐 𝚖𝚎𝚌𝚑𝚊𝚗𝚒𝚜𝚖𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Looping-mechanisms) </br>
+:label: **`𝙲𝚞𝚜𝚝𝚘𝚖 𝙰𝚌𝚌𝚎𝚜𝚜𝚘𝚛𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Custom-Accessors) </br>
+:label: **`𝙴𝚗𝚞𝚖 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Enum-in-Kotlin) </br>
 
 </div>
 
