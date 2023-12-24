@@ -11,6 +11,7 @@
 | `𝙲𝙾𝙽𝚃𝙴𝙽𝚃𝚂` |
 | ---------- |
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙱𝚊𝚜𝚒𝚌 𝙵𝚞𝚗𝚍𝚊𝚖𝚎𝚗𝚝𝚊𝚕𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basic-Fundamentals) |
+| [`𝙺𝚘𝚝𝚕𝚒𝚗 𝚂𝚌𝚘𝚙𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-scope-functions) |
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#kotlin-coroutines) |
 | [`𝚂𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%9A%82%F0%9D%9A%8E%F0%9D%9A%8A%F0%9D%9A%95%F0%9D%9A%8E%F0%9D%9A%8D-%F0%9D%99%B2%F0%9D%9A%95%F0%9D%9A%8A%F0%9D%9A%9C%F0%9D%9A%9C) |
 | [`𝙷𝚒𝚐𝚑𝚎𝚛-𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%99%B7%F0%9D%9A%92%F0%9D%9A%90%F0%9D%9A%91%F0%9D%9A%8E%F0%9D%9A%9B-%F0%9D%9A%98%F0%9D%9A%9B%F0%9D%9A%8D%F0%9D%9A%8E%F0%9D%9A%9B-%F0%9D%9A%8F%F0%9D%9A%9E%F0%9D%9A%97%F0%9D%9A%8C%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97%F0%9D%9A%9C) |
