@@ -80,7 +80,7 @@
 :label: [**`𝙲𝚊𝚗𝚌𝚎𝚕𝚒𝚗𝚐 𝚝𝚑𝚎 𝚙𝚊𝚛𝚎𝚗𝚝 𝚊𝚗𝚍 𝚌𝚑𝚒𝚕𝚍 𝚓𝚘𝚋`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Canceling-the-parent-and-child-job) 
 
 ## `𝙺𝚘𝚝𝚕𝚒𝚗 𝙵𝚕𝚘𝚠 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`
-:label: [𝙵𝚕𝚘𝚠-𝙵𝚒𝚕𝚝𝚎𝚛 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow-filter-Operator)
+:label: [𝙵𝚕𝚘𝚠-𝙵𝚒𝚕𝚝𝚎𝚛 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow-filter-Operator) </br>
 :label: 𝙵𝚕𝚘𝚠-𝙼𝚊𝚙 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow-map-Operator)
 
 ## `𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜`
