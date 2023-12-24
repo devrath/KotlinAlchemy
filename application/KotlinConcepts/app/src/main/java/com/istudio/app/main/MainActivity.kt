@@ -14,6 +14,7 @@ import androidx.navigation.compose.rememberNavController
 import com.istudio.app.modules.module_demos.basic_fundamentals.ui.KotlinBasicsDemo
 import com.istudio.app.modules.module_demos.channels.ChannelsDemo
 import com.istudio.app.modules.module_demos.flows.FlowsDemo
+import com.istudio.app.modules.module_demos.flows.modules.flow_basics.FlowBasics
 import com.istudio.app.modules.module_demos.higher_order_functions.ui.HigherOrderFunctionDemo
 import com.istudio.app.modules.module_demos.kotlin_annotations.ui.KotlinAnnotationsDemo
 import com.istudio.app.modules.module_demos.sealed_class.ui.SealedClassDemo
@@ -69,6 +70,10 @@ class MainActivity : ComponentActivity() {
                         // Kotlin Flow Selection
                         composable(ModuleDemo.FlowsSelection.rout) {
                             FlowsDemo(navController = navController)
+                        }
+                        // Flow Basics
+                        composable(ModuleDemo.FlowBasics.rout) {
+                            FlowBasics(navController = navController)
                         }
                     }
 

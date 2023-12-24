@@ -88,6 +88,11 @@ dependencies {
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.google.code.gson:gson:2.8.9")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    // Joda Time
+    implementation("joda-time:joda-time:2.10.13")
+    // Open CSV reader
+    implementation("com.opencsv:opencsv:5.5.2")
     // Desugar jdk
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:1.1.5")
+
 }
