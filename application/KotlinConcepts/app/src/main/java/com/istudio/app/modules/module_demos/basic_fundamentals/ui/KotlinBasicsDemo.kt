@@ -63,56 +63,38 @@ fun KotlinBasicsDemo(navController: NavHostController) {
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        AppButton(text = "Pairs & Triplets", onClick = {
-            //viewModel.jvmFieldDemo()
-        })
-
-        Spacer(modifier = Modifier.height(16.dp))
-
         AppButton(text = "Arrays in kotlin", onClick = {
-            //viewModel.jvmFieldDemo()
+            viewModel.arraysInKotlin()
         })
 
         Spacer(modifier = Modifier.height(16.dp))
 
         AppButton(text = "List in kotlin", onClick = {
-            //viewModel.jvmFieldDemo()
+            viewModel.listInKotlin()
         })
 
         Spacer(modifier = Modifier.height(16.dp))
 
         AppButton(text = "Map in kotlin", onClick = {
-            //viewModel.jvmFieldDemo()
+            viewModel.mapInKotlin()
         })
 
         Spacer(modifier = Modifier.height(16.dp))
 
         AppButton(text = "Set in kotlin", onClick = {
-            //viewModel.jvmFieldDemo()
-        })
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        AppButton(text = "Looping Mechanisms", onClick = {
-            //viewModel.jvmFieldDemo()
+            viewModel.setInKotlin()
         })
 
         Spacer(modifier = Modifier.height(16.dp))
 
         AppButton(text = "Custom Accessors", onClick = {
-            //viewModel.jvmFieldDemo()
-        })
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        AppButton(text = "Delegated properties", onClick = {
-            //viewModel.jvmFieldDemo()
+            viewModel.customAccessors()
         })
 
         Spacer(modifier = Modifier.height(16.dp))
 
         AppButton(text = "Enum in kotlin", onClick = {
-            //viewModel.jvmFieldDemo()
+            viewModel.enumInKotlin()
         })
 
     }

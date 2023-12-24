@@ -9,7 +9,7 @@ import javax.inject.Inject
 @HiltViewModel
 class KotlinBasicsDemoVm  @Inject constructor( ) : ViewModel() {
 
-    /**
+        /**
      * Concatenating of strings
      */
     fun stringsInKotlin() {
@@ -98,5 +98,128 @@ class KotlinBasicsDemoVm  @Inject constructor( ) : ViewModel() {
         println("<-------------------------------------------->")
     }
 
+    /**
+     * Arrays in kotlin
+     */
+    fun arraysInKotlin() {
+        // Declaring the array
+        var listOfCities = listOf("Bangalore","NewYork","Tokyo")
+        // This will print the address of the array
+        println(listOfCities)
+        // This will print the size of the array
+        println(listOfCities.size)
+        // This will access the element from a index
+        println(listOfCities[1])
+        // Check if the array has a particular element
+        println(listOfCities.contains("Bangalore"))
+        // Another way to check if the element is present in the arrays
+        println("Bangalore" in listOfCities)
+        // Getting the first element in the array
+        println(listOfCities.first())
+        // Getting the last element in the array
+        println(listOfCities.last())
+        // This will throw the error Index out of bound
+        println(listOfCities[-1])
+    }
 
+    /**
+     * List in kotlin
+     */
+    fun listInKotlin() {
+        // List of cities
+        var cityList = listOf("Bangalore","Delhi","Chennai","Calcutta")
+        // Not possible since its just a list and not a mutable list
+        // cityList.add()
+        // we can convert one list to another list
+        var mutableCityList = cityList.toMutableList()
+        // Since now its a mutable list, we can modify the list
+        mutableCityList.add("Texas")
+        // We can directly add a element at a position also
+        mutableCityList.add(1,"Colombo")
+        // We can remove a element at a position from th elist
+        mutableCityList.removeAt(2)
+    }
+
+    /**
+     * Map in kotlin
+     */
+    fun mapInKotlin() {
+        val listOfCities = mapOf(
+            1 to "Bangalore",
+            2 to "Mumbai",
+            3 to "Chennai",
+        )
+        //listOfCities[1] = "Shanghai" // Not possible
+        println(listOfCities[1])
+        val listOfNames = mutableMapOf(
+            1 to "Manish",
+            2 to "John",
+            3 to "Sam",
+        )
+        listOfNames[4] = "Anudeep"
+        println(listOfNames[4])
+    }
+
+    /**
+     * Set in kotlin
+     */
+    fun setInKotlin() {
+        var students = setOf("Mahesh","Suresh","Venkatesh","Mahesh")
+        // students.add // Not possible
+        println(students)
+        var cities = mutableSetOf("bangalore","Hassan","Mumbai")
+        cities.add("Colombo")
+        println(students.contains("Colombo"))
+    }
+
+    enum class DaysOfTheWeek { MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY }
+    enum class DaysOfTheWeekWithValues(val isWeekend: Boolean = false) {
+        MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY(isWeekend = true), SUNDAY(isWeekend = true);
+    }
+
+    /**
+     * Enum in kotlin
+     */
+    fun enumInKotlin() {
+        // Looping the enum values, And accessing the position
+        for(week in DaysOfTheWeek.values()){
+            println("$week at position ${week.ordinal}")
+        }
+        // Looping the enum values, And accessing the position with default values
+        for (week in DaysOfTheWeekWithValues.values()){
+            // Ordinal helps in printing the position of the current enum class
+            println("Week-Name: $week -- at position -- ${week.ordinal} -- is weekend ${week.isWeekend}")
+        }
+    }
+
+
+    // backing field
+    private var myProperty: Int = 0
+    // custom getter
+    private val customProperty: Int
+        get() {
+            println("Getting customProperty value")
+            return myProperty
+        }
+
+    // custom setter
+    private var anotherProperty: String
+        get() {
+            println("Getting anotherProperty value")
+            return "Getter value"
+        }
+        set(value) {
+            println("Setting anotherProperty value to $value")
+        }
+    /**
+     * Having custom accessors
+     */
+    fun customAccessors() {
+        // Using the custom getter
+        println(customProperty) // Output: Getting customProperty value
+
+        // Using the custom setter
+        anotherProperty = "New Value"
+        println(anotherProperty) // Output: Setting anotherProperty value to New Value
+    }
 }
