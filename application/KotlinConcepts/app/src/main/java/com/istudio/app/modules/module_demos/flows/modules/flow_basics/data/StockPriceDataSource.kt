@@ -14,10 +14,13 @@ interface StockPriceDataSource {
 class NetworkStockPriceDataSource(mockApi: FlowMockApi) : StockPriceDataSource {
 
     override val latestStockList: Flow<List<Stock>> = flow {
+        // Periodically call the API in a never ending loop
         while (true) {
-            Log.d("Flow","Fetching current stock prices")
+            // Fetch the data from mock data
             val currentStockList = mockApi.getCurrentStockPrices()
+            // Emit the new set of mock elements
             emit(currentStockList)
+            // Keep a delay of 5 seconds on each emission
             delay(5_000)
         }
     }

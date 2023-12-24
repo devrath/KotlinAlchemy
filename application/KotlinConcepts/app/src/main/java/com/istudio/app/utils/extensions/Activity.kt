@@ -1,4 +1,4 @@
-package com.istudio.app.utils
+package com.istudio.app.utils.extensions
 
 import android.content.Context
 import android.content.Intent
