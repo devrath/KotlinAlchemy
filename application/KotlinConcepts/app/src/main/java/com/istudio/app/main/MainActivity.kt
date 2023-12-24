@@ -39,7 +39,7 @@ class MainActivity : ComponentActivity() {
 
                     NavHost(
                         navController = navController,
-                        startDestination = ModuleDemo.DemoSelection.rout
+                        startDestination = ModuleDemo.KotlinBasicsDemo.rout
                     ) {
                         // Selection Screen
                         composable(ModuleDemo.DemoSelection.rout) {

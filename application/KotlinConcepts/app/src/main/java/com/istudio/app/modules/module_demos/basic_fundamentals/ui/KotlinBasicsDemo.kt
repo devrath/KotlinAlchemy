@@ -34,37 +34,31 @@ fun KotlinBasicsDemo(navController: NavHostController) {
         Spacer(modifier = Modifier.height(16.dp))
 
         AppButton(text = "Strings in kotlin", onClick = {
-            //viewModel.jvmFieldDemo()
+            viewModel.stringsInKotlin()
         })
 
         Spacer(modifier = Modifier.height(16.dp))
 
         AppButton(text = "Comparison operators", onClick = {
-            //viewModel.jvmFieldDemo()
-        })
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        AppButton(text = "Scope in kotlin", onClick = {
-            //viewModel.jvmFieldDemo()
+            viewModel.comparisionOperators()
         })
 
         Spacer(modifier = Modifier.height(16.dp))
 
         AppButton(text = "Large tree in conditions", onClick = {
-            //viewModel.jvmFieldDemo()
+            viewModel.largeTreeConditions()
         })
 
         Spacer(modifier = Modifier.height(16.dp))
 
         AppButton(text = "Defining & using nullable", onClick = {
-            //viewModel.jvmFieldDemo()
+            viewModel.definingAndUsingNullable()
         })
 
         Spacer(modifier = Modifier.height(16.dp))
 
         AppButton(text = "Pairs & Triplets", onClick = {
-            //viewModel.jvmFieldDemo()
+            viewModel.storingPairsAndTriplets()
         })
 
         Spacer(modifier = Modifier.height(16.dp))
