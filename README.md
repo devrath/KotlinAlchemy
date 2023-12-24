@@ -18,6 +18,31 @@
 | [`𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%99%B0%F0%9D%9A%97%F0%9D%9A%97%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97%F0%9D%9A%9C-%F0%9D%9A%92%F0%9D%9A%97-%F0%9D%9A%94%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%97) |
 </div>
 
+# `Kotlin Basic Fundamentals`
+<div align="center">
+
+
+| | **` Contents in Wiki `** |
+| - | ---------------------- |
+| `1` | [ **`Using Strings in Kotlin`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-Strings) |
+| `2` | [ **`Using comparison operators`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-Comparison-Operators) |
+| `3` | [ **`What is the scope in kotlin`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-Using-Scopes-in-kotlin) |
+| `4`| [ **`Large tree of condition statements`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics:-Large-tree-of-condition-statements) |
+| `5`| [ **`Defining and using Nullable values`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics:-Defining-and-using-Nullable-values) |
+| `6`| [ **`What are pairs and triplets`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-What-are-pairs-and-triplets) |
+| `7`| [ **`Using arrays in the code`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Using-arrays-in-the-code) |
+| `8`| [ **`Using list in the code`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Using-list-in-the-code) |
+| `9`| [ **`Using Map in the code`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Using-Map-in-the-code) |
+| `10`| [ **`Using Set in the code`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/kotlin-basics-:-Using-Set-in-the-code) |
+| `11`| [ **`Looping mechanisms in kotlin`**]() |
+| `12`| [ **`Custom Accessors in kotlin`**]() |
+| `13`| [ **`Companion Objects in Kotlin`**]() |
+| `14`| [ **`Delegated properties in Kotlin`**]() |
+| `18`| [ **`Enum in Kotlin`**]() |
+
+</div>
+
+
 # `Kotlin Coroutines`
 <p align="center">
     <img src="documentation/images/coroutines.png" height="200" />
