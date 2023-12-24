@@ -30,10 +30,10 @@
 | `4`| [ **`Large tree of condition statements`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics:-Large-tree-of-condition-statements) |
 | `5`| [ **`Defining and using Nullable values`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics:-Defining-and-using-Nullable-values) |
 | `6`| [ **`What are pairs and triplets`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-Basics-:-What-are-pairs-and-triplets) |
-| `7`| [ **`Using arrays in the code`**]() |
-| `8`| [ **`Using list in the code`**]() |
-| `9`| [ **`Using Map in the code`**]() |
-| `10`| [ **`Using Set in the code`**]() |
+| `7`| [ **`Using arrays in the code`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Using-arrays-in-the-code) |
+| `8`| [ **`Using list in the code`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Using-list-in-the-code) |
+| `9`| [ **`Using Map in the code`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin-basics-:-Using-Map-in-the-code) |
+| `10`| [ **`Using Set in the code`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/kotlin-basics-:-Using-Set-in-the-code) |
 | `11`| [ **`Looping mechanisms in kotlin`**]() |
 | `12`| [ **`Custom Accessors in kotlin`**]() |
 | `13`| [ **`Companion Objects in Kotlin`**]() |
