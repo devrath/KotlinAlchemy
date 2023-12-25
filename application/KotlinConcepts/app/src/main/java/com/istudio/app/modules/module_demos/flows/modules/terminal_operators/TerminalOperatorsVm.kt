@@ -5,7 +5,9 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.flow.flow
@@ -16,6 +18,7 @@ import kotlinx.coroutines.flow.toList
 import kotlinx.coroutines.flow.toSet
 import kotlinx.coroutines.launch
 import javax.inject.Inject
+import kotlin.coroutines.EmptyCoroutineContext
 
 @HiltViewModel
 class TerminalOperatorsVm @Inject constructor(
@@ -77,6 +80,29 @@ class TerminalOperatorsVm @Inject constructor(
         }
     }
 
+    /**
+     * Terminal Operator: LaunchIn
+     */
+    fun launchIn() {
 
+        val scope = CoroutineScope(EmptyCoroutineContext)
+
+        scope.launch {
+
+            // Collect -> Starting first collection
+            terminalOperatorDemo.collect{
+                println("Result Collect <1>:-> $it")
+            }
+
+            // <--- Until first collection is complete, collection is suspended --->
+
+            // Collect -> Starting second collection
+            terminalOperatorDemo.collect{
+                println("Result Collect <2>:-> $it")
+            }
+
+        }
+
+    }
     /** *********************** DEMO's *********************** **/
 }

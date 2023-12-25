@@ -46,7 +46,9 @@ fun TerminalOperators(navController: NavHostController){
 
         AppButton(text = "ToList And ToSet", onClick = { viewModel.toListAndToSet() })
 
+        Spacer(modifier = Modifier.height(16.dp))
 
+        AppButton(text = "LaunchIn", onClick = { viewModel.launchIn() })
 
     }
 
