@@ -2,6 +2,7 @@ package com.istudio.app.modules.module_demos.flows.modules.flow_basics.ui
 
 import android.content.Context
 import android.util.Log
+import androidx.compose.runtime.MutableState
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
@@ -12,7 +13,9 @@ import com.istudio.app.modules.module_demos.flows.modules.flow_basics.state.UiSt
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asFlow
+import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
@@ -25,6 +28,10 @@ import javax.inject.Inject
 class FlowBasicsVm @Inject constructor(
     @ApplicationContext private val context: Context,
 ) : ViewModel() {
+
+    /**
+     * FLOW builders in kotlin
+     */
     fun flowBuilders() {
         viewModelScope.launch {
 
@@ -67,22 +74,5 @@ class FlowBasicsVm @Inject constructor(
 
         }
     }
-
-
-    val currentStockPriceAsLiveData: LiveData<UiState> = StockData.getData(context)
-        .map { stockList ->
-            UiState.Success(stockList) as UiState
-        }
-        .onStart {
-            emit(UiState.Loading)
-        }
-        .onCompletion {
-            Log.d("Flow","Flow has completed.")
-        }
-        .asLiveData()
-
-
-
-
 
 }

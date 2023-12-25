@@ -14,6 +14,7 @@ import androidx.navigation.compose.rememberNavController
 import com.istudio.app.modules.module_demos.basic_fundamentals.ui.KotlinBasicsDemo
 import com.istudio.app.modules.module_demos.channels.ChannelsDemo
 import com.istudio.app.modules.module_demos.flows.FlowsDemo
+import com.istudio.app.modules.module_demos.flows.modules.flow_basics.chapters.display_data_from_server.DisplayDataFromServerDemo
 import com.istudio.app.modules.module_demos.flows.modules.flow_basics.ui.FlowBasics
 import com.istudio.app.modules.module_demos.higher_order_functions.ui.HigherOrderFunctionDemo
 import com.istudio.app.modules.module_demos.kotlin_annotations.ui.KotlinAnnotationsDemo
@@ -75,6 +76,11 @@ class MainActivity : ComponentActivity() {
                         composable(ModuleDemo.FlowBasics.rout) {
                             FlowBasics(navController = navController)
                         }
+                        // Display data from server
+                        composable(ModuleDemo.DisplayDataFromServer.rout) {
+                            DisplayDataFromServerDemo(navController = navController)
+                        }
+
                     }
 
                 }

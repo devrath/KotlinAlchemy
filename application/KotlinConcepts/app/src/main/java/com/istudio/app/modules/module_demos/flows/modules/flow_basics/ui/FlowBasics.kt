@@ -32,6 +32,11 @@ fun FlowBasics(navController: NavHostController){
             viewModel.flowBuilders()
         })
 
+        AppButton(text = "Flow into Mutable State Flow ", onClick = {
+            // New composable is launched
+            navController.navigate(ModuleDemo.DisplayDataFromServer.rout)
+        })
+
     }
 
 

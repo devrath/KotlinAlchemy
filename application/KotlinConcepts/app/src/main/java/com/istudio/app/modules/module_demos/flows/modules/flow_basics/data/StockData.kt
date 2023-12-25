@@ -6,8 +6,8 @@ import com.istudio.app.modules.module_demos.flows.modules.flow_basics.data.api.m
 import kotlinx.coroutines.flow.Flow
 
 object StockData {
-    fun getData(context : Context): Flow<List<Stock>> {
-        return NetworkStockPriceDataSource(mockApi(context)).latestStockList
+    suspend fun getData(context : Context): Flow<List<Stock>> {
+        return NetworkStockPriceDataSource(mockApi(context)).getLatestStockList()
     }
 
 }

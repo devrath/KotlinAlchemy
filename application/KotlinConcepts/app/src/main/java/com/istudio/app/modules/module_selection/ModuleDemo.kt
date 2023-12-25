@@ -9,4 +9,6 @@ sealed class ModuleDemo(val rout: String) {
     data object ChannelsDemo : ModuleDemo("ChannelsDemo")
     data object FlowsSelection : ModuleDemo("FlowsSelection")
     data object FlowBasics : ModuleDemo("FlowBasics")
+    data object DisplayDataFromServer : ModuleDemo("DisplayDataFromServer")
+
 }
