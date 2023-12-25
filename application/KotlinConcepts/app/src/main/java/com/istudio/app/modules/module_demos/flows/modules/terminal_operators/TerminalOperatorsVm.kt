@@ -12,6 +12,8 @@ import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.lastOrNull
 import kotlinx.coroutines.flow.single
 import kotlinx.coroutines.flow.singleOrNull
+import kotlinx.coroutines.flow.toList
+import kotlinx.coroutines.flow.toSet
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -60,6 +62,18 @@ class TerminalOperatorsVm @Inject constructor(
         viewModelScope.launch {
             val result = terminalOperatorDemo.singleOrNull()
             println("Result:-> $result")
+        }
+    }
+
+    /**
+     * Terminal Operator: ToListAndToSet
+     */
+    fun toListAndToSet() {
+        viewModelScope.launch {
+            val resultList = terminalOperatorDemo.toList()
+            val resultSet = terminalOperatorDemo.toSet()
+            println("Result List:-> $resultList")
+            println("Result Set:-> $resultSet")
         }
     }
 
