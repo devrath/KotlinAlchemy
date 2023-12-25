@@ -7,6 +7,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.istudio.app.modules.module_demos.flows.modules.flow_basics.data.StockData
+import com.istudio.app.modules.module_demos.flows.modules.flow_basics.state.UiError
 import com.istudio.app.modules.module_demos.flows.modules.flow_basics.state.UiState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
@@ -23,25 +24,35 @@ class DisplayDataFromServerVm @Inject constructor(
     @ApplicationContext private val context: Context,
 ) : ViewModel() {
 
-    var viewState: MutableState<UiState> = mutableStateOf(UiState.Loading(isLoading = true))
-        private set
+    var viewState: MutableState<UiState> = mutableStateOf(UiState())
 
     fun getDataFromServer() {
         viewModelScope.launch {
             StockData.getData(context)
                 .map { stockList ->
                     // We converted data from one form to another - Here UiState
-                    viewState.value = UiState.Success(stockList)
+                    viewState.value = viewState.value.copy(
+                        error = UiError(errorMessage =  "", isError = false),
+                        stockList = stockList
+                    )
                 }.onStart {
                     // We indicate the UI will start loading
-                    viewState.value = UiState.Loading(isLoading = true)
+                    viewState.value = viewState.value.copy(
+                        error = UiError(errorMessage =  "", isError = false),
+                        isLoading = true
+                    )
                 }.catch { error ->
                     // Emit the error if the error is found
-                    viewState.value = UiState.Error(error.localizedMessage)
+                    viewState.value = viewState.value.copy(
+                        error = UiError(errorMessage =  error.localizedMessage, isError = true)
+                    )
                 }.onCompletion {
                     // This indicates flow is completed
                     Log.d("Flow","Flow has completed.")
-                    viewState.value = UiState.Loading(isLoading = false)
+                    viewState.value = viewState.value.copy(
+                        error = UiError(errorMessage =  "", isError = false),
+                        isLoading = false
+                    )
                 }.collect()
         }
     }

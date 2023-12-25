@@ -7,9 +7,12 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.grid.rememberLazyGridState
 import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -31,36 +34,46 @@ fun DisplayDataFromServerDemo(navController: NavHostController){
     // View model reference
     val viewModel: DisplayDataFromServerVm = hiltViewModel()
     // View state reference from view model
-    val state = viewModel.viewState
+    val stockList = viewModel.viewState.value.stockList
+    val isLoading = viewModel.viewState.value.isLoading
+    val error = viewModel.viewState.value.error
     // <!------------ MAIN-COMPOSE-CONTROL-PARTS ----------------->
 
     // LaunchedEffect will run the provided block when the composition is first committed
     LaunchedEffect(true){
+        // This is called only once
         viewModel.getDataFromServer()
     }
 
-    when (state.value) {
-        is UiState.Loading -> {
+    Column(
+        modifier = Modifier.fillMaxSize().padding(10.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
+    ) {
+        if(isLoading){
             // Display a loading indicator
-            Text(text = "Loading...")
-        }
-        is UiState.Success -> {
-            // Display the lazy list with stock data
-            val dataList = (state.value as UiState.Success).stockList
-            LazyColumn(
-                modifier = Modifier.background(color = MaterialTheme.colorScheme.background),
-                state = rememberLazyListState(),
-                content = {
-                    items(dataList.size){ i ->
-                        StockItem(data = dataList[i])
-                    }
-                }
+            CircularProgressIndicator(
+                modifier = Modifier.width(64.dp),
+                color = MaterialTheme.colorScheme.secondary,
+                trackColor = MaterialTheme.colorScheme.surfaceVariant,
             )
-        }
-        is UiState.Error -> {
-            // Display an error message
-            val message = (state.value as UiState.Error).message
-            Text(text = "Error: $message")
+        }else{
+            // Either data is there or, there can be error
+            if(!error.isError){
+                // Error is not there ---> Display the data
+                LazyColumn(
+                    modifier = Modifier.background(color = MaterialTheme.colorScheme.background),
+                    state = rememberLazyListState(),
+                    content = {
+                        items(stockList.size){ i ->
+                            StockItem(data = stockList[i])
+                        }
+                    }
+                )
+            }else{
+                // Error is there
+                Text(text = error.errorMessage)
+            }
         }
     }
 
