@@ -1,11 +1,15 @@
 package com.istudio.app.data.mock
 
 import android.content.Context
+import androidx.compose.runtime.Immutable
 import com.opencsv.CSVReader
 import java.io.InputStreamReader
+import java.util.UUID
 import kotlin.random.Random
 
+@Immutable
 data class Stock(
+    val id : String = UUID.randomUUID().toString(),
     val rank: Int,
     val name: String,
     val symbol: String,
@@ -34,13 +38,14 @@ fun readAndParseStockData(context: Context) {
             .readAll()
             .drop(1)
             .mapNotNull { line ->
+                val id = UUID.randomUUID().toString()
                 val rank = line[0].toInt()
                 val name = line[1]
                 val symbol = line[2]
                 val marketCap = line[3].toFloat()
                 val priceUsd = line[4].toFloat()
                 val country = line[5]
-                Stock(rank, name, symbol, marketCap, country, priceUsd)
+                Stock(id,rank, name, symbol, marketCap, country, priceUsd)
             }.also {
                 csvReader.close()
             }

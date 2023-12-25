@@ -46,7 +46,7 @@ fun DisplayDataFromServerDemo(navController: NavHostController){
     }
 
     Column(
-        modifier = Modifier.fillMaxSize().padding(10.dp),
+        modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
@@ -64,12 +64,19 @@ fun DisplayDataFromServerDemo(navController: NavHostController){
                 LazyColumn(
                     modifier = Modifier.background(color = MaterialTheme.colorScheme.background),
                     state = rememberLazyListState(),
-                    content = {
-                        items(stockList.size){ i ->
-                            StockItem(data = stockList[i])
+                    contentPadding = PaddingValues(16.dp),
+                    verticalArrangement = Arrangement.spacedBy(16.dp)
+                ){
+                    items(
+                        count = stockList.size,
+                        key = {
+                            stockList[it].id
+                        },
+                        itemContent = {
+                            StockItem(data = stockList[it])
                         }
-                    }
-                )
+                    )
+                }
             }else{
                 // Error is there
                 Text(text = error.errorMessage)
