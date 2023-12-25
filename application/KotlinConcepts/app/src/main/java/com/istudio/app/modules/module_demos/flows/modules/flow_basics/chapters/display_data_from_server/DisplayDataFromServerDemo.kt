@@ -42,7 +42,7 @@ fun DisplayDataFromServerDemo(navController: NavHostController){
     // LaunchedEffect will run the provided block when the composition is first committed
     LaunchedEffect(true){
         // This is called only once
-        viewModel.getDataFromServer()
+        viewModel.getDataFromServerUsingCollect()
     }
 
     Column(

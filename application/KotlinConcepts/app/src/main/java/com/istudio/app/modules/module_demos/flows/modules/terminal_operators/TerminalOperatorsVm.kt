@@ -12,6 +12,8 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.lastOrNull
+import kotlinx.coroutines.flow.launchIn
+import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.single
 import kotlinx.coroutines.flow.singleOrNull
 import kotlinx.coroutines.flow.toList
@@ -84,6 +86,22 @@ class TerminalOperatorsVm @Inject constructor(
      * Terminal Operator: LaunchIn
      */
     fun launchIn() {
+
+        val scope = CoroutineScope(EmptyCoroutineContext)
+
+        viewModelScope.launch {
+            terminalOperatorDemo
+                .onEach { println("Result Collect <1>:-> $it") }
+                .launchIn(scope)
+
+            terminalOperatorDemo
+                .onEach { println("Result Collect <2>:-> $it") }
+                .launchIn(scope)
+        }
+
+    }
+
+    fun launch() {
 
         val scope = CoroutineScope(EmptyCoroutineContext)
 
