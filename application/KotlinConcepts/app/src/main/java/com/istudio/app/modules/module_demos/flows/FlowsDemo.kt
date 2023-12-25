@@ -32,6 +32,20 @@ fun FlowsDemo (navController: NavHostController) {
             navController.navigate(ModuleDemo.FlowBasics.rout)
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Terminal Operators", onClick = {
+            // New composable is launched
+            navController.navigate(ModuleDemo.TerminalOperators.rout)
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Intermediate Operators", onClick = {
+            // New composable is launched
+            navController.navigate(ModuleDemo.IntermediateOperators.rout)
+        })
+
     }
 
 }

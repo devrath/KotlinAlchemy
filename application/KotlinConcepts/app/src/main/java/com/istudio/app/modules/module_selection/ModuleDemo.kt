@@ -10,5 +10,7 @@ sealed class ModuleDemo(val rout: String) {
     data object FlowsSelection : ModuleDemo("FlowsSelection")
     data object FlowBasics : ModuleDemo("FlowBasics")
     data object DisplayDataFromServer : ModuleDemo("DisplayDataFromServer")
+    data object TerminalOperators : ModuleDemo("TerminalOperators")
+    data object IntermediateOperators : ModuleDemo("IntermediateOperators")
 
 }
