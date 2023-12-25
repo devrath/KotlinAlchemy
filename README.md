@@ -18,6 +18,7 @@
 | [`𝙷𝚒𝚐𝚑𝚎𝚛-𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%99%B7%F0%9D%9A%92%F0%9D%9A%90%F0%9D%9A%91%F0%9D%9A%8E%F0%9D%9A%9B-%F0%9D%9A%98%F0%9D%9A%9B%F0%9D%9A%8D%F0%9D%9A%8E%F0%9D%9A%9B-%F0%9D%9A%8F%F0%9D%9A%9E%F0%9D%9A%97%F0%9D%9A%8C%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97%F0%9D%9A%9C) |
 | [`𝙾𝚋𝚓𝚎𝚌𝚝 & 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗-𝚘𝚋𝚓𝚎𝚌𝚝`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%99%BE%F0%9D%9A%8B%F0%9D%9A%93%F0%9D%9A%8E%F0%9D%9A%8C%F0%9D%9A%9D--%F0%9D%99%B2%F0%9D%9A%98%F0%9D%9A%96%F0%9D%9A%99%F0%9D%9A%8A%F0%9D%9A%97%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97-%F0%9D%9A%98%F0%9D%9A%8B%F0%9D%9A%93%F0%9D%9A%8E%F0%9D%9A%8C%F0%9D%9A%9D) |
 | [`𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%99%B0%F0%9D%9A%97%F0%9D%9A%97%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97%F0%9D%9A%9C-%F0%9D%9A%92%F0%9D%9A%97-%F0%9D%9A%94%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%97) |
+| [`𝚃𝚢𝚙𝚎 𝙰𝚕𝚒𝚊𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin:-Type-Alias) |
 </div>
 
 # `Kotlin Basic Fundamentals`
