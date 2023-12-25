@@ -20,6 +20,7 @@
 | [`𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%99%B0%F0%9D%9A%97%F0%9D%9A%97%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97%F0%9D%9A%9C-%F0%9D%9A%92%F0%9D%9A%97-%F0%9D%9A%94%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%97) |
 | [`𝚃𝚢𝚙𝚎 𝙰𝚕𝚒𝚊𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin:-Type-Alias) |
 | [`𝙸𝚗𝚕𝚒𝚗𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗`](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin:-Inline-Functions) |
+| [`𝚂𝚖𝚊𝚛𝚝 𝙲𝚊𝚜𝚝𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin:-Smart-Casts) |
 </div>
 
 # `Kotlin Basic Fundamentals`
