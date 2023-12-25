@@ -1,4 +1,4 @@
-package com.istudio.app.modules.module_demos.flows.modules.flow_basics.chapters.intermediate_operators
+package com.istudio.app.modules.module_demos.flows.modules.intermediate_operators
 
 import androidx.compose.runtime.Composable
 import androidx.hilt.navigation.compose.hiltViewModel

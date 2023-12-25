@@ -15,8 +15,8 @@ import com.istudio.app.modules.module_demos.basic_fundamentals.ui.KotlinBasicsDe
 import com.istudio.app.modules.module_demos.channels.ChannelsDemo
 import com.istudio.app.modules.module_demos.flows.FlowsDemo
 import com.istudio.app.modules.module_demos.flows.modules.flow_basics.chapters.display_data_from_server.DisplayDataFromServerDemo
-import com.istudio.app.modules.module_demos.flows.modules.flow_basics.chapters.intermediate_operators.IntermediateOperators
-import com.istudio.app.modules.module_demos.flows.modules.flow_basics.chapters.terminal_operators.TerminalOperators
+import com.istudio.app.modules.module_demos.flows.modules.intermediate_operators.IntermediateOperators
+import com.istudio.app.modules.module_demos.flows.modules.terminal_operators.TerminalOperators
 import com.istudio.app.modules.module_demos.flows.modules.flow_basics.ui.FlowBasics
 import com.istudio.app.modules.module_demos.higher_order_functions.ui.HigherOrderFunctionDemo
 import com.istudio.app.modules.module_demos.kotlin_annotations.ui.KotlinAnnotationsDemo
