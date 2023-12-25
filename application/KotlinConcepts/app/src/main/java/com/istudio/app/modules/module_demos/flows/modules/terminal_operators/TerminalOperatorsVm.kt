@@ -11,6 +11,7 @@ import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.lastOrNull
 import kotlinx.coroutines.flow.single
+import kotlinx.coroutines.flow.singleOrNull
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -28,7 +29,7 @@ class TerminalOperatorsVm @Inject constructor(
         emit(1)
         delay(emissionDelay)
         println("Emitting second value")
-        //emit(2)
+        emit(2)
     }
 
     /** *********************** DEMO's *********************** **/
@@ -57,7 +58,7 @@ class TerminalOperatorsVm @Inject constructor(
      */
     fun single() {
         viewModelScope.launch {
-            val result = terminalOperatorDemo.single()
+            val result = terminalOperatorDemo.singleOrNull()
             println("Result:-> $result")
         }
     }
