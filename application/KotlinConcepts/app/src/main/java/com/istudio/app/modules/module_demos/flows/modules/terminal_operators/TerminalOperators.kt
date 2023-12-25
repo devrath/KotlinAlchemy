@@ -38,6 +38,10 @@ fun TerminalOperators(navController: NavHostController){
 
         AppButton(text = "Last", onClick = { viewModel.demoLast() })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Single", onClick = { viewModel.single() })
+
 
 
     }
