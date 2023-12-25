@@ -44,6 +44,12 @@ fun ModuleSelectionScreen(navController: NavHostController) {
 
         Spacer(modifier = Modifier.height(16.dp))
 
+        AppButton(text = "Type Alias", onClick = {
+            navController.navigate(ModuleDemo.TypeAlias.rout)
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
         AppButton(text = "Higher Order Functions", onClick = {
             navController.navigate(ModuleDemo.HigherOrderFunctions.rout)
         })

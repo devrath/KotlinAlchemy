@@ -21,6 +21,7 @@ import com.istudio.app.modules.module_demos.flows.modules.flow_basics.ui.FlowBas
 import com.istudio.app.modules.module_demos.higher_order_functions.ui.HigherOrderFunctionDemo
 import com.istudio.app.modules.module_demos.kotlin_annotations.ui.KotlinAnnotationsDemo
 import com.istudio.app.modules.module_demos.sealed_class.ui.SealedClassDemo
+import com.istudio.app.modules.module_demos.type_alias.ui.TypeAlias
 import com.istudio.app.modules.module_selection.ModuleDemo
 import com.istudio.app.modules.module_selection.ModuleSelectionScreen
 import com.istudio.app.ui.theme.KotlinConceptsTheme
@@ -44,7 +45,7 @@ class MainActivity : ComponentActivity() {
 
                     NavHost(
                         navController = navController,
-                        startDestination = ModuleDemo.TerminalOperators.rout
+                        startDestination = ModuleDemo.DemoSelection.rout
                     ) {
                         // Selection Screen
                         composable(ModuleDemo.DemoSelection.rout) {
@@ -69,6 +70,10 @@ class MainActivity : ComponentActivity() {
                         // Kotlin Annotations demo
                         composable(ModuleDemo.AnnotationsInKotlin.rout) {
                             KotlinAnnotationsDemo(navController = navController)
+                        }
+                        // Type Alias
+                        composable(ModuleDemo.TypeAlias.rout) {
+                            TypeAlias(navController = navController)
                         }
                         // Kotlin Flow Selection
                         composable(ModuleDemo.FlowsSelection.rout) {
