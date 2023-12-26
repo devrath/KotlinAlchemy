@@ -56,6 +56,12 @@ fun ModuleSelectionScreen(navController: NavHostController) {
 
         Spacer(modifier = Modifier.height(16.dp))
 
+        AppButton(text = "NestedVsInner", onClick = {
+            navController.navigate(ModuleDemo.NestedVsInner.rout)
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
         AppButton(text = "Channels", onClick = {
             navController.navigate(ModuleDemo.ChannelsDemo.rout)
         })

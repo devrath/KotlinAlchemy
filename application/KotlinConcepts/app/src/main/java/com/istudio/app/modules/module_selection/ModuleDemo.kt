@@ -13,5 +13,5 @@ sealed class ModuleDemo(val rout: String) {
     data object DisplayDataFromServer : ModuleDemo("DisplayDataFromServer")
     data object TerminalOperators : ModuleDemo("TerminalOperators")
     data object IntermediateOperators : ModuleDemo("IntermediateOperators")
-
+    data object NestedVsInner : ModuleDemo("NestedVsInner")
 }

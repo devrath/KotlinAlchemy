@@ -20,6 +20,7 @@ import com.istudio.app.modules.module_demos.flows.modules.terminal_operators.Ter
 import com.istudio.app.modules.module_demos.flows.modules.flow_basics.ui.FlowBasics
 import com.istudio.app.modules.module_demos.higher_order_functions.ui.HigherOrderFunctionDemo
 import com.istudio.app.modules.module_demos.kotlin_annotations.ui.KotlinAnnotationsDemo
+import com.istudio.app.modules.module_demos.nested_vs_inner.ui.NestedVsInner
 import com.istudio.app.modules.module_demos.sealed_class.ui.SealedClassDemo
 import com.istudio.app.modules.module_demos.type_alias.ui.TypeAlias
 import com.istudio.app.modules.module_selection.ModuleDemo
@@ -94,6 +95,10 @@ class MainActivity : ComponentActivity() {
                         // Intermediate Operators
                         composable(ModuleDemo.IntermediateOperators.rout) {
                             IntermediateOperators(navController = navController)
+                        }
+                        // NestedVsInner Demo
+                        composable(ModuleDemo.NestedVsInner.rout) {
+                            NestedVsInner(navController = navController)
                         }
                     }
                 }
