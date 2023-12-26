@@ -21,6 +21,7 @@
 | [`𝚃𝚢𝚙𝚎 𝙰𝚕𝚒𝚊𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin:-Type-Alias) |
 | [`𝙸𝚗𝚕𝚒𝚗𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗`](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin:-Inline-Functions) |
 | [`𝚂𝚖𝚊𝚛𝚝 𝙲𝚊𝚜𝚝𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin:-Smart-Casts) |
+| [`𝙽𝚎𝚜𝚝𝚎𝚍 𝚌𝚕𝚊𝚜𝚜 𝚟𝚜 𝙸𝚗𝚗𝚎𝚛 𝚌𝚕𝚊𝚜𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Nested-class-vs-Inner-class) |
 </div>
 
 # `Kotlin Basic Fundamentals`
