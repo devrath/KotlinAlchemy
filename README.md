@@ -15,7 +15,7 @@
 | [`𝙺𝚘𝚝𝚕𝚒𝚗: 𝙲𝚕𝚊𝚜𝚜 𝚟𝚜 𝙳𝚊𝚝𝚊𝙲𝚕𝚊𝚜𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin:-Class-vs-DataClass) |
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#kotlin-coroutines) |
 | [`𝚂𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%9A%82%F0%9D%9A%8E%F0%9D%9A%8A%F0%9D%9A%95%F0%9D%9A%8E%F0%9D%9A%8D-%F0%9D%99%B2%F0%9D%9A%95%F0%9D%9A%8A%F0%9D%9A%9C%F0%9D%9A%9C) |
-| [`𝙷𝚒𝚐𝚑𝚎𝚛-𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%99%B7%F0%9D%9A%92%F0%9D%9A%90%F0%9D%9A%91%F0%9D%9A%8E%F0%9D%9A%9B-%F0%9D%9A%98%F0%9D%9A%9B%F0%9D%9A%8D%F0%9D%9A%8E%F0%9D%9A%9B-%F0%9D%9A%8F%F0%9D%9A%9E%F0%9D%9A%97%F0%9D%9A%8C%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97%F0%9D%9A%9C) |
+| [`𝙷𝚒𝚐𝚑𝚎𝚛-𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Higher-order-functions) |
 | [`𝙾𝚋𝚓𝚎𝚌𝚝 & 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗-𝚘𝚋𝚓𝚎𝚌𝚝`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%99%BE%F0%9D%9A%8B%F0%9D%9A%93%F0%9D%9A%8E%F0%9D%9A%8C%F0%9D%9A%9D--%F0%9D%99%B2%F0%9D%9A%98%F0%9D%9A%96%F0%9D%9A%99%F0%9D%9A%8A%F0%9D%9A%97%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97-%F0%9D%9A%98%F0%9D%9A%8B%F0%9D%9A%93%F0%9D%9A%8E%F0%9D%9A%8C%F0%9D%9A%9D) |
 | [`𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`](https://github.com/devrath/DroidAndroidKotlinWiki/blob/main/README.md#%F0%9D%99%B0%F0%9D%9A%97%F0%9D%9A%97%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97%F0%9D%9A%9C-%F0%9D%9A%92%F0%9D%9A%97-%F0%9D%9A%94%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%97) |
 | [`𝚃𝚢𝚙𝚎 𝙰𝚕𝚒𝚊𝚜`](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Kotlin:-Type-Alias) |
@@ -111,10 +111,6 @@
 :label: [**`𝙴𝚗𝚞𝚖 𝚌𝚘𝚖𝚙𝚊𝚛𝚎𝚍 𝚠𝚒𝚝𝚑 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Enum-compared-with-sealed-classes)</br>
 :label: [**`𝚁𝚎𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚗𝚐 𝚝𝚑𝚎 𝚎𝚗𝚞𝚖 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚊𝚕𝚒𝚝𝚢 𝚞𝚜𝚒𝚗𝚐 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Replicating-the-enum-functionality-using-sealed-classes)</br>
 </br>
-
-# `𝙷𝚒𝚐𝚑𝚎𝚛-𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`
-:label: [**`𝙰𝚋𝚘𝚞𝚝 𝚝𝚑𝚎 𝚑𝚒𝚐𝚑𝚎𝚛 𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`**](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Higher-order-functions)
-
 
 # `𝙾𝚋𝚓𝚎𝚌𝚝 & 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗-𝚘𝚋𝚓𝚎𝚌𝚝`
 
