@@ -88,11 +88,12 @@
 ## `𝙺𝚘𝚝𝚕𝚒𝚗 𝙵𝚕𝚘𝚠 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`
 ![002](https://github.com/devrath/DroidAndroidKotlinWiki/assets/1456191/ccbd7ff9-f293-4ac9-90b7-28c3c37ddc52)
 
-* [𝙵𝚕𝚘𝚠 𝙱𝚞𝚒𝚕𝚍𝚎𝚛𝚜](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/KotlinFlow:-Flow-Builders) </br>
+* [𝙵𝚕𝚘𝚠 𝙱𝚞𝚒𝚕𝚍𝚎𝚛𝚜](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/KotlinFlow:-Flow-Builders) 
 * Operators
-  * [𝚃𝚎𝚛𝚖𝚒𝚗𝚊𝚕 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow:-Terminal-operators) </br>
-  * [𝙸𝚗𝚝𝚎𝚛𝚖𝚎𝚍𝚒𝚊𝚝𝚎 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow:-Intermediate-operators) </br>
-* [𝙵𝚕𝚘𝚠-𝙵𝚒𝚕𝚝𝚎𝚛 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow-filter-Operator) </br>
+  * [𝚃𝚎𝚛𝚖𝚒𝚗𝚊𝚕 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow:-Terminal-operators) 
+  * [𝙸𝚗𝚝𝚎𝚛𝚖𝚎𝚍𝚒𝚊𝚝𝚎 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow:-Intermediate-operators)
+  * [𝙻𝚒𝚏𝚎𝚌𝚢𝚌𝚕𝚎 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow:-Lifecycle-operators)
+* [𝙵𝚕𝚘𝚠-𝙵𝚒𝚕𝚝𝚎𝚛 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow-filter-Operator) 
 * [𝙵𝚕𝚘𝚠-𝙼𝚊𝚙 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow-map-Operator)
 
 ## `𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜`
