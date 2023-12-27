@@ -93,8 +93,6 @@
   * [𝚃𝚎𝚛𝚖𝚒𝚗𝚊𝚕 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow:-Terminal-operators) 
   * [𝙸𝚗𝚝𝚎𝚛𝚖𝚎𝚍𝚒𝚊𝚝𝚎 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow:-Intermediate-operators)
   * [𝙻𝚒𝚏𝚎𝚌𝚢𝚌𝚕𝚎 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow:-Lifecycle-operators)
-* [𝙵𝚕𝚘𝚠-𝙵𝚒𝚕𝚝𝚎𝚛 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow-filter-Operator) 
-* [𝙵𝚕𝚘𝚠-𝙼𝚊𝚙 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛](https://github.com/devrath/DroidAndroidKotlinWiki/wiki/Flow-map-Operator)
 
 ## `𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜`
 ![1_m4-G7nduzkr20JGSv409dw](https://github.com/devrath/DroidAndroidKotlinWiki/assets/1456191/43e55d7d-fbd2-42ad-936c-cd8bfe977054)
