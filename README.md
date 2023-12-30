@@ -1,3 +1,9 @@
+<div align="center">
+    
+![840cee8b164c10b](https://github.com/devrath/DroidAndroidKotlinWiki/assets/1456191/cc6f0f21-c092-44e3-b7bb-1897be6452af)
+
+</div>
+
 <img src="https://github.com/devrath/devrath/blob/master/images/kotlin_logo.png" align="right" title="Kotlin Logo" width="120">
 
 # **`𝙳𝚛𝚘𝚒𝚍𝙰𝚗𝚍𝚛𝚘𝚒𝚍𝙺𝚘𝚝𝚕𝚒𝚗`**
