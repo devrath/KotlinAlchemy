@@ -12,6 +12,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.joinAll
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 import kotlin.coroutines.CoroutineContext
@@ -71,6 +72,32 @@ class CoroutinesDemoVm @Inject constructor(val context: Application) : AndroidVi
     }
     /**
      * ****************  DEMO: Wait for coroutine to finish ****************
+     */
+
+    /**
+     * ****************  DEMO: Sequential coroutines ***********************
+     */
+    fun sequentialCoroutiens() {
+        viewModelScope.launch {
+            println("JOB-1: Before the coroutine scope")
+            CoroutineScope(EmptyCoroutineContext).launch {
+                println("JOB-1: ----> Before the delay")
+                delay(1000)
+                println("JOB-1: ----> After the delay")
+            }.join()
+            println("JOB-1: After the coroutine scope")
+            println("---------------------------------")
+            println("JOB-2: Before the coroutine scope")
+            CoroutineScope(EmptyCoroutineContext).launch {
+                println("JOB-2: ----> Before the delay")
+                delay(1000)
+                println("JOB-2: ----> After the delay")
+            }.join()
+            println("JOB-2: After the coroutine scope")
+        }
+    }
+    /**
+     * ****************  DEMO: Sequential coroutines ***********************
      */
 
 }

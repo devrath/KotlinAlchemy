@@ -36,6 +36,12 @@ fun CoroutinesDemo(navController: NavController){
             viewModel.waitForCoRoutineToFinish()
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Sequential coroutines", onClick = {
+            viewModel.sequentialCoroutiens()
+        })
+
     }
 
 }
