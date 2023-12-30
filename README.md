@@ -45,6 +45,31 @@
 * [**`𝙲𝚞𝚜𝚝𝚘𝚖 𝙰𝚌𝚌𝚎𝚜𝚜𝚘𝚛𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Custom-Accessors)
 * [**`𝙴𝚗𝚞𝚖 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Enum-in-Kotlin)
 
+# `𝚂𝚎𝚊𝚕𝚎𝚍 𝙲𝚕𝚊𝚜𝚜`
+
+* [**`𝙰𝚋𝚘𝚞𝚝 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜 𝚒𝚗 𝚊𝚗𝚍𝚛𝚘𝚒𝚍`**](https://github.com/devrath/KotlinAlchemy/wiki/About-sealed-class-in-android)
+* [**`𝚂𝚞𝚐𝚐𝚎𝚜𝚝𝚒𝚗𝚐 𝚊𝚕𝚕 𝚙𝚘𝚜𝚜𝚒𝚋𝚕𝚎 𝚘𝚙𝚝𝚒𝚘𝚗𝚜 𝚘𝚏 𝚜𝚝𝚊𝚝𝚎 𝚞𝚜𝚒𝚗𝚐 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Suggesting-all-possible-options-of-state-using-sealed-class)
+* [**`𝙰𝚌𝚌𝚎𝚜𝚜𝚒𝚗𝚐 𝚊 𝚟𝚊𝚛𝚒𝚊𝚋𝚕𝚎 𝚘𝚏 𝚊 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Accessing-a-variable-of-a-sealed-class)
+* [**`𝙰𝚌𝚌𝚎𝚜𝚜𝚒𝚗𝚐 𝚊 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚒𝚗 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Accessing-a-function-in-sealed-class)
+* [**`𝚁𝚘𝚕𝚎 𝚘𝚏 𝚊𝚋𝚜𝚝𝚛𝚊𝚌𝚝 𝚟𝚊𝚛𝚒𝚊𝚋𝚕𝚎 𝚒𝚗 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Role-of-abstract-variable-in-sealed-class)
+* [**`𝙴𝚗𝚞𝚖 𝚌𝚘𝚖𝚙𝚊𝚛𝚎𝚍 𝚠𝚒𝚝𝚑 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Enum-compared-with-sealed-classes)
+* [**`𝚁𝚎𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚗𝚐 𝚝𝚑𝚎 𝚎𝚗𝚞𝚖 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚊𝚕𝚒𝚝𝚢 𝚞𝚜𝚒𝚗𝚐 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Replicating-the-enum-functionality-using-sealed-classes)</br>
+</br>
+
+# `𝙾𝚋𝚓𝚎𝚌𝚝 & 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗-𝚘𝚋𝚓𝚎𝚌𝚝`
+
+* [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙾𝚋𝚓𝚎𝚌𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Object)
+* [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝙾𝚋𝚓𝚎𝚌𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Companion-Object)
+* [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙾𝚋𝚓𝚎𝚌𝚝 𝚅𝚂 𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝙾𝚋𝚓𝚎𝚌𝚝`**]()
+* [**`𝙷𝚘𝚠 𝚝𝚘 𝚊𝚌𝚌𝚎𝚜𝚜 𝚝𝚑𝚎 𝚏𝚒𝚎𝚕𝚍𝚜 𝚊𝚗𝚍 𝚖𝚎𝚝𝚑𝚘𝚍𝚜 𝚘𝚏 𝚌𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝚘𝚋𝚓𝚎𝚌𝚝 𝚏𝚛𝚘𝚖 𝚊 𝚓𝚊𝚟𝚊 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-to-access-fields-and-methods-of-companion-object-from-a-java-class)
+
+# `𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`
+
+* [**`𝚄𝚜𝚒𝚗𝚐 @𝙹𝚟𝚖𝙵𝚒𝚎𝚕𝚍 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Annotations-in-kotlin-%E2%80%90-@JvmField)
+* [**`𝚄𝚜𝚒𝚗𝚐 @𝙹𝚟𝚖𝙾𝚟𝚎𝚛𝚕𝚘𝚊𝚍𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Using-@JvmOverloads-in-kotlin)
+* [**`𝚄𝚜𝚒𝚗𝚐 @𝙹𝚟𝚖𝚂𝚝𝚊𝚝𝚒𝚌 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Using-@JvmStatic-in-kotlin)
+* [**`𝚄𝚜𝚒𝚗𝚐 @𝚂𝚝𝚛𝚒𝚗𝚐𝚁𝚎𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Using-@StringRes-in-kotlin)
+
 # `Kotlin Coroutines`
 <p align="center">
 <img src="documentation/images/coroutines.png" height="200" />
@@ -108,33 +133,6 @@
 * [**`𝚄𝚜𝚒𝚗𝚐 𝚠𝚘𝚛𝚔 𝚖𝚊𝚗𝚊𝚐𝚎𝚛 𝚊𝚕𝚘𝚗𝚐 𝚠𝚒𝚝𝚑 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Using-work-manager-along-with-coroutines)
 * [**`𝙼𝚊𝚔𝚒𝚗𝚐 𝚙𝚊𝚛𝚎𝚗𝚝 𝚌𝚘 𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚝𝚘 𝚠𝚊𝚒𝚝 𝚞𝚗𝚝𝚒𝚕 𝚊𝚕𝚕 𝚝𝚑𝚎 𝚌𝚑𝚒𝚕𝚍𝚛𝚎𝚗 𝚌𝚘 𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚊𝚛𝚎 𝚏𝚒𝚗𝚒𝚜𝚑𝚎𝚍`**](https://github.com/devrath/KotlinAlchemy/wiki/Making-parent-co-routine-to-wait-until-all-the-children-co-routines-are-finished)
 * [**`𝙲𝚊𝚗𝚌𝚎𝚕𝚒𝚗𝚐 𝚝𝚑𝚎 𝚙𝚊𝚛𝚎𝚗𝚝 𝚊𝚗𝚍 𝚌𝚑𝚒𝚕𝚍 𝚓𝚘𝚋`**](https://github.com/devrath/KotlinAlchemy/wiki/Canceling-the-parent-and-child-job)
-
-
-# `𝚂𝚎𝚊𝚕𝚎𝚍 𝙲𝚕𝚊𝚜𝚜`
-
-* [**`𝙰𝚋𝚘𝚞𝚝 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜 𝚒𝚗 𝚊𝚗𝚍𝚛𝚘𝚒𝚍`**](https://github.com/devrath/KotlinAlchemy/wiki/About-sealed-class-in-android)
-* [**`𝚂𝚞𝚐𝚐𝚎𝚜𝚝𝚒𝚗𝚐 𝚊𝚕𝚕 𝚙𝚘𝚜𝚜𝚒𝚋𝚕𝚎 𝚘𝚙𝚝𝚒𝚘𝚗𝚜 𝚘𝚏 𝚜𝚝𝚊𝚝𝚎 𝚞𝚜𝚒𝚗𝚐 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Suggesting-all-possible-options-of-state-using-sealed-class)
-* [**`𝙰𝚌𝚌𝚎𝚜𝚜𝚒𝚗𝚐 𝚊 𝚟𝚊𝚛𝚒𝚊𝚋𝚕𝚎 𝚘𝚏 𝚊 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Accessing-a-variable-of-a-sealed-class)
-* [**`𝙰𝚌𝚌𝚎𝚜𝚜𝚒𝚗𝚐 𝚊 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚒𝚗 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Accessing-a-function-in-sealed-class)
-* [**`𝚁𝚘𝚕𝚎 𝚘𝚏 𝚊𝚋𝚜𝚝𝚛𝚊𝚌𝚝 𝚟𝚊𝚛𝚒𝚊𝚋𝚕𝚎 𝚒𝚗 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Role-of-abstract-variable-in-sealed-class)
-* [**`𝙴𝚗𝚞𝚖 𝚌𝚘𝚖𝚙𝚊𝚛𝚎𝚍 𝚠𝚒𝚝𝚑 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Enum-compared-with-sealed-classes)
-* [**`𝚁𝚎𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚗𝚐 𝚝𝚑𝚎 𝚎𝚗𝚞𝚖 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚊𝚕𝚒𝚝𝚢 𝚞𝚜𝚒𝚗𝚐 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Replicating-the-enum-functionality-using-sealed-classes)</br>
-</br>
-
-# `𝙾𝚋𝚓𝚎𝚌𝚝 & 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗-𝚘𝚋𝚓𝚎𝚌𝚝`
-
-* [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙾𝚋𝚓𝚎𝚌𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Object)
-* [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝙾𝚋𝚓𝚎𝚌𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Companion-Object)
-* [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙾𝚋𝚓𝚎𝚌𝚝 𝚅𝚂 𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝙾𝚋𝚓𝚎𝚌𝚝`**]()
-* [**`𝙷𝚘𝚠 𝚝𝚘 𝚊𝚌𝚌𝚎𝚜𝚜 𝚝𝚑𝚎 𝚏𝚒𝚎𝚕𝚍𝚜 𝚊𝚗𝚍 𝚖𝚎𝚝𝚑𝚘𝚍𝚜 𝚘𝚏 𝚌𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝚘𝚋𝚓𝚎𝚌𝚝 𝚏𝚛𝚘𝚖 𝚊 𝚓𝚊𝚟𝚊 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-to-access-fields-and-methods-of-companion-object-from-a-java-class)
-
-# `𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`
-
-* [**`𝚄𝚜𝚒𝚗𝚐 @𝙹𝚟𝚖𝙵𝚒𝚎𝚕𝚍 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Annotations-in-kotlin-%E2%80%90-@JvmField)
-* [**`𝚄𝚜𝚒𝚗𝚐 @𝙹𝚟𝚖𝙾𝚟𝚎𝚛𝚕𝚘𝚊𝚍𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Using-@JvmOverloads-in-kotlin)
-* [**`𝚄𝚜𝚒𝚗𝚐 @𝙹𝚟𝚖𝚂𝚝𝚊𝚝𝚒𝚌 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Using-@JvmStatic-in-kotlin)
-* [**`𝚄𝚜𝚒𝚗𝚐 @𝚂𝚝𝚛𝚒𝚗𝚐𝚁𝚎𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Using-@StringRes-in-kotlin)
-
 
 
 ## **`𝚂𝚞𝚙𝚙𝚘𝚛𝚝`** ☕
