@@ -26,8 +26,8 @@
 
 <div align="center">
  
-![feature_hu1e66bd8b8e50096fb57e03e07ac066bb_51220_1200x0_resize_catmullrom_3](https://github.com/devrath/KotlinAlchemy/assets/1456191/06b9aa21-36cd-48ac-841a-60f2601fcb01)
- 
+![Android-discountinuing-kotlin-synthetics-for-views-header](https://github.com/devrath/KotlinAlchemy/assets/1456191/ea264b24-ae7d-499c-ba2a-b07c9cb2e589)
+
 </div>
 
 * [**`𝚄𝚜𝚒𝚗𝚐 𝚂𝚝𝚛𝚒𝚗𝚐𝚜 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basics-:-Strings)
