@@ -119,7 +119,8 @@
 * [**`𝙷𝚘𝚠 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚗𝚍𝚛𝚘𝚒𝚍 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-coroutines-in-android-works)
 * Using coroutines sample use cases
   * [**`𝙲𝚛𝚎𝚊𝚝𝚒𝚗𝚐 𝚊 𝚜𝚒𝚖𝚙𝚕𝚎 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚌𝚘𝚗𝚝𝚎𝚡𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Coroutines:-Creating-a-simple-coroutine-context)
-  * [**`𝚆𝚊𝚒𝚝 𝚏𝚘𝚛 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚝𝚘 𝚏𝚒𝚗𝚒𝚜𝚑`**](https://github.com/devrath/KotlinAlchemy/wiki/Coroutines:-Wait-for-coroutine-to-finish) 
+  * [**`𝚆𝚊𝚒𝚝 𝚏𝚘𝚛 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚝𝚘 𝚏𝚒𝚗𝚒𝚜𝚑`**](https://github.com/devrath/KotlinAlchemy/wiki/Coroutines:-Wait-for-coroutine-to-finish)
+  * [**`𝚂𝚎𝚚𝚞𝚎𝚗𝚝𝚒𝚊𝚕 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚎𝚡𝚎𝚌𝚞𝚝𝚒𝚘𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Coroutines:-Sequential-coroutines-execution) 
 * [**`𝙷𝚘𝚠 𝚓𝚘𝚋 𝚒𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-Job-in-coroutine-works)
 * [**`𝙷𝚘𝚠 𝚜𝚞𝚜𝚙𝚎𝚗𝚍𝚒𝚗𝚐 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-suspending-functions-works)
 * [**`𝙷𝚘𝚠 𝚊𝚜𝚢𝚗𝚌/𝚊𝚠𝚊𝚒𝚝 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-async-await-works)
