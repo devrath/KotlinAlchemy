@@ -102,8 +102,6 @@
 * [**`𝙷𝚘𝚠 𝚊𝚜𝚢𝚗𝚌/𝚊𝚠𝚊𝚒𝚝 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-async-await-works)
 
 #### `𝙺𝚘𝚝𝚕𝚒𝚗 𝙵𝚕𝚘𝚠 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`
-![002](https://github.com/devrath/KotlinAlchemy/assets/1456191/ccbd7ff9-f293-4ac9-90b7-28c3c37ddc52)
-
 * [𝙵𝚕𝚘𝚠 𝙱𝚞𝚒𝚕𝚍𝚎𝚛𝚜](https://github.com/devrath/KotlinAlchemy/wiki/KotlinFlow:-Flow-Builders)
 * Operators
   * [𝚃𝚎𝚛𝚖𝚒𝚗𝚊𝚕 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Flow:-Terminal-operators)
@@ -111,8 +109,6 @@
   * [𝙻𝚒𝚏𝚎𝚌𝚢𝚌𝚕𝚎 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Flow:-Lifecycle-operators)
 
 #### `𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜`
-![1_m4-G7nduzkr20JGSv409dw](https://github.com/devrath/KotlinAlchemy/assets/1456191/43e55d7d-fbd2-42ad-936c-cd8bfe977054)
-
 * [**`𝙰𝚋𝚘𝚞𝚝 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-About)
 * [**`𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-Communication-between-coroutines)</br>
 * [**`𝚄𝚜𝚒𝚗𝚐 𝙿𝚛𝚘𝚍𝚞𝚌𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Channel-%E2%80%90-Using-produce
