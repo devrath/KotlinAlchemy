@@ -19,6 +19,7 @@
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙱𝚊𝚜𝚒𝚌 𝙵𝚞𝚗𝚍𝚊𝚖𝚎𝚗𝚝𝚊𝚕𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basic-Fundamentals) |
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙿𝚘𝚠𝚎𝚛𝚜`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#kotlin-powers) |
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#kotlin-coroutines) |
+| [`𝙶𝚒𝚜𝚝 𝚎𝚡𝚊𝚖𝚙𝚕𝚎𝚜 𝚘𝚏 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚌𝚝𝚒𝚘𝚗`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#%F0%9D%99%B6%F0%9D%9A%92%F0%9D%9A%9C%F0%9D%9A%9D-%F0%9D%9A%8E%F0%9D%9A%A1%F0%9D%9A%8A%F0%9D%9A%96%F0%9D%9A%99%F0%9D%9A%95%F0%9D%9A%8E%F0%9D%9A%9C-%F0%9D%9A%98%F0%9D%9A%8F-%F0%9D%9A%8C%F0%9D%9A%98%F0%9D%9A%9B%F0%9D%9A%98%F0%9D%9A%9E%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%8E%F0%9D%9A%9C-%F0%9D%9A%92%F0%9D%9A%97-%F0%9D%9A%8A%F0%9D%9A%8C%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97) |
 </div>
 
 # `Kotlin Basic Fundamentals`
