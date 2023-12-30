@@ -46,7 +46,6 @@
 * [**`𝙴𝚗𝚞𝚖 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Enum-in-Kotlin)
 
 # `𝚂𝚎𝚊𝚕𝚎𝚍 𝙲𝚕𝚊𝚜𝚜`
-
 * [**`𝙰𝚋𝚘𝚞𝚝 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜 𝚒𝚗 𝚊𝚗𝚍𝚛𝚘𝚒𝚍`**](https://github.com/devrath/KotlinAlchemy/wiki/About-sealed-class-in-android)
 * [**`𝚂𝚞𝚐𝚐𝚎𝚜𝚝𝚒𝚗𝚐 𝚊𝚕𝚕 𝚙𝚘𝚜𝚜𝚒𝚋𝚕𝚎 𝚘𝚙𝚝𝚒𝚘𝚗𝚜 𝚘𝚏 𝚜𝚝𝚊𝚝𝚎 𝚞𝚜𝚒𝚗𝚐 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Suggesting-all-possible-options-of-state-using-sealed-class)
 * [**`𝙰𝚌𝚌𝚎𝚜𝚜𝚒𝚗𝚐 𝚊 𝚟𝚊𝚛𝚒𝚊𝚋𝚕𝚎 𝚘𝚏 𝚊 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Accessing-a-variable-of-a-sealed-class)
