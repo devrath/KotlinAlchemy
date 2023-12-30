@@ -13,6 +13,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.istudio.app.modules.module_demos.basic_fundamentals.ui.KotlinBasicsDemo
 import com.istudio.app.modules.module_demos.channels.ChannelsDemo
+import com.istudio.app.modules.module_demos.coroutines.CoroutinesDemo
 import com.istudio.app.modules.module_demos.flows.FlowsDemo
 import com.istudio.app.modules.module_demos.flows.modules.flow_basics.chapters.display_data_from_server.DisplayDataFromServerDemo
 import com.istudio.app.modules.module_demos.flows.modules.intermediate_operators.IntermediateOperators
@@ -46,7 +47,7 @@ class MainActivity : ComponentActivity() {
 
                     NavHost(
                         navController = navController,
-                        startDestination = ModuleDemo.IntermediateOperators.rout
+                        startDestination = ModuleDemo.DemoSelection.rout
                     ) {
                         // Selection Screen
                         composable(ModuleDemo.DemoSelection.rout) {
@@ -99,6 +100,10 @@ class MainActivity : ComponentActivity() {
                         // NestedVsInner Demo
                         composable(ModuleDemo.NestedVsInner.rout) {
                             NestedVsInner(navController = navController)
+                        }
+                        // Coroutines Demo
+                        composable(ModuleDemo.CoroutinesDemo.rout) {
+                            CoroutinesDemo(navController = navController)
                         }
                     }
                 }

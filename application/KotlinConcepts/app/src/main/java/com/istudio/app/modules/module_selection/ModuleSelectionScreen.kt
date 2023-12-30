@@ -4,11 +4,8 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Button
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -70,6 +67,12 @@ fun ModuleSelectionScreen(navController: NavHostController) {
 
         AppButton(text = "Flows", onClick = {
             navController.navigate(ModuleDemo.FlowsSelection.rout)
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Coroutines", onClick = {
+            navController.navigate(ModuleDemo.CoroutinesDemo.rout)
         })
 
     }
