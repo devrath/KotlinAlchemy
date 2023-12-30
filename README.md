@@ -19,7 +19,7 @@
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙱𝚊𝚜𝚒𝚌 𝙵𝚞𝚗𝚍𝚊𝚖𝚎𝚗𝚝𝚊𝚕𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basic-Fundamentals) |
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙿𝚘𝚠𝚎𝚛𝚜`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#kotlin-powers) |
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#kotlin-coroutines) |
-| [`𝙶𝚒𝚜𝚝 𝚎𝚡𝚊𝚖𝚙𝚕𝚎𝚜 𝚘𝚏 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚌𝚝𝚒𝚘𝚗`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#%F0%9D%99%B6%F0%9D%9A%92%F0%9D%9A%9C%F0%9D%9A%9D-%F0%9D%9A%8E%F0%9D%9A%A1%F0%9D%9A%8A%F0%9D%9A%96%F0%9D%9A%99%F0%9D%9A%95%F0%9D%9A%8E%F0%9D%9A%9C-%F0%9D%9A%98%F0%9D%9A%8F-%F0%9D%9A%8C%F0%9D%9A%98%F0%9D%9A%9B%F0%9D%9A%98%F0%9D%9A%9E%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%97%F0%9D%9A%8E%F0%9D%9A%9C-%F0%9D%9A%92%F0%9D%9A%97-%F0%9D%9A%8A%F0%9D%9A%8C%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97) |
+
 </div>
 
 # `Kotlin Basic Fundamentals`
@@ -39,6 +39,13 @@
 * [**`𝙴𝚗𝚞𝚖 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Enum-in-Kotlin)
 
 # `Kotlin Powers`
+
+<div align="center">
+
+![giphy](https://github.com/devrath/KotlinAlchemy/assets/1456191/629a6f77-5853-418c-8aa9-360df6f957bd)
+
+</div>
+
 * [`𝙺𝚘𝚝𝚕𝚒𝚗 𝚂𝚌𝚘𝚙𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-scope-functions) 
 * [`𝙺𝚘𝚝𝚕𝚒𝚗: 𝙲𝚕𝚊𝚜𝚜 𝚟𝚜 𝙳𝚊𝚝𝚊𝙲𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Class-vs-DataClass) 
 * [`𝚂𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#%F0%9D%9A%82%F0%9D%9A%8E%F0%9D%9A%8A%F0%9D%9A%95%F0%9D%9A%8E%F0%9D%9A%8D-%F0%9D%99%B2%F0%9D%9A%95%F0%9D%9A%8A%F0%9D%9A%9C%F0%9D%9A%9C) 
@@ -115,7 +122,7 @@
 )
 * [**`𝙲𝚑𝚊𝚗𝚗𝚎𝚕 𝚝𝚢𝚙𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Channel-Types)
 
-# `𝙶𝚒𝚜𝚝 𝚎𝚡𝚊𝚖𝚙𝚕𝚎𝚜 𝚘𝚏 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚌𝚝𝚒𝚘𝚗`
+#### `𝙶𝚒𝚜𝚝 𝚎𝚡𝚊𝚖𝚙𝚕𝚎𝚜 𝚘𝚏 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚌𝚝𝚒𝚘𝚗`
 * [**`𝚂𝚒𝚗𝚐𝚕𝚎 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Single-network-request)
 * [**`𝚂𝚎𝚚𝚞𝚎𝚗𝚝𝚒𝚊𝚕 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Sequential-network-request)
 * [**`𝙲𝚘𝚗𝚌𝚞𝚛𝚛𝚎𝚗𝚝 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Concurrent-network-request)
