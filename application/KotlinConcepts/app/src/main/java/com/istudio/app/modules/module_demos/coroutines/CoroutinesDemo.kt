@@ -30,6 +30,12 @@ fun CoroutinesDemo(navController: NavController){
             viewModel.createCoroutineScopeDemo()
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Wait for coroutine to finish", onClick = {
+            viewModel.waitForCoRoutineToFinish()
+        })
+
     }
 
 }

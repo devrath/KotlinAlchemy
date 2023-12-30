@@ -4,6 +4,7 @@ import android.app.Application
 import android.widget.Toast
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.CoroutineName
@@ -21,7 +22,7 @@ class CoroutinesDemoVm @Inject constructor(val context: Application) : AndroidVi
 
 
     /**
-     * DEMO: Create a coroutine scope
+     *  **************** DEMO: Create a coroutine scope ****************
      */
     fun createCoroutineScopeDemo() {
         println("Before the scope")
@@ -48,7 +49,28 @@ class CoroutinesDemoVm @Inject constructor(val context: Application) : AndroidVi
       return (context + job + CoroutineName(name) + dispatcher + exceptionHandler)
     }
     /**
-     * DEMO: Create a coroutine scope
+     * **************** DEMO: Create a coroutine scope ****************
+     */
+
+
+    /**
+     *  **************** DEMO: Wait for coroutine to finish ****************
+     */
+    fun waitForCoRoutineToFinish() {
+        //println("Before the view model scope")
+        viewModelScope.launch {
+            println("Before the coroutine scope") // - 1
+            CoroutineScope(EmptyCoroutineContext).launch {
+                println("Before the delay") // - 2
+                delay(1000)
+                println("After the delay") // - 3
+            }.join()
+            println("After the coroutine scope") // - 4
+        }
+        //println("After the view model scope")
+    }
+    /**
+     * ****************  DEMO: Wait for coroutine to finish ****************
      */
 
 }
