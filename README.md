@@ -1,16 +1,16 @@
+<h1 align="center">𝙺𝚘𝚝𝚕𝚒𝚗𝙰𝚕𝚌𝚑𝚎𝚖𝚢</h1>
+
 <div align="center">
     
 ![840cee8b164c10b](https://github.com/devrath/DroidAndroidKotlinWiki/assets/1456191/cc6f0f21-c092-44e3-b7bb-1897be6452af)
 
 </div>
 
-<img src="https://github.com/devrath/devrath/blob/master/images/kotlin_logo.png" align="right" title="Kotlin Logo" width="120">
-
-# **`𝙳𝚛𝚘𝚒𝚍𝙰𝚗𝚍𝚛𝚘𝚒𝚍𝙺𝚘𝚝𝚕𝚒𝚗`**
-[![Android Best practices](https://img.shields.io/badge/Android-best--practices-red)](https://www.android.com/intl/en_in/what-is-android/) [![Kotlin](https://img.shields.io/badge/Kotlin-Sealed%20class-blue)](https://kotlinlang.org/docs/sealed-classes.html)
-</br>
-
+<div align="center">
+    
 📚 𝚃𝚑𝚒𝚜 𝚙𝚛𝚘𝚓𝚎𝚌𝚝 𝚌𝚘𝚗𝚝𝚊𝚒𝚗𝚜 𝚟𝚊𝚛𝚒𝚘𝚞𝚜 𝚌𝚘𝚗𝚌𝚎𝚙𝚝𝚜 𝚊𝚗𝚍 𝚕𝚎𝚊𝚛𝚗𝚒𝚗𝚐𝚜 𝚘𝚏 𝚔𝚘𝚝𝚕𝚒𝚗 𝚞𝚜𝚎𝚍 𝚏𝚘𝚛 𝚊𝚗𝚍𝚛𝚘𝚒𝚍 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚖𝚎𝚗𝚝
+
+</div>
 
 <div align="center">
 
