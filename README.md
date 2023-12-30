@@ -19,10 +19,6 @@
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙱𝚊𝚜𝚒𝚌 𝙵𝚞𝚗𝚍𝚊𝚖𝚎𝚗𝚝𝚊𝚕𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basic-Fundamentals) |
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙿𝚘𝚠𝚎𝚛𝚜`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#kotlin-powers) |
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#kotlin-coroutines) |
-| [`𝚃𝚢𝚙𝚎 𝙰𝚕𝚒𝚊𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Type-Alias) |
-| [`𝙸𝚗𝚕𝚒𝚗𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Inline-Functions) |
-| [`𝚂𝚖𝚊𝚛𝚝 𝙲𝚊𝚜𝚝𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Smart-Casts) |
-| [`𝙽𝚎𝚜𝚝𝚎𝚍 𝚌𝚕𝚊𝚜𝚜 𝚟𝚜 𝙸𝚗𝚗𝚎𝚛 𝚌𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Nested-class-vs-Inner-class) |
 </div>
 
 # `Kotlin Basic Fundamentals`
@@ -42,26 +38,19 @@
 * [**`𝙴𝚗𝚞𝚖 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Enum-in-Kotlin)
 
 # `Kotlin Powers`
-
-<div align="left">
-
-| `𝙲𝙾𝙽𝚃𝙴𝙽𝚃𝚂` |
-| ---------- |
-| [`𝙺𝚘𝚝𝚕𝚒𝚗 𝚂𝚌𝚘𝚙𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-scope-functions) |
-| [`𝙺𝚘𝚝𝚕𝚒𝚗: 𝙲𝚕𝚊𝚜𝚜 𝚟𝚜 𝙳𝚊𝚝𝚊𝙲𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Class-vs-DataClass) |
-| [`𝚂𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#%F0%9D%9A%82%F0%9D%9A%8E%F0%9D%9A%8A%F0%9D%9A%95%F0%9D%9A%8E%F0%9D%9A%8D-%F0%9D%99%B2%F0%9D%9A%95%F0%9D%9A%8A%F0%9D%9A%9C%F0%9D%9A%9C) |
-| [`𝙷𝚒𝚐𝚑𝚎𝚛-𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Higher-order-functions) |
-| [`𝙾𝚋𝚓𝚎𝚌𝚝 & 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗-𝚘𝚋𝚓𝚎𝚌𝚝`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#%F0%9D%99%BE%F0%9D%9A%8B%F0%9D%9A%93%F0%9D%9A%8E%F0%9D%9A%8C%F0%9D%9A%9D--%F0%9D%99%B2%F0%9D%9A%98%F0%9D%9A%96%F0%9D%9A%99%F0%9D%9A%8A%F0%9D%9A%97%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97-%F0%9D%9A%98%F0%9D%9A%8B%F0%9D%9A%93%F0%9D%9A%8E%F0%9D%9A%8C%F0%9D%9A%9D) |
-| [`𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#%F0%9D%99%B0%F0%9D%9A%97%F0%9D%9A%97%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97%F0%9D%9A%9C-%F0%9D%9A%92%F0%9D%9A%97-%F0%9D%9A%94%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%97) |
-| [`𝚃𝚢𝚙𝚎 𝙰𝚕𝚒𝚊𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Type-Alias) |
-| [`𝙸𝚗𝚕𝚒𝚗𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Inline-Functions) |
-| [`𝚂𝚖𝚊𝚛𝚝 𝙲𝚊𝚜𝚝𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Smart-Casts) |
-| [`𝙽𝚎𝚜𝚝𝚎𝚍 𝚌𝚕𝚊𝚜𝚜 𝚟𝚜 𝙸𝚗𝚗𝚎𝚛 𝚌𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Nested-class-vs-Inner-class) |
-</div>
+* [`𝙺𝚘𝚝𝚕𝚒𝚗 𝚂𝚌𝚘𝚙𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-scope-functions) 
+* [`𝙺𝚘𝚝𝚕𝚒𝚗: 𝙲𝚕𝚊𝚜𝚜 𝚟𝚜 𝙳𝚊𝚝𝚊𝙲𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Class-vs-DataClass) 
+* [`𝚂𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#%F0%9D%9A%82%F0%9D%9A%8E%F0%9D%9A%8A%F0%9D%9A%95%F0%9D%9A%8E%F0%9D%9A%8D-%F0%9D%99%B2%F0%9D%9A%95%F0%9D%9A%8A%F0%9D%9A%9C%F0%9D%9A%9C) 
+* [`𝙷𝚒𝚐𝚑𝚎𝚛-𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Higher-order-functions) 
+* [`𝙾𝚋𝚓𝚎𝚌𝚝 & 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗-𝚘𝚋𝚓𝚎𝚌𝚝`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#%F0%9D%99%BE%F0%9D%9A%8B%F0%9D%9A%93%F0%9D%9A%8E%F0%9D%9A%8C%F0%9D%9A%9D--%F0%9D%99%B2%F0%9D%9A%98%F0%9D%9A%96%F0%9D%9A%99%F0%9D%9A%8A%F0%9D%9A%97%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97-%F0%9D%9A%98%F0%9D%9A%8B%F0%9D%9A%93%F0%9D%9A%8E%F0%9D%9A%8C%F0%9D%9A%9D) 
+* [`𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#%F0%9D%99%B0%F0%9D%9A%97%F0%9D%9A%97%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97%F0%9D%9A%9C-%F0%9D%9A%92%F0%9D%9A%97-%F0%9D%9A%94%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%97) 
+* [`𝚃𝚢𝚙𝚎 𝙰𝚕𝚒𝚊𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Type-Alias) 
+* [`𝙸𝚗𝚕𝚒𝚗𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Inline-Functions) 
+* [`𝚂𝚖𝚊𝚛𝚝 𝙲𝚊𝚜𝚝𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Smart-Casts) 
+* [`𝙽𝚎𝚜𝚝𝚎𝚍 𝚌𝚕𝚊𝚜𝚜 𝚟𝚜 𝙸𝚗𝚗𝚎𝚛 𝚌𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Nested-class-vs-Inner-class) 
 
 
-
-# `𝚂𝚎𝚊𝚕𝚎𝚍 𝙲𝚕𝚊𝚜𝚜`
+#### `𝚂𝚎𝚊𝚕𝚎𝚍 𝙲𝚕𝚊𝚜𝚜`
 * [**`𝙰𝚋𝚘𝚞𝚝 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜 𝚒𝚗 𝚊𝚗𝚍𝚛𝚘𝚒𝚍`**](https://github.com/devrath/KotlinAlchemy/wiki/About-sealed-class-in-android)
 * [**`𝚂𝚞𝚐𝚐𝚎𝚜𝚝𝚒𝚗𝚐 𝚊𝚕𝚕 𝚙𝚘𝚜𝚜𝚒𝚋𝚕𝚎 𝚘𝚙𝚝𝚒𝚘𝚗𝚜 𝚘𝚏 𝚜𝚝𝚊𝚝𝚎 𝚞𝚜𝚒𝚗𝚐 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Suggesting-all-possible-options-of-state-using-sealed-class)
 * [**`𝙰𝚌𝚌𝚎𝚜𝚜𝚒𝚗𝚐 𝚊 𝚟𝚊𝚛𝚒𝚊𝚋𝚕𝚎 𝚘𝚏 𝚊 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Accessing-a-variable-of-a-sealed-class)
@@ -71,13 +60,13 @@
 * [**`𝚁𝚎𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚗𝚐 𝚝𝚑𝚎 𝚎𝚗𝚞𝚖 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚊𝚕𝚒𝚝𝚢 𝚞𝚜𝚒𝚗𝚐 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Replicating-the-enum-functionality-using-sealed-classes)</br>
 
 
-# `𝙾𝚋𝚓𝚎𝚌𝚝 & 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗-𝚘𝚋𝚓𝚎𝚌𝚝`
+#### `𝙾𝚋𝚓𝚎𝚌𝚝 & 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗-𝚘𝚋𝚓𝚎𝚌𝚝`
 * [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙾𝚋𝚓𝚎𝚌𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Object)
 * [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝙾𝚋𝚓𝚎𝚌𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Companion-Object)
 * [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙾𝚋𝚓𝚎𝚌𝚝 𝚅𝚂 𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝙾𝚋𝚓𝚎𝚌𝚝`**]()
 * [**`𝙷𝚘𝚠 𝚝𝚘 𝚊𝚌𝚌𝚎𝚜𝚜 𝚝𝚑𝚎 𝚏𝚒𝚎𝚕𝚍𝚜 𝚊𝚗𝚍 𝚖𝚎𝚝𝚑𝚘𝚍𝚜 𝚘𝚏 𝚌𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝚘𝚋𝚓𝚎𝚌𝚝 𝚏𝚛𝚘𝚖 𝚊 𝚓𝚊𝚟𝚊 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-to-access-fields-and-methods-of-companion-object-from-a-java-class)
 
-# `𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`
+#### `𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`
 
 * [**`𝚄𝚜𝚒𝚗𝚐 @𝙹𝚟𝚖𝙵𝚒𝚎𝚕𝚍 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Annotations-in-kotlin-%E2%80%90-@JvmField)
 * [**`𝚄𝚜𝚒𝚗𝚐 @𝙹𝚟𝚖𝙾𝚟𝚎𝚛𝚕𝚘𝚊𝚍𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Using-@JvmOverloads-in-kotlin)
@@ -103,7 +92,7 @@
 
 </div>
 
-## `𝙵𝚞𝚗𝚍𝚊𝚖𝚎𝚗𝚝𝚊𝚕 𝚌𝚘𝚗𝚌𝚎𝚙𝚝𝚜 𝚘𝚏 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`
+#### `𝙵𝚞𝚗𝚍𝚊𝚖𝚎𝚗𝚝𝚊𝚕 𝚌𝚘𝚗𝚌𝚎𝚙𝚝𝚜 𝚘𝚏 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`
 * [**`𝙷𝚘𝚠 𝚊𝚜𝚢𝚗𝚌𝚑𝚛𝚘𝚗𝚘𝚞𝚜 𝚙𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚒𝚗𝚐 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-asynchronous-programming-works)
 * [**`𝙷𝚘𝚠 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚙𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚒𝚗𝚐 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-coroutines-programming-works)
 * [**`𝙷𝚘𝚠 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚗𝚍𝚛𝚘𝚒𝚍 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-coroutines-in-android-works)
@@ -111,7 +100,7 @@
 * [**`𝙷𝚘𝚠 𝚜𝚞𝚜𝚙𝚎𝚗𝚍𝚒𝚗𝚐 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-suspending-functions-works)
 * [**`𝙷𝚘𝚠 𝚊𝚜𝚢𝚗𝚌/𝚊𝚠𝚊𝚒𝚝 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-async-await-works)
 
-## `𝙺𝚘𝚝𝚕𝚒𝚗 𝙵𝚕𝚘𝚠 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`
+#### `𝙺𝚘𝚝𝚕𝚒𝚗 𝙵𝚕𝚘𝚠 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`
 ![002](https://github.com/devrath/KotlinAlchemy/assets/1456191/ccbd7ff9-f293-4ac9-90b7-28c3c37ddc52)
 
 * [𝙵𝚕𝚘𝚠 𝙱𝚞𝚒𝚕𝚍𝚎𝚛𝚜](https://github.com/devrath/KotlinAlchemy/wiki/KotlinFlow:-Flow-Builders)
@@ -120,7 +109,7 @@
   * [𝙸𝚗𝚝𝚎𝚛𝚖𝚎𝚍𝚒𝚊𝚝𝚎 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Flow:-Intermediate-operators)
   * [𝙻𝚒𝚏𝚎𝚌𝚢𝚌𝚕𝚎 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Flow:-Lifecycle-operators)
 
-## `𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜`
+#### `𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜`
 ![1_m4-G7nduzkr20JGSv409dw](https://github.com/devrath/KotlinAlchemy/assets/1456191/43e55d7d-fbd2-42ad-936c-cd8bfe977054)
 
 * [**`𝙰𝚋𝚘𝚞𝚝 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-About)
@@ -129,7 +118,7 @@
 )
 * [**`𝙲𝚑𝚊𝚗𝚗𝚎𝚕 𝚝𝚢𝚙𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Channel-Types)
 
-## `𝙶𝚒𝚜𝚝 𝚎𝚡𝚊𝚖𝚙𝚕𝚎𝚜 𝚘𝚏 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚌𝚝𝚒𝚘𝚗`
+# `𝙶𝚒𝚜𝚝 𝚎𝚡𝚊𝚖𝚙𝚕𝚎𝚜 𝚘𝚏 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚌𝚝𝚒𝚘𝚗`
 * [**`𝚂𝚒𝚗𝚐𝚕𝚎 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Single-network-request)
 * [**`𝚂𝚎𝚚𝚞𝚎𝚗𝚝𝚒𝚊𝚕 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Sequential-network-request)
 * [**`𝙲𝚘𝚗𝚌𝚞𝚛𝚛𝚎𝚗𝚝 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Concurrent-network-request)
