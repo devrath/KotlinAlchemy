@@ -46,6 +46,8 @@
 
 </div>
 
+<div align="center">
+
 | `𝙲𝙾𝙽𝚃𝙴𝙽𝚃𝚂` |
 | ---------- |
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝚂𝚌𝚘𝚙𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-scope-functions) |
@@ -58,6 +60,8 @@
 | [`𝙸𝚗𝚕𝚒𝚗𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Inline-Functions) |
 | [`𝚂𝚖𝚊𝚛𝚝 𝙲𝚊𝚜𝚝𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Smart-Casts) |
 | [`𝙽𝚎𝚜𝚝𝚎𝚍 𝚌𝚕𝚊𝚜𝚜 𝚟𝚜 𝙸𝚗𝚗𝚎𝚛 𝚌𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Nested-class-vs-Inner-class) |
+
+</div>
 
 
 #### `𝚂𝚎𝚊𝚕𝚎𝚍 𝙲𝚕𝚊𝚜𝚜`
