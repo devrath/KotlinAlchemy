@@ -23,6 +23,13 @@
 </div>
 
 # `Kotlin Basic Fundamentals`
+
+<div align="center">
+ 
+![feature_hu1e66bd8b8e50096fb57e03e07ac066bb_51220_1200x0_resize_catmullrom_3](https://github.com/devrath/KotlinAlchemy/assets/1456191/06b9aa21-36cd-48ac-841a-60f2601fcb01)
+ 
+</div>
+
 * [**`𝚄𝚜𝚒𝚗𝚐 𝚂𝚝𝚛𝚒𝚗𝚐𝚜 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basics-:-Strings)
 * [**`𝚄𝚜𝚒𝚗𝚐 𝚌𝚘𝚖𝚙𝚊𝚛𝚒𝚜𝚘𝚗 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basics-:-Comparison-Operators)
 * [**`𝚆𝚑𝚊𝚝 𝚒𝚜 𝚝𝚑𝚎 𝚜𝚌𝚘𝚙𝚎 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basics-:-Using-Scopes-in-kotlin)
