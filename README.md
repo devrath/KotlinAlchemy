@@ -17,7 +17,7 @@
 | `𝙲𝙾𝙽𝚃𝙴𝙽𝚃𝚂` |
 | ---------- |
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙱𝚊𝚜𝚒𝚌 𝙵𝚞𝚗𝚍𝚊𝚖𝚎𝚗𝚝𝚊𝚕𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basic-Fundamentals) |
-| [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙿𝚘𝚠𝚎𝚛𝚜`]() |
+| [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙿𝚘𝚠𝚎𝚛𝚜`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#kotlin-powers) |
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#kotlin-coroutines) |
 | [`𝚃𝚢𝚙𝚎 𝙰𝚕𝚒𝚊𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Type-Alias) |
 | [`𝙸𝚗𝚕𝚒𝚗𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Inline-Functions) |
@@ -43,7 +43,7 @@
 
 # `Kotlin Powers`
 
-<div align="center">
+<div align="left">
 
 | `𝙲𝙾𝙽𝚃𝙴𝙽𝚃𝚂` |
 | ---------- |
