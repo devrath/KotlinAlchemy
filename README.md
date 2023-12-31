@@ -117,6 +117,7 @@
 * [**`𝙷𝚘𝚠 𝚊𝚜𝚢𝚗𝚌𝚑𝚛𝚘𝚗𝚘𝚞𝚜 𝚙𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚒𝚗𝚐 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-asynchronous-programming-works)
 * [**`𝙷𝚘𝚠 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚙𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚒𝚗𝚐 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-coroutines-programming-works)
 * [**`𝙷𝚘𝚠 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚗𝚍𝚛𝚘𝚒𝚍 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-coroutines-in-android-works)
+* [**`𝙳𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚝 𝚝𝚢𝚙𝚎𝚜 𝚘𝚏 𝚍𝚒𝚜𝚙𝚊𝚝𝚌𝚑𝚎𝚛𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Coroutines:-Types-of-dispatchers)
 * Using coroutines sample use cases
   * [**`𝙲𝚛𝚎𝚊𝚝𝚒𝚗𝚐 𝚊 𝚜𝚒𝚖𝚙𝚕𝚎 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚌𝚘𝚗𝚝𝚎𝚡𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Coroutines:-Creating-a-simple-coroutine-context)
   * [**`𝚆𝚊𝚒𝚝 𝚏𝚘𝚛 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚝𝚘 𝚏𝚒𝚗𝚒𝚜𝚑`**](https://github.com/devrath/KotlinAlchemy/wiki/Coroutines:-Wait-for-coroutine-to-finish)
