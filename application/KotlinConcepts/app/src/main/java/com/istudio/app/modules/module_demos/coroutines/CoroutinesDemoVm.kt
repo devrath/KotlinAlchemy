@@ -1,18 +1,16 @@
 package com.istudio.app.modules.module_demos.coroutines
 
 import android.app.Application
-import android.widget.Toast
 import androidx.lifecycle.AndroidViewModel
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.CoroutineName
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.joinAll
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 import kotlin.coroutines.CoroutineContext
@@ -98,6 +96,51 @@ class CoroutinesDemoVm @Inject constructor(val context: Application) : AndroidVi
     }
     /**
      * ****************  DEMO: Sequential coroutines ***********************
+     */
+
+    /**
+     * ****************  DEMO: Scope And Context Relationship **************
+     */
+    fun scopeAndContextRelationshipDemo() {
+
+        viewModelScope.launch(CoroutineName("Pikachuu")) {
+
+            val name = coroutineContext[CoroutineName]?.name
+            println("OuterMostCoroutine:-> $name")
+
+            launch {
+
+                val name = coroutineContext[CoroutineName]?.name
+                println("InnerCoroutine1:-> $name")
+
+                launch {
+
+                    val name = coroutineContext[CoroutineName]?.name
+                    println("InnermostCoroutine1:-> $name")
+
+                }.join()
+
+            }.join()
+
+            launch {
+
+                val name = coroutineContext[CoroutineName]?.name
+                println("InnerCoroutine2:-> $name")
+
+                launch(CoroutineName("Goku ")) {
+
+                    val name = coroutineContext[CoroutineName]?.name
+                    println("InnermostCoroutine2:-> $name")
+
+                }.join()
+
+            }.join()
+
+        }
+
+    }
+    /**
+     * ****************  DEMO: Scope And Context Relationship **************
      */
 
 }

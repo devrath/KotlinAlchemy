@@ -42,6 +42,12 @@ fun CoroutinesDemo(navController: NavController){
             viewModel.sequentialCoroutiens()
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Scope and context relationship", onClick = {
+            viewModel.scopeAndContextRelationshipDemo()
+        })
+
     }
 
 }
