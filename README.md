@@ -8,7 +8,7 @@
 
 <div align="center">
 
-📚 𝚃𝚑𝚒𝚜 𝚙𝚛𝚘𝚓𝚎𝚌𝚝 𝚌𝚘𝚗𝚝𝚊𝚒𝚗𝚜 𝚟𝚊𝚛𝚒𝚘𝚞𝚜 𝚌𝚘𝚗𝚌𝚎𝚙𝚝𝚜 𝚊𝚗𝚍 𝚕𝚎𝚊𝚛𝚗𝚒𝚗𝚐𝚜 𝚘𝚏 𝚔𝚘𝚝𝚕𝚒𝚗 𝚞𝚜𝚎𝚍 𝚏𝚘𝚛 𝚊𝚗𝚍𝚛𝚘𝚒𝚍 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚖𝚎𝚗𝚝
+⚗️ 𝚃𝚑𝚒𝚜 𝚙𝚛𝚘𝚓𝚎𝚌𝚝 𝚌𝚘𝚗𝚝𝚊𝚒𝚗𝚜 𝚟𝚊𝚛𝚒𝚘𝚞𝚜 𝚌𝚘𝚗𝚌𝚎𝚙𝚝𝚜 𝚊𝚗𝚍 𝚕𝚎𝚊𝚛𝚗𝚒𝚗𝚐𝚜 𝚘𝚏 𝚔𝚘𝚝𝚕𝚒𝚗 𝚞𝚜𝚎𝚍 𝚏𝚘𝚛 𝚊𝚗𝚍𝚛𝚘𝚒𝚍 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚖𝚎𝚗𝚝
 
 </div>
 
@@ -119,6 +119,7 @@
 * [**`𝙷𝚘𝚠 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚗𝚍𝚛𝚘𝚒𝚍 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-coroutines-in-android-works)
 * [**`𝙳𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚝 𝚝𝚢𝚙𝚎𝚜 𝚘𝚏 𝚍𝚒𝚜𝚙𝚊𝚝𝚌𝚑𝚎𝚛𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Coroutines:-Types-of-dispatchers)
 * [**`𝚄𝚗𝚍𝚎𝚛𝚜𝚝𝚊𝚗𝚍𝚒𝚗𝚐 𝚟𝚒𝚎𝚠-𝚖𝚘𝚍𝚎𝚕 𝚜𝚌𝚘𝚙𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Coroutines:-Understanding-ViewModel-Scope)
+* [**`𝚁𝚎𝚕𝚊𝚝𝚒𝚘𝚗𝚜𝚑𝚒𝚙 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚜𝚌𝚘𝚙𝚎 𝚊𝚗𝚍 𝚌𝚘𝚗𝚝𝚎𝚡𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Coroutines:-Relationship-between-Scope-and-Context)
 * Using coroutines sample use cases
   * [**`𝙲𝚛𝚎𝚊𝚝𝚒𝚗𝚐 𝚊 𝚜𝚒𝚖𝚙𝚕𝚎 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚌𝚘𝚗𝚝𝚎𝚡𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Coroutines:-Creating-a-simple-coroutine-context)
   * [**`𝚆𝚊𝚒𝚝 𝚏𝚘𝚛 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚝𝚘 𝚏𝚒𝚗𝚒𝚜𝚑`**](https://github.com/devrath/KotlinAlchemy/wiki/Coroutines:-Wait-for-coroutine-to-finish)
