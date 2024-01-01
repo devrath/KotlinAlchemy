@@ -68,17 +68,9 @@
 | [`𝙸𝚗𝚕𝚒𝚗𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Inline-Functions) |
 | [`𝚂𝚖𝚊𝚛𝚝 𝙲𝚊𝚜𝚝𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Smart-Casts) |
 | [`𝙽𝚎𝚜𝚝𝚎𝚍 𝚌𝚕𝚊𝚜𝚜 𝚟𝚜 𝙸𝚗𝚗𝚎𝚛 𝚌𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Nested-class-vs-Inner-class) |
+| [`𝚂𝚎𝚊𝚕𝚎𝚍 𝙲𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Sealed-Class) |
 
 </div>
-
-#### `𝚂𝚎𝚊𝚕𝚎𝚍 𝙲𝚕𝚊𝚜𝚜`
-* [**`𝙰𝚋𝚘𝚞𝚝 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜 𝚒𝚗 𝚊𝚗𝚍𝚛𝚘𝚒𝚍`**](https://github.com/devrath/KotlinAlchemy/wiki/About-sealed-class-in-android)
-* [**`𝚂𝚞𝚐𝚐𝚎𝚜𝚝𝚒𝚗𝚐 𝚊𝚕𝚕 𝚙𝚘𝚜𝚜𝚒𝚋𝚕𝚎 𝚘𝚙𝚝𝚒𝚘𝚗𝚜 𝚘𝚏 𝚜𝚝𝚊𝚝𝚎 𝚞𝚜𝚒𝚗𝚐 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Suggesting-all-possible-options-of-state-using-sealed-class)
-* [**`𝙰𝚌𝚌𝚎𝚜𝚜𝚒𝚗𝚐 𝚊 𝚟𝚊𝚛𝚒𝚊𝚋𝚕𝚎 𝚘𝚏 𝚊 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Accessing-a-variable-of-a-sealed-class)
-* [**`𝙰𝚌𝚌𝚎𝚜𝚜𝚒𝚗𝚐 𝚊 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚒𝚗 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Accessing-a-function-in-sealed-class)
-* [**`𝚁𝚘𝚕𝚎 𝚘𝚏 𝚊𝚋𝚜𝚝𝚛𝚊𝚌𝚝 𝚟𝚊𝚛𝚒𝚊𝚋𝚕𝚎 𝚒𝚗 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Role-of-abstract-variable-in-sealed-class)
-* [**`𝙴𝚗𝚞𝚖 𝚌𝚘𝚖𝚙𝚊𝚛𝚎𝚍 𝚠𝚒𝚝𝚑 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Enum-compared-with-sealed-classes)
-* [**`𝚁𝚎𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚗𝚐 𝚝𝚑𝚎 𝚎𝚗𝚞𝚖 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚊𝚕𝚒𝚝𝚢 𝚞𝚜𝚒𝚗𝚐 𝚜𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Replicating-the-enum-functionality-using-sealed-classes)</br>
 
 #### `𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`
 
