@@ -69,15 +69,10 @@
 | [`𝚂𝚖𝚊𝚛𝚝 𝙲𝚊𝚜𝚝𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Smart-Casts) |
 | [`𝙽𝚎𝚜𝚝𝚎𝚍 𝚌𝚕𝚊𝚜𝚜 𝚟𝚜 𝙸𝚗𝚗𝚎𝚛 𝚌𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Nested-class-vs-Inner-class) |
 | [`𝚂𝚎𝚊𝚕𝚎𝚍 𝙲𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Sealed-Class) |
+| [`𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`](https://github.com/devrath/KotlinAlchemy/wiki/Annotations-in-kotlin) |
 
 </div>
 
-#### `𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`
-
-* [**`𝚄𝚜𝚒𝚗𝚐 @𝙹𝚟𝚖𝙵𝚒𝚎𝚕𝚍 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Annotations-in-kotlin-%E2%80%90-@JvmField)
-* [**`𝚄𝚜𝚒𝚗𝚐 @𝙹𝚟𝚖𝙾𝚟𝚎𝚛𝚕𝚘𝚊𝚍𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Using-@JvmOverloads-in-kotlin)
-* [**`𝚄𝚜𝚒𝚗𝚐 @𝙹𝚟𝚖𝚂𝚝𝚊𝚝𝚒𝚌 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Using-@JvmStatic-in-kotlin)
-* [**`𝚄𝚜𝚒𝚗𝚐 @𝚂𝚝𝚛𝚒𝚗𝚐𝚁𝚎𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Using-@StringRes-in-kotlin)
 
 # `Kotlin Coroutines`
 <p align="center">
