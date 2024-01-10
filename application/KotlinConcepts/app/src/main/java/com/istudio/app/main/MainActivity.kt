@@ -107,14 +107,12 @@ class MainActivity : ComponentActivity() {
                         composable(ModuleDemo.CoroutinesDemo.rout) {
                             CoroutinesDemo(navController = navController)
                         }
-
                         // Exercises
                         composable(ModuleDemo.Exercises.rout) {
                             ExerciseSelection(navController = navController)
                         }
-
                         // Exercise-1
-                        composable(ModuleDemo.Exercises.rout) {
+                        composable(ModuleDemo.Exercise1.rout) {
                             Exercise1(navController = navController)
                         }
                     }

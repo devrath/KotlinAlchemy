@@ -10,6 +10,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
+import com.istudio.app.modules.module_selection.ModuleDemo
 import com.istudio.app.ui.composables.AppButton
 
 @Composable
@@ -25,7 +26,7 @@ fun ExerciseSelection(navController: NavHostController){
         Spacer(modifier = Modifier.height(16.dp))
 
         AppButton(text = "Exercise-1", onClick = {
-
+            navController.navigate(ModuleDemo.Exercise1.rout)
         })
 
         Spacer(modifier = Modifier.height(16.dp))
