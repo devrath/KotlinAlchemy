@@ -21,6 +21,7 @@ import androidx.compose.ui.unit.sp
 fun AppButton(
     modifier: Modifier = Modifier,
     text: String,
+    isEnabled : Boolean =  true,
     onClick: () -> Unit
 ) {
 
@@ -31,6 +32,7 @@ fun AppButton(
             .fillMaxWidth()
             .padding(start = 32.dp, end = 32.dp),
         onClick = onClick,
+        enabled = isEnabled,
         contentPadding = PaddingValues(),
         colors = ButtonDefaults.buttonColors(
             containerColor = Color.Transparent
