@@ -32,7 +32,7 @@ fun ExerciseSelection(navController: NavHostController){
         Spacer(modifier = Modifier.height(16.dp))
 
         AppButton(text = "Exercise-2", onClick = {
-
+            navController.navigate(ModuleDemo.Exercise2.rout)
         })
     }
 

@@ -26,6 +26,7 @@ import com.istudio.app.modules.module_demos.sealed_class.ui.SealedClassDemo
 import com.istudio.app.modules.module_demos.type_alias.ui.TypeAlias
 import com.istudio.app.modules.module_exercises.ExerciseSelection
 import com.istudio.app.modules.module_exercises.exercise_1.Exercise1
+import com.istudio.app.modules.module_exercises.exercise_2.Exercise2
 import com.istudio.app.modules.module_selection.ModuleDemo
 import com.istudio.app.modules.module_selection.ModuleSelectionScreen
 import com.istudio.app.ui.theme.KotlinConceptsTheme
@@ -49,7 +50,7 @@ class MainActivity : ComponentActivity() {
 
                     NavHost(
                         navController = navController,
-                        startDestination = ModuleDemo.DemoSelection.rout
+                        startDestination = ModuleDemo.Exercises.rout
                     ) {
                         // Selection Screen
                         composable(ModuleDemo.DemoSelection.rout) {
@@ -114,6 +115,10 @@ class MainActivity : ComponentActivity() {
                         // Exercise-1
                         composable(ModuleDemo.Exercise1.rout) {
                             Exercise1(navController = navController)
+                        }
+                        // Exercise-2
+                        composable(ModuleDemo.Exercise2.rout) {
+                            Exercise2(navController = navController)
                         }
                     }
                 }
