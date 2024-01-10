@@ -24,6 +24,8 @@ import com.istudio.app.modules.module_demos.kotlin_annotations.ui.KotlinAnnotati
 import com.istudio.app.modules.module_demos.nested_vs_inner.ui.NestedVsInner
 import com.istudio.app.modules.module_demos.sealed_class.ui.SealedClassDemo
 import com.istudio.app.modules.module_demos.type_alias.ui.TypeAlias
+import com.istudio.app.modules.module_exercises.ExerciseSelection
+import com.istudio.app.modules.module_exercises.exercise_1.Exercise1
 import com.istudio.app.modules.module_selection.ModuleDemo
 import com.istudio.app.modules.module_selection.ModuleSelectionScreen
 import com.istudio.app.ui.theme.KotlinConceptsTheme
@@ -104,6 +106,16 @@ class MainActivity : ComponentActivity() {
                         // Coroutines Demo
                         composable(ModuleDemo.CoroutinesDemo.rout) {
                             CoroutinesDemo(navController = navController)
+                        }
+
+                        // Exercises
+                        composable(ModuleDemo.Exercises.rout) {
+                            ExerciseSelection(navController = navController)
+                        }
+
+                        // Exercise-1
+                        composable(ModuleDemo.Exercises.rout) {
+                            Exercise1(navController = navController)
                         }
                     }
                 }
