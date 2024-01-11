@@ -39,12 +39,12 @@ class Exercise2vm @Inject constructor( ) : ViewModel() {
     fun suspendingTypeDemo() {
         val beforeThreadName = Thread.currentThread().name
         println("Before calling threads, Execute in -> $beforeThreadName")
-        CoroutineScope(Dispatchers.Default).launch {
+        CoroutineScope(Dispatchers.Main.immediate).launch {
             joinAll(
                 // Call thread 1
-                launch { initiateNewThread(1) },
+                launch { initiateNewCoroutine(1) },
                 // Call thread 2
-                launch { initiateNewThread(2) }
+                launch { initiateNewCoroutine(2) }
             )
         }
         val threadNameLater = Thread.currentThread().name
@@ -52,7 +52,7 @@ class Exercise2vm @Inject constructor( ) : ViewModel() {
     }
 
 
-    suspend fun initiateNewCoroutine(threadNo : Int) {
+    private suspend fun initiateNewCoroutine(threadNo : Int) {
         val threadName = Thread.currentThread().name
         for (i in 1..4){
             println("Task $threadNo with count$i is running on -> $threadName")
