@@ -11,6 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
+import com.istudio.app.modules.module_selection.ModuleDemo
 import com.istudio.app.ui.composables.AppButton
 
 @Composable
@@ -46,6 +47,12 @@ fun CoroutinesDemo(navController: NavController){
 
         AppButton(text = "Scope and context relationship", onClick = {
             viewModel.scopeAndContextRelationshipDemo()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Coroutine Cancellation Demos", onClick = {
+            navController.navigate(ModuleDemo.CoroutineCancelSelection.rout)
         })
 
     }
