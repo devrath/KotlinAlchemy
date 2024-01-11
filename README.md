@@ -110,7 +110,8 @@
 * [**`𝙷𝚘𝚠 𝚜𝚞𝚜𝚙𝚎𝚗𝚍𝚒𝚗𝚐 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-suspending-functions-works)
 * [**`𝙷𝚘𝚠 𝚊𝚜𝚢𝚗𝚌/𝚊𝚠𝚊𝚒𝚝 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-async-await-works)
 * Cancelling the coroutines
-  * [**`𝙲𝚊𝚗𝚌𝚎𝚕𝚕𝚒𝚗𝚐 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚅𝚜 𝙲𝚊𝚗𝚌𝚎𝚕𝚕𝚒𝚗𝚐 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚌𝚑𝚒𝚕𝚍𝚛𝚎𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Cancelling-Coroutine-Vs-Cancelling-Coroutines-children) 
+  * [**`𝙲𝚊𝚗𝚌𝚎𝚕𝚕𝚒𝚗𝚐 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚅𝚜 𝙲𝚊𝚗𝚌𝚎𝚕𝚕𝚒𝚗𝚐 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚌𝚑𝚒𝚕𝚍𝚛𝚎𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Cancelling-Coroutine-Vs-Cancelling-Coroutines-children)
+* Structured Concurrency
 
 
 #### `𝙺𝚘𝚝𝚕𝚒𝚗 𝙵𝚕𝚘𝚠 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`
