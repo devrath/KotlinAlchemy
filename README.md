@@ -112,6 +112,7 @@
 * Cancelling the coroutines
   * [**`𝙲𝚊𝚗𝚌𝚎𝚕𝚕𝚒𝚗𝚐 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚅𝚜 𝙲𝚊𝚗𝚌𝚎𝚕𝚕𝚒𝚗𝚐 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚌𝚑𝚒𝚕𝚍𝚛𝚎𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Cancelling-Coroutine-Vs-Cancelling-Coroutines-children)
 * Structured Concurrency
+  * [**`𝚆𝚑𝚊𝚝 𝚒𝚜 𝚂𝚝𝚛𝚞𝚌𝚝𝚞𝚛𝚎𝚍 𝚌𝚘𝚗𝚌𝚞𝚛𝚛𝚎𝚗𝚌𝚢?`**](https://github.com/devrath/KotlinAlchemy/wiki/What-is-Structured-concurrency)
 
 
 #### `𝙺𝚘𝚝𝚕𝚒𝚗 𝙵𝚕𝚘𝚠 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`
