@@ -19,4 +19,6 @@ sealed class ModuleDemo(val rout: String) {
     data object Exercise1 : ModuleDemo("Exercise1")
     data object Exercise2 : ModuleDemo("Exercise2")
     data object CoroutineCancelSelection : ModuleDemo("CoroutineCancelSelection")
+    data object SimpleStructuredConcurrencyDemo : ModuleDemo("SimpleStructuredConcurrencyDemo")
+
 }

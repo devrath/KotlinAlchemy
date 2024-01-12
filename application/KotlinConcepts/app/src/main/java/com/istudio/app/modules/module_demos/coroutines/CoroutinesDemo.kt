@@ -55,6 +55,12 @@ fun CoroutinesDemo(navController: NavController){
             navController.navigate(ModuleDemo.CoroutineCancelSelection.rout)
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Simple structured concurrency", onClick = {
+            navController.navigate(ModuleDemo.SimpleStructuredConcurrencyDemo.rout)
+        })
+
     }
 
 }
