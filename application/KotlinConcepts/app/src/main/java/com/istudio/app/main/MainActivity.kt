@@ -15,6 +15,7 @@ import com.istudio.app.modules.module_demos.basic_fundamentals.ui.KotlinBasicsDe
 import com.istudio.app.modules.module_demos.channels.ChannelsDemo
 import com.istudio.app.modules.module_demos.coroutines.CoroutinesDemo
 import com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.CoroutineCancelSelection
+import com.istudio.app.modules.module_demos.coroutines.dispatchers.DispatchersDemo
 import com.istudio.app.modules.module_demos.coroutines.simple_structured_concurrency.SimpleStructuredConcurrencyDemo
 import com.istudio.app.modules.module_demos.flows.FlowsDemo
 import com.istudio.app.modules.module_demos.flows.modules.flow_basics.chapters.display_data_from_server.DisplayDataFromServerDemo
@@ -117,6 +118,10 @@ class MainActivity : ComponentActivity() {
                         // Simple structured concurrency
                         composable(ModuleDemo.SimpleStructuredConcurrencyDemo.rout) {
                             SimpleStructuredConcurrencyDemo(navController = navController)
+                        }
+                        // Dispatchers Demo
+                        composable(ModuleDemo.DispatchersDemo.rout) {
+                            DispatchersDemo(navController = navController)
                         }
                         // Exercises
                         composable(ModuleDemo.Exercises.rout) {

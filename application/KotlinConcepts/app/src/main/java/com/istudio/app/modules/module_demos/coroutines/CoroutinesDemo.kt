@@ -61,6 +61,12 @@ fun CoroutinesDemo(navController: NavController){
             navController.navigate(ModuleDemo.SimpleStructuredConcurrencyDemo.rout)
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Dispatchers Demo", onClick = {
+            navController.navigate(ModuleDemo.DispatchersDemo.rout)
+        })
+
     }
 
 }
