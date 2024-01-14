@@ -1,4 +1,4 @@
-package com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation
+package com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.root_children_cencel_demo
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -12,14 +12,11 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Shapes
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
-import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.RectangleShape
-import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
@@ -27,9 +24,9 @@ import com.istudio.app.ui.composables.AppButton
 import com.istudio.app.ui.composables.AppText
 
 @Composable
-fun CoroutineCancelSelection(navController: NavHostController){
+fun RootChildrenCancelDemo(navController: NavHostController){
 
-    val viewModel: CoroutineCancelSelectionVm = hiltViewModel()
+    val viewModel: RootChildrenCancelDemoVm = hiltViewModel()
 
     Column(
         modifier = Modifier.fillMaxSize(),

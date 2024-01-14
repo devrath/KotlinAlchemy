@@ -1,4 +1,4 @@
-package com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation
+package com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.root_children_cencel_demo
 
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.CoroutineScope
@@ -6,13 +6,11 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.cancelChildren
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.joinAll
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
-import kotlin.concurrent.thread
 
-class CoroutineCancelSelectionVm @Inject constructor( ) : ViewModel() {
+class RootChildrenCancelDemoVm @Inject constructor( ) : ViewModel() {
 
     private val rootScope =  CoroutineScope(Dispatchers.Default)
 

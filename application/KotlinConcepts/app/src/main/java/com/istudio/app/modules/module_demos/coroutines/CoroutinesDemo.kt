@@ -52,7 +52,7 @@ fun CoroutinesDemo(navController: NavController){
         Spacer(modifier = Modifier.height(16.dp))
 
         AppButton(text = "Coroutine Cancellation Demos", onClick = {
-            navController.navigate(ModuleDemo.CoroutineCancelSelection.rout)
+            navController.navigate(ModuleDemo.RootChildrenCancelDemo.rout)
         })
 
         Spacer(modifier = Modifier.height(16.dp))

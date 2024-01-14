@@ -14,7 +14,7 @@ import androidx.navigation.compose.rememberNavController
 import com.istudio.app.modules.module_demos.basic_fundamentals.ui.KotlinBasicsDemo
 import com.istudio.app.modules.module_demos.channels.ChannelsDemo
 import com.istudio.app.modules.module_demos.coroutines.CoroutinesDemo
-import com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.CoroutineCancelSelection
+import com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.root_children_cencel_demo.RootChildrenCancelDemo
 import com.istudio.app.modules.module_demos.coroutines.dispatchers.DispatchersDemo
 import com.istudio.app.modules.module_demos.coroutines.simple_structured_concurrency.SimpleStructuredConcurrencyDemo
 import com.istudio.app.modules.module_demos.flows.FlowsDemo
@@ -112,8 +112,8 @@ class MainActivity : ComponentActivity() {
                             CoroutinesDemo(navController = navController)
                         }
                         // CoRoutine cancellation selection
-                        composable(ModuleDemo.CoroutineCancelSelection.rout) {
-                            CoroutineCancelSelection(navController = navController)
+                        composable(ModuleDemo.RootChildrenCancelDemo.rout) {
+                            RootChildrenCancelDemo(navController = navController)
                         }
                         // Simple structured concurrency
                         composable(ModuleDemo.SimpleStructuredConcurrencyDemo.rout) {
