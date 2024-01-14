@@ -34,6 +34,12 @@ fun CoroutinesCancellationSelection(navController: NavController){
             navController.navigate(ModuleDemo.CoroutinesCancellationIsActiveDemo.rout)
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Ensure Active Demo", onClick = {
+            navController.navigate(ModuleDemo.EnsureActiveDemo.rout)
+        })
+
 
     }
 

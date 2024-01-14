@@ -15,6 +15,7 @@ import com.istudio.app.modules.module_demos.basic_fundamentals.ui.KotlinBasicsDe
 import com.istudio.app.modules.module_demos.channels.ChannelsDemo
 import com.istudio.app.modules.module_demos.coroutines.CoroutinesDemo
 import com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.CoroutinesCancellationSelection
+import com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.ensure_active_demo.EnsureActiveDemo
 import com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.is_active_demo.IsActiveDemo
 import com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.root_children_cencel_demo.RootChildrenCancelDemo
 import com.istudio.app.modules.module_demos.coroutines.dispatchers.DispatchersDemo
@@ -144,6 +145,10 @@ class MainActivity : ComponentActivity() {
                         // CoRoutine isActive Demo
                         composable(ModuleDemo.CoroutinesCancellationIsActiveDemo.rout) {
                             IsActiveDemo(navController = navController)
+                        }
+                        // CoRoutine EnsureActive Demo
+                        composable(ModuleDemo.EnsureActiveDemo.rout) {
+                            EnsureActiveDemo(navController = navController)
                         }
                     }
                 }

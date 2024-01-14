@@ -23,5 +23,6 @@ sealed class ModuleDemo(val rout: String) {
     data object CoroutinesCancellationSelection : ModuleDemo("CoroutinesCancellationSelection")
     data object RootChildrenCancelDemo : ModuleDemo("RootChildrenCancelDemo")
     data object CoroutinesCancellationIsActiveDemo : ModuleDemo("CoroutinesCancellationIsActiveDemo")
+    data object EnsureActiveDemo : ModuleDemo("EnsureActiveDemo")
 
 }
