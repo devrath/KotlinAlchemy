@@ -14,6 +14,7 @@ import androidx.navigation.compose.rememberNavController
 import com.istudio.app.modules.module_demos.basic_fundamentals.ui.KotlinBasicsDemo
 import com.istudio.app.modules.module_demos.channels.ChannelsDemo
 import com.istudio.app.modules.module_demos.coroutines.CoroutinesDemo
+import com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.CoroutinesCancellationSelection
 import com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.root_children_cencel_demo.RootChildrenCancelDemo
 import com.istudio.app.modules.module_demos.coroutines.dispatchers.DispatchersDemo
 import com.istudio.app.modules.module_demos.coroutines.simple_structured_concurrency.SimpleStructuredConcurrencyDemo
@@ -111,10 +112,6 @@ class MainActivity : ComponentActivity() {
                         composable(ModuleDemo.CoroutinesDemo.rout) {
                             CoroutinesDemo(navController = navController)
                         }
-                        // CoRoutine cancellation selection
-                        composable(ModuleDemo.RootChildrenCancelDemo.rout) {
-                            RootChildrenCancelDemo(navController = navController)
-                        }
                         // Simple structured concurrency
                         composable(ModuleDemo.SimpleStructuredConcurrencyDemo.rout) {
                             SimpleStructuredConcurrencyDemo(navController = navController)
@@ -135,6 +132,15 @@ class MainActivity : ComponentActivity() {
                         composable(ModuleDemo.Exercise2.rout) {
                             Exercise2(navController = navController)
                         }
+                        // Coroutine cancellation demo
+                        composable(ModuleDemo.CoroutinesCancellationSelection.rout) {
+                            CoroutinesCancellationSelection(navController = navController)
+                        }
+                        // CoRoutine cancellation selection
+                        composable(ModuleDemo.RootChildrenCancelDemo.rout) {
+                            RootChildrenCancelDemo(navController = navController)
+                        }
+
                     }
                 }
             }

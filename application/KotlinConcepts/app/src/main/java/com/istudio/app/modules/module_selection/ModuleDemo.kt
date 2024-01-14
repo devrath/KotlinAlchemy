@@ -18,8 +18,10 @@ sealed class ModuleDemo(val rout: String) {
     data object Exercises : ModuleDemo("Exercises")
     data object Exercise1 : ModuleDemo("Exercise1")
     data object Exercise2 : ModuleDemo("Exercise2")
-    data object RootChildrenCancelDemo : ModuleDemo("RootChildrenCancelDemo")
     data object SimpleStructuredConcurrencyDemo : ModuleDemo("SimpleStructuredConcurrencyDemo")
     data object DispatchersDemo : ModuleDemo("DispatchersDemo")
+    data object CoroutinesCancellationSelection : ModuleDemo("CoroutinesCancellationSelection")
+    data object RootChildrenCancelDemo : ModuleDemo("RootChildrenCancelDemo")
+    data object CoroutinesCancellationIsActiveDemo : ModuleDemo("CoroutinesCancellationIsActiveDemo")
 
 }
