@@ -67,6 +67,12 @@ fun CoroutinesDemo(navController: NavController){
             navController.navigate(ModuleDemo.CoroutinesCancellationSelection.rout)
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Suspend And Launch Demo", onClick = {
+            navController.navigate(ModuleDemo.SuspendAndLaunchDemo.rout)
+        })
+
     }
 
 }

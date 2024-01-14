@@ -21,6 +21,7 @@ import com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.no
 import com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.root_children_cencel_demo.RootChildrenCancelDemo
 import com.istudio.app.modules.module_demos.coroutines.dispatchers.DispatchersDemo
 import com.istudio.app.modules.module_demos.coroutines.simple_structured_concurrency.SimpleStructuredConcurrencyDemo
+import com.istudio.app.modules.module_demos.coroutines.suspend_and_launch_demo.SuspendAndLaunchDemo
 import com.istudio.app.modules.module_demos.flows.FlowsDemo
 import com.istudio.app.modules.module_demos.flows.modules.flow_basics.chapters.display_data_from_server.DisplayDataFromServerDemo
 import com.istudio.app.modules.module_demos.flows.modules.intermediate_operators.IntermediateOperators
@@ -154,6 +155,10 @@ class MainActivity : ComponentActivity() {
                         // CoRoutine NonCancellable Demo
                         composable(ModuleDemo.NonCancellableDemo.rout) {
                             NonCancellableDemo(navController = navController)
+                        }
+                        // Suspend and Launch demo
+                        composable(ModuleDemo.SuspendAndLaunchDemo.rout) {
+                            SuspendAndLaunchDemo(navController = navController)
                         }
                     }
                 }
