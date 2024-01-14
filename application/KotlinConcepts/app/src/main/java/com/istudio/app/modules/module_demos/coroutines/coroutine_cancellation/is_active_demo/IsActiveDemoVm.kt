@@ -3,45 +3,78 @@ package com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.i
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.cancelChildren
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
+import kotlin.coroutines.cancellation.CancellationException
 
 class IsActiveDemoVm @Inject constructor( ) : ViewModel() {
 
-    private val rootScope =  CoroutineScope(Dispatchers.Default)
+    private var job: Job? = null
 
-    fun start() {
-        rootScope.launch {
-            longRunningOperation()
-        }.invokeOnCompletion {
-            it?.let {
-                val message = it?.message
-                println("Exception thrown:-> $message")
-            }?:run {
-                println("Scope completed without exception")
+
+    fun startWithTreadSleep() {
+
+        // Start a coroutine
+        job = CoroutineScope(Dispatchers.Default).launch {
+            try {
+                repeat(5000) { index ->
+                    // Simulate some work
+                    Thread.sleep(500)
+
+                    // Check if the coroutine has been canceled
+                    if (!isActive) {
+                        println("Coroutine canceled at index $index")
+                        return@launch
+                    }
+                    // Continue with the main logic
+                    println("Working at index $index")
+                }
+                // Additional logic after the loop
+                println("Coroutine completed")
+            } catch (e: CancellationException) {
+                // Handle cancellation-specific tasks
+                println("Coroutine canceled")
             }
         }
     }
 
-    fun cancelRoot(){
-        rootScope.cancel()
-    }
 
-    fun cancelChildren(){
-        rootScope.coroutineContext.cancelChildren()
-    }
+    fun startWithDelay() {
 
-    private suspend fun longRunningOperation() = withContext(Dispatchers.Default){
+        // Start a coroutine
+        job = CoroutineScope(Dispatchers.Default).launch {
+            try {
+                repeat(5000) { index ->
+                    // Simulate some work
+                    delay(500)
 
-        for (i in 1..30){
-            println("Current count $i")
-            delay(1000)
+                    // Check if the coroutine has been canceled
+                    if (!isActive) {
+                        println("Coroutine canceled at index $index")
+                        return@launch
+                    }
+                    // Continue with the main logic
+                    println("Working at index $index")
+                }
+                // Additional logic after the loop
+                println("Coroutine completed")
+            } catch (e: CancellationException) {
+                // Handle cancellation-specific tasks
+                println("Coroutine canceled")
+            }
         }
     }
+
+    fun cancel(){
+        job?.cancel()
+    }
+
 
 
 }

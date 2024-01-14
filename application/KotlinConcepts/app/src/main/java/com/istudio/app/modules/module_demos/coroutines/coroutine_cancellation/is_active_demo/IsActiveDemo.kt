@@ -36,50 +36,30 @@ fun IsActiveDemo(navController: NavHostController){
 
         Spacer(modifier = Modifier.height(100.dp))
 
-        AppButton(text = "Demo") {
-            viewModel.start()
+        AppButton(text = "Start \n with Thread-Sleep") {
+            viewModel.startWithTreadSleep()
         }
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(horizontal = 5.dp),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.SpaceEvenly
-        ) {
-            Button(
-                modifier = Modifier
-                    .weight(1f)
-                    .background(
-                        color = MaterialTheme.colorScheme.primary,
-                        shape = RectangleShape
-                    ),
-                onClick = {
-                    viewModel.cancelRoot()
-                }
-            ) {
-                Text(text = "Cancel-Root")
-            }
-            Spacer(modifier = Modifier.width(5.dp))
-            Button(
-                modifier = Modifier
-                    .weight(1f)
-                    .background(
-                        color = MaterialTheme.colorScheme.primary,
-                        shape = RectangleShape
-                    ),
-                onClick = {
-                    viewModel.cancelChildren()
-                }
-            ) {
-                Text(text = "Cancel-Children")
-            }
+        AppButton(text = "Start \n with Thread-Delay") {
+            viewModel.startWithDelay()
         }
 
+        Spacer(modifier = Modifier.height(100.dp))
 
-
+        Button(
+            modifier = Modifier
+                .background(
+                    color = MaterialTheme.colorScheme.primary,
+                    shape = RectangleShape
+                ),
+            onClick = {
+                viewModel.cancel()
+            }
+        ) {
+            Text(text = "Cancel")
+        }
 
     }
 
