@@ -55,21 +55,13 @@
 
 <div align="center">
 
-| `𝙲𝙾𝙽𝚃𝙴𝙽𝚃𝚂` |
-| ---------- |
-| [`𝙺𝚘𝚝𝚕𝚒𝚗 𝚂𝚌𝚘𝚙𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-scope-functions) |
-| [`𝙺𝚘𝚝𝚕𝚒𝚗: 𝙲𝚕𝚊𝚜𝚜 𝚟𝚜 𝙳𝚊𝚝𝚊𝙲𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Class-vs-DataClass) |
-| [`𝚂𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#%F0%9D%9A%82%F0%9D%9A%8E%F0%9D%9A%8A%F0%9D%9A%95%F0%9D%9A%8E%F0%9D%9A%8D-%F0%9D%99%B2%F0%9D%9A%95%F0%9D%9A%8A%F0%9D%9A%9C%F0%9D%9A%9C) |
-| [`𝙷𝚒𝚐𝚑𝚎𝚛-𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Higher-order-functions) |
-| [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙾𝚋𝚓𝚎𝚌𝚝`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Object) |
-| [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝙾𝚋𝚓𝚎𝚌𝚝`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Companion-Object) |
-| [`𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#%F0%9D%99%B0%F0%9D%9A%97%F0%9D%9A%97%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97%F0%9D%9A%9C-%F0%9D%9A%92%F0%9D%9A%97-%F0%9D%9A%94%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%97) |
-| [`𝚃𝚢𝚙𝚎 𝙰𝚕𝚒𝚊𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Type-Alias) |
-| [`𝙸𝚗𝚕𝚒𝚗𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Inline-Functions) |
-| [`𝚂𝚖𝚊𝚛𝚝 𝙲𝚊𝚜𝚝𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Smart-Casts) |
-| [`𝙽𝚎𝚜𝚝𝚎𝚍 𝚌𝚕𝚊𝚜𝚜 𝚟𝚜 𝙸𝚗𝚗𝚎𝚛 𝚌𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Nested-class-vs-Inner-class) |
-| [`𝚂𝚎𝚊𝚕𝚎𝚍 𝙲𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Sealed-Class) |
-| [`𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`](https://github.com/devrath/KotlinAlchemy/wiki/Annotations-in-kotlin) |
+| `🪴` | `🍀`                                | `🌿`                                  |
+| ---------- | --------------------------------------------- | --------------------------------------------- |
+| [`𝙺𝚘𝚝𝚕𝚒𝚗 𝚂𝚌𝚘𝚙𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-scope-functions) | [`𝙺𝚘𝚝𝚕𝚒𝚗: 𝙲𝚕𝚊𝚜𝚜 𝚟𝚜 𝙳𝚊𝚝𝚊𝙲𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Class-vs-DataClass) | [`𝚂𝚎𝚊𝚕𝚎𝚍 𝚌𝚕𝚊𝚜𝚜𝚎𝚜`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#%F0%9D%9A%82%F0%9D%9A%8E%F0%9D%9A%8A%F0%9D%9A%95%F0%9D%9A%8E%F0%9D%9A%8D-%F0%9D%99%B2%F0%9D%9A%95%F0%9D%9A%8A%F0%9D%9A%9C%F0%9D%9A%9C) |
+| [`𝙷𝚒𝚐𝚑𝚎𝚛-𝚘𝚛𝚍𝚎𝚛 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Higher-order-functions) | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙾𝚋𝚓𝚎𝚌𝚝`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Object) | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚖𝚙𝚊𝚗𝚒𝚘𝚗 𝙾𝚋𝚓𝚎𝚌𝚝`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Companion-Object) |
+| [`𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#%F0%9D%99%B0%F0%9D%9A%97%F0%9D%9A%97%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%92%F0%9D%9A%98%F0%9D%9A%97%F0%9D%9A%9C-%F0%9D%9A%92%F0%9D%9A%97-%F0%9D%9A%94%F0%9D%9A%98%F0%9D%9A%9D%F0%9D%9A%95%F0%9D%9A%92%F0%9D%9A%97) | [`𝚃𝚢𝚙𝚎 𝙰𝚕𝚒𝚊𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Type-Alias) | [`𝙸𝚗𝚕𝚒𝚗𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Inline-Functions) |
+| [`𝚂𝚖𝚊𝚛𝚝 𝙲𝚊𝚜𝚝𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Smart-Casts) | [`𝙽𝚎𝚜𝚝𝚎𝚍 𝚌𝚕𝚊𝚜𝚜 𝚟𝚜 𝙸𝚗𝚗𝚎𝚛 𝚌𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Nested-class-vs-Inner-class) | [`𝚂𝚎𝚊𝚕𝚎𝚍 𝙲𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Sealed-Class) |
+| [`𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`](https://github.com/devrath/KotlinAlchemy/wiki/Annotations-in-kotlin) |                                               |                                               |
 
 </div>
 
@@ -101,7 +93,8 @@
 * [**`𝙷𝚘𝚠 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚗𝚍𝚛𝚘𝚒𝚍 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-coroutines-in-android-works)
 * Dispatchers
   * [**`𝙳𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚝 𝚝𝚢𝚙𝚎𝚜 𝚘𝚏 𝚍𝚒𝚜𝚙𝚊𝚝𝚌𝚑𝚎𝚛𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Coroutines:-Types-of-dispatchers)
-  * [**`𝚂𝚝𝚛𝚊𝚝𝚎𝚐𝚒𝚎𝚜 𝚏𝚘𝚛 𝚞𝚜𝚒𝚗𝚐 𝚝𝚑𝚎 𝚍𝚒𝚜𝚙𝚊𝚝𝚌𝚑𝚎𝚛𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Strategies-for-using-the-dispatchers) 
+  * [**`𝚂𝚝𝚛𝚊𝚝𝚎𝚐𝚒𝚎𝚜 𝚏𝚘𝚛 𝚞𝚜𝚒𝚗𝚐 𝚝𝚑𝚎 𝚍𝚒𝚜𝚙𝚊𝚝𝚌𝚑𝚎𝚛𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Strategies-for-using-the-dispatchers)
+  * [**`𝙳𝚒𝚜𝚙𝚊𝚝𝚌𝚑𝚎𝚛𝚜 𝚁𝚞𝚗𝚗𝚒𝚗𝚐 𝚘𝚗 𝚝𝚑𝚛𝚎𝚊𝚍 𝚍𝚎𝚖𝚘`**](https://github.com/devrath/KotlinAlchemy/wiki/Dispatchers-Running-on-thread-demo)
 * [**`𝚄𝚗𝚍𝚎𝚛𝚜𝚝𝚊𝚗𝚍𝚒𝚗𝚐 𝚟𝚒𝚎𝚠-𝚖𝚘𝚍𝚎𝚕 𝚜𝚌𝚘𝚙𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Coroutines:-Understanding-ViewModel-Scope)
 * [**`𝚁𝚎𝚕𝚊𝚝𝚒𝚘𝚗𝚜𝚑𝚒𝚙 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚜𝚌𝚘𝚙𝚎 𝚊𝚗𝚍 𝚌𝚘𝚗𝚝𝚎𝚡𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Coroutines:-Relationship-between-Scope-and-Context)
 * Using coroutines sample use cases
@@ -112,6 +105,7 @@
 * [**`𝙷𝚘𝚠 𝚜𝚞𝚜𝚙𝚎𝚗𝚍𝚒𝚗𝚐 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-suspending-functions-works)
 * [**`𝙷𝚘𝚠 𝚊𝚜𝚢𝚗𝚌/𝚊𝚠𝚊𝚒𝚝 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-async-await-works)
 * Cancelling the coroutines
+  * [**`𝙰𝚋𝚘𝚞𝚝 𝚌𝚊𝚗𝚌𝚎𝚕𝚕𝚒𝚗𝚐 𝚌𝚘‐𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/About-cancelling-co%E2%80%90routines)
   * [**`𝙲𝚊𝚗𝚌𝚎𝚕𝚕𝚒𝚗𝚐 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚅𝚜 𝙲𝚊𝚗𝚌𝚎𝚕𝚕𝚒𝚗𝚐 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚌𝚑𝚒𝚕𝚍𝚛𝚎𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Cancelling-Coroutine-Vs-Cancelling-Coroutines-children)
 * Structured Concurrency
   * [**`𝚆𝚑𝚊𝚝 𝚒𝚜 𝚂𝚝𝚛𝚞𝚌𝚝𝚞𝚛𝚎𝚍 𝚌𝚘𝚗𝚌𝚞𝚛𝚛𝚎𝚗𝚌𝚢?`**](https://github.com/devrath/KotlinAlchemy/wiki/What-is-Structured-concurrency)
