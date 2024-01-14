@@ -4,7 +4,9 @@ import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
+import kotlinx.coroutines.currentCoroutineContext
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -15,56 +17,32 @@ class EnsureActiveDemoVm @Inject constructor( ) : ViewModel() {
     private var job: Job? = null
 
 
-    fun startWithTreadSleep() {
-
-        // Start a coroutine
+    fun startWithThreadSleep() {
         job = CoroutineScope(Dispatchers.Default).launch {
-            try {
-                repeat(5000) { index ->
-                    // Simulate some work
-                    Thread.sleep(500)
-
-                    // Check if the coroutine has been canceled
-                    if (!isActive) {
-                        println("Coroutine canceled at index $index")
-                        return@launch
-                    }
-                    // Continue with the main logic
-                    println("Working at index $index")
-                }
-                // Additional logic after the loop
-                println("Coroutine completed")
-            } catch (e: CancellationException) {
-                // Handle cancellation-specific tasks
-                println("Coroutine canceled")
-            }
+            startSuspendWithThreadSleep()
         }
     }
 
+    private suspend fun startSuspendWithThreadSleep() {
+        try {
 
-    fun startWithDelay() {
+            repeat(10) { index ->
+                currentCoroutineContext().ensureActive()
+                // Simulate some work
+                Thread.sleep(500)
 
-        // Start a coroutine
-        job = CoroutineScope(Dispatchers.Default).launch {
-            try {
-                repeat(5000) { index ->
-                    // Simulate some work
-                    delay(500)
-
-                    // Check if the coroutine has been canceled
-                    if (!isActive) {
-                        println("Coroutine canceled at index $index")
-                        return@launch
-                    }
-                    // Continue with the main logic
-                    println("Working at index $index")
+                // Check if the coroutine has been canceled
+                if (!currentCoroutineContext().isActive) {
+                    println("Coroutine canceled at index $index")
                 }
-                // Additional logic after the loop
-                println("Coroutine completed")
-            } catch (e: CancellationException) {
-                // Handle cancellation-specific tasks
-                println("Coroutine canceled")
+                // Continue with the main logic
+                println("Working at index $index")
             }
+            // Additional logic after the loop
+            println("Coroutine completed")
+        } catch (e: CancellationException) {
+            // Handle cancellation-specific tasks
+            println("Coroutine canceled")
         }
     }
 

@@ -33,13 +33,7 @@ fun EnsureActiveDemo(navController: NavHostController){
         Spacer(modifier = Modifier.height(100.dp))
 
         AppButton(text = "Start \n with Thread-Sleep") {
-            viewModel.startWithTreadSleep()
-        }
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        AppButton(text = "Start \n with Thread-Delay") {
-            viewModel.startWithDelay()
+            viewModel.startWithThreadSleep()
         }
 
         Spacer(modifier = Modifier.height(100.dp))
