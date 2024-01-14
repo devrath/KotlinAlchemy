@@ -108,6 +108,7 @@
   * [**`𝚄𝚜𝚒𝚗𝚐 𝙸𝚜𝙰𝚌𝚝𝚒𝚟𝚎 𝚏𝚘𝚛 𝚌𝚘‐𝚘𝚙𝚎𝚛𝚊𝚝𝚒𝚟𝚎 𝚌𝚊𝚗𝚌𝚎𝚕𝚕𝚊𝚝𝚒𝚘𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Using-IsActive-for-co%E2%80%90operative-cancellation)
   * [**`𝚂𝚒𝚐𝚗𝚒𝚏𝚒𝚌𝚊𝚗𝚌𝚎 𝚘𝚏 𝚎𝚗𝚜𝚞𝚛𝚎 𝚊𝚌𝚝𝚒𝚟𝚎 𝚌𝚘‐𝚘𝚙𝚎𝚛𝚊𝚝𝚒𝚟𝚎 𝚌𝚊𝚗𝚌𝚎𝚕𝚕𝚊𝚝𝚒𝚘𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Significance-of-ensureActive-co%E2%80%90operative-cancellation)
   * [**`𝙲𝚊𝚗𝚌𝚎𝚕𝚕𝚒𝚗𝚐 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚅𝚜 𝙲𝚊𝚗𝚌𝚎𝚕𝚕𝚒𝚗𝚐 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚌𝚑𝚒𝚕𝚍𝚛𝚎𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Cancelling-Coroutine-Vs-Cancelling-Coroutines-children)
+  * [**`𝙽𝚘𝚗-𝚌𝚊𝚗𝚌𝚎𝚕𝚕𝚊𝚋𝚕𝚎 𝚓𝚘𝚋`**](https://github.com/devrath/KotlinAlchemy/wiki/Non-Cancellable-job)
 * Structured Concurrency
   * [**`𝚆𝚑𝚊𝚝 𝚒𝚜 𝚂𝚝𝚛𝚞𝚌𝚝𝚞𝚛𝚎𝚍 𝚌𝚘𝚗𝚌𝚞𝚛𝚛𝚎𝚗𝚌𝚢?`**](https://github.com/devrath/KotlinAlchemy/wiki/What-is-Structured-concurrency)
 
