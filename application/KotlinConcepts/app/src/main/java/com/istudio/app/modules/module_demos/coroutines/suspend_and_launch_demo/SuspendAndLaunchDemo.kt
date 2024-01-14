@@ -32,8 +32,14 @@ fun SuspendAndLaunchDemo(navController: NavHostController){
 
         Spacer(modifier = Modifier.height(100.dp))
 
-        AppButton(text = "Start \n with Thread-Sleep") {
-            viewModel.startWithTreadSleep()
+        AppButton(text = "Start \n 2 co-routines") {
+            viewModel.startTwoCoroutines()
+        }
+
+        Spacer(modifier = Modifier.height(100.dp))
+
+        AppButton(text = "Start \n 2 suspend-functions") {
+            viewModel.startTwoSuspendFunctions()
         }
 
         Spacer(modifier = Modifier.height(100.dp))

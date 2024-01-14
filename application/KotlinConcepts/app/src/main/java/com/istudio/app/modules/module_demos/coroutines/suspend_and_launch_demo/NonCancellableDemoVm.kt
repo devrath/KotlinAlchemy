@@ -14,55 +14,62 @@ import javax.inject.Inject
 import kotlin.coroutines.cancellation.CancellationException
 import kotlin.coroutines.coroutineContext
 
-class NonCancellableDemoVm @Inject constructor( ) : ViewModel() {
+class NonCancellableDemoVm @Inject constructor() : ViewModel() {
 
     private var job: Job? = null
 
 
-    fun startWithTreadSleep() {
+    fun startTwoCoroutines() {
 
-        // Start a coroutine
+        // Start a root coroutine
         job = CoroutineScope(Dispatchers.IO).launch {
+            // Start a coroutine-1
             launch {
                 coRoutineOne(1)
             }
-           launch {
-               coRoutineOne(2)
-           }
+            // Start a coroutine-2
+            launch {
+                coRoutineOne(2)
+            }
+        }
+    }
+
+    fun startTwoSuspendFunctions() {
+
+        // Start a coroutine
+        job = CoroutineScope(Dispatchers.IO).launch {
+            // Start a suspend function-1
+            coRoutineOne(1)
+            // Start a suspend function-2
+            coRoutineOne(2)
         }
     }
 
     private suspend fun coRoutineOne(coroutineNo: Int) {
-        //withContext(NonCancellable){
-            try {
-                repeat(10) { index ->
-                    //coroutineContext.ensureActive()
+        try {
+            repeat(10) { index ->
 
-                    // Simulate some work
-                    delay(500)
+                delay(500)
 
-                    // Check if the coroutine has been canceled
-                    if (!coroutineContext.isActive) {
-                        println("Coroutine-No:$coroutineNo canceled at index $index")
-                    }else{
-                        // Continue with the main logic
-                        println("Coroutine-No:$coroutineNo Working at index $index")
-                    }
+                // Check if the coroutine has been canceled
+                if (!coroutineContext.isActive) {
+                    println("Coroutine-No:$coroutineNo canceled at index $index")
+                } else {
+                    // Continue with the main logic
+                    println("Coroutine-No:$coroutineNo Working at index $index")
                 }
-                // Additional logic after the loop
-                println("Coroutine-No:$coroutineNo completed")
             }
-            catch (e: CancellationException) {
-                // Handle cancellation-specific tasks
-                println("Coroutine-No:$coroutineNo canceled")
-            }
-       // }
+            // Additional logic after the loop
+            println("Coroutine-No:$coroutineNo completed")
+        } catch (e: CancellationException) {
+            // Handle cancellation-specific tasks
+            println("Coroutine-No:$coroutineNo canceled")
+        }
     }
 
-    fun cancel(){
+    fun cancel() {
         job?.cancel()
     }
-
 
 
 }
