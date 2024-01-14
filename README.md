@@ -105,6 +105,7 @@
 * [**`𝙷𝚘𝚠 𝚜𝚞𝚜𝚙𝚎𝚗𝚍𝚒𝚗𝚐 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-suspending-functions-works)
 * [**`𝙷𝚘𝚠 𝚊𝚜𝚢𝚗𝚌/𝚊𝚠𝚊𝚒𝚝 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-async-await-works)
 * Cancelling the coroutines
+  * [**`𝙱𝚕𝚘𝚌𝚔 𝙳𝚒𝚊𝚐𝚛𝚊𝚖 𝚘𝚏 𝚌𝚊𝚗𝚌𝚎𝚕𝚕𝚊𝚝𝚒𝚘𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Block-Diagram-of-cancellation)
   * [**`𝚄𝚜𝚒𝚗𝚐 𝙸𝚜𝙰𝚌𝚝𝚒𝚟𝚎 𝚏𝚘𝚛 𝚌𝚘‐𝚘𝚙𝚎𝚛𝚊𝚝𝚒𝚟𝚎 𝚌𝚊𝚗𝚌𝚎𝚕𝚕𝚊𝚝𝚒𝚘𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Using-IsActive-for-co%E2%80%90operative-cancellation)
   * [**`𝚂𝚒𝚐𝚗𝚒𝚏𝚒𝚌𝚊𝚗𝚌𝚎 𝚘𝚏 𝚎𝚗𝚜𝚞𝚛𝚎 𝚊𝚌𝚝𝚒𝚟𝚎 𝚌𝚘‐𝚘𝚙𝚎𝚛𝚊𝚝𝚒𝚟𝚎 𝚌𝚊𝚗𝚌𝚎𝚕𝚕𝚊𝚝𝚒𝚘𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Significance-of-ensureActive-co%E2%80%90operative-cancellation)
   * [**`𝙲𝚊𝚗𝚌𝚎𝚕𝚕𝚒𝚗𝚐 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚅𝚜 𝙲𝚊𝚗𝚌𝚎𝚕𝚕𝚒𝚗𝚐 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚌𝚑𝚒𝚕𝚍𝚛𝚎𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Cancelling-Coroutine-Vs-Cancelling-Coroutines-children)
