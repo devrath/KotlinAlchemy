@@ -40,6 +40,12 @@ fun CoroutinesCancellationSelection(navController: NavController){
             navController.navigate(ModuleDemo.EnsureActiveDemo.rout)
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Non Cancellable Job", onClick = {
+            navController.navigate(ModuleDemo.NonCancellableDemo.rout)
+        })
+
 
     }
 
