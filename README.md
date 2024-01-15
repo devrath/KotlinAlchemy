@@ -95,7 +95,6 @@
 * [**`𝙳𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚌𝚎 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚕𝚊𝚞𝚗𝚌𝚑 𝚊𝚗𝚍 𝚠𝚒𝚝𝚑𝙲𝚘𝚗𝚝𝚎𝚡𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Difference-between-launch--and--withContext)
 * [**`𝚄𝚗𝚍𝚎𝚛𝚜𝚝𝚊𝚗𝚍𝚒𝚗𝚐 𝚟𝚒𝚎𝚠-𝚖𝚘𝚍𝚎𝚕 𝚜𝚌𝚘𝚙𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Coroutines:-Understanding-ViewModel-Scope)
 * [**`𝚁𝚎𝚕𝚊𝚝𝚒𝚘𝚗𝚜𝚑𝚒𝚙 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚜𝚌𝚘𝚙𝚎 𝚊𝚗𝚍 𝚌𝚘𝚗𝚝𝚎𝚡𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Coroutines:-Relationship-between-Scope-and-Context)
-* [**`𝙷𝚘𝚠 𝚓𝚘𝚋 𝚒𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-Job-in-coroutine-works)
 * [**`𝙷𝚘𝚠 𝚜𝚞𝚜𝚙𝚎𝚗𝚍𝚒𝚗𝚐 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-suspending-functions-works)
 * [**`𝙷𝚘𝚠 𝚊𝚜𝚢𝚗𝚌/𝚊𝚠𝚊𝚒𝚝 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-async-await-works)
 * Dispatchers
@@ -114,6 +113,9 @@
   * [**`𝙽𝚘𝚗-𝚌𝚊𝚗𝚌𝚎𝚕𝚕𝚊𝚋𝚕𝚎 𝚓𝚘𝚋`**](https://github.com/devrath/KotlinAlchemy/wiki/Non-Cancellable-job)
 * Structured Concurrency
   * [**`𝚆𝚑𝚊𝚝 𝚒𝚜 𝚂𝚝𝚛𝚞𝚌𝚝𝚞𝚛𝚎𝚍 𝚌𝚘𝚗𝚌𝚞𝚛𝚛𝚎𝚗𝚌𝚢?`**](https://github.com/devrath/KotlinAlchemy/wiki/What-is-Structured-concurrency)
+* Jobs
+  * [**`𝙷𝚘𝚠 𝚓𝚘𝚋 𝚒𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-Job-in-coroutine-works)
+  * [**`𝙹𝚘𝚋-𝙷𝚒𝚎𝚛𝚊𝚛𝚌𝚑𝚢`**](https://github.com/devrath/KotlinAlchemy/wiki/Job%E2%80%90Hierarchy) 
 
 
 #### `𝙺𝚘𝚝𝚕𝚒𝚗 𝙵𝚕𝚘𝚠 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`
