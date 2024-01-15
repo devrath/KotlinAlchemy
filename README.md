@@ -98,7 +98,6 @@
 * [**`𝙷𝚘𝚠 𝚜𝚞𝚜𝚙𝚎𝚗𝚍𝚒𝚗𝚐 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-suspending-functions-works)
 * [**`𝙷𝚘𝚠 𝚊𝚜𝚢𝚗𝚌/𝚊𝚠𝚊𝚒𝚝 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-async-await-works)
 * [**`𝚄𝚜𝚒𝚗𝚐 𝚓𝚘𝚒𝚗 𝚒𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Using-join-in-coroutines)
-* [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚓𝚘𝚒𝚗 𝚟𝚜 𝚊𝚠𝚊𝚒𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Coroutines-join-vs-await)
 * Dispatchers
   * [**`𝙳𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚝 𝚝𝚢𝚙𝚎𝚜 𝚘𝚏 𝚍𝚒𝚜𝚙𝚊𝚝𝚌𝚑𝚎𝚛𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Coroutines:-Types-of-dispatchers)
   * [**`𝚂𝚝𝚛𝚊𝚝𝚎𝚐𝚒𝚎𝚜 𝚏𝚘𝚛 𝚞𝚜𝚒𝚗𝚐 𝚝𝚑𝚎 𝚍𝚒𝚜𝚙𝚊𝚝𝚌𝚑𝚎𝚛𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Strategies-for-using-the-dispatchers)
@@ -117,7 +116,10 @@
   * [**`𝚆𝚑𝚊𝚝 𝚒𝚜 𝚂𝚝𝚛𝚞𝚌𝚝𝚞𝚛𝚎𝚍 𝚌𝚘𝚗𝚌𝚞𝚛𝚛𝚎𝚗𝚌𝚢?`**](https://github.com/devrath/KotlinAlchemy/wiki/What-is-Structured-concurrency)
 * Jobs
   * [**`𝙷𝚘𝚠 𝚓𝚘𝚋 𝚒𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-Job-in-coroutine-works)
-  * [**`𝙹𝚘𝚋-𝙷𝚒𝚎𝚛𝚊𝚛𝚌𝚑𝚢`**](https://github.com/devrath/KotlinAlchemy/wiki/Job%E2%80%90Hierarchy) 
+  * [**`𝙹𝚘𝚋-𝙷𝚒𝚎𝚛𝚊𝚛𝚌𝚑𝚢`**](https://github.com/devrath/KotlinAlchemy/wiki/Job%E2%80%90Hierarchy)
+* Parallel Decomposition
+  * [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚓𝚘𝚒𝚗 𝚟𝚜 𝚊𝚠𝚊𝚒𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Coroutines-join-vs-await)
+  
 
 
 #### `𝙺𝚘𝚝𝚕𝚒𝚗 𝙵𝚕𝚘𝚠 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`
