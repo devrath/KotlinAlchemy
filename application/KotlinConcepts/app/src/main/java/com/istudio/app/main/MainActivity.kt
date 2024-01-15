@@ -24,6 +24,7 @@ import com.istudio.app.modules.module_demos.coroutines.job.JobDemoSelection
 import com.istudio.app.modules.module_demos.coroutines.launch_and_withcontext.LaunchAndWithContextDemo
 import com.istudio.app.modules.module_demos.coroutines.simple_structured_concurrency.SimpleStructuredConcurrencyDemo
 import com.istudio.app.modules.module_demos.coroutines.suspend_and_launch_demo.SuspendAndLaunchDemo
+import com.istudio.app.modules.module_demos.coroutines.using_join.UsingJoinDemo
 import com.istudio.app.modules.module_demos.flows.FlowsDemo
 import com.istudio.app.modules.module_demos.flows.modules.flow_basics.chapters.display_data_from_server.DisplayDataFromServerDemo
 import com.istudio.app.modules.module_demos.flows.modules.intermediate_operators.IntermediateOperators
@@ -169,6 +170,10 @@ class MainActivity : ComponentActivity() {
                         // Job Demo
                         composable(ModuleDemo.JobDemoSelection.rout) {
                             JobDemoSelection(navController = navController)
+                        }
+                        // Using Join Demo
+                        composable(ModuleDemo.UsingJoinDemo.rout) {
+                            UsingJoinDemo(navController = navController)
                         }
                     }
                 }

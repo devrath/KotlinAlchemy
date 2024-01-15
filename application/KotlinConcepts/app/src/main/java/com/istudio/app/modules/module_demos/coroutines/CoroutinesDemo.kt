@@ -85,6 +85,12 @@ fun CoroutinesDemo(navController: NavController){
             navController.navigate(ModuleDemo.JobDemoSelection.rout)
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Using Join Demo", onClick = {
+            navController.navigate(ModuleDemo.UsingJoinDemo.rout)
+        })
+
     }
 
 }
