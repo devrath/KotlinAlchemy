@@ -80,5 +80,12 @@ fun ModuleSelectionScreen(navController: NavHostController) {
         AppButton(text = "Exercises", onClick = {
             navController.navigate(ModuleDemo.Exercises.rout)
         })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "LaunchAndWithContextDemo", onClick = {
+            navController.navigate(ModuleDemo.LaunchAndWithContextDemo.rout)
+        })
+
     }
 }

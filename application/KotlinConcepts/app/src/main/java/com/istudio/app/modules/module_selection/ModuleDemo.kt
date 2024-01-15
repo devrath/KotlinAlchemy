@@ -26,5 +26,6 @@ sealed class ModuleDemo(val rout: String) {
     data object EnsureActiveDemo : ModuleDemo("EnsureActiveDemo")
     data object NonCancellableDemo : ModuleDemo("NonCancellableDemo")
     data object SuspendAndLaunchDemo : ModuleDemo("SuspendAndLaunchDemo")
+    data object LaunchAndWithContextDemo : ModuleDemo("LaunchAndWithContextDemo")
 
 }

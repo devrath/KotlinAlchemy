@@ -20,6 +20,7 @@ import com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.is
 import com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.non_cancellable_job.NonCancellableDemo
 import com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.root_children_cencel_demo.RootChildrenCancelDemo
 import com.istudio.app.modules.module_demos.coroutines.dispatchers.DispatchersDemo
+import com.istudio.app.modules.module_demos.coroutines.launch_and_withcontext.LaunchAndWithContextDemo
 import com.istudio.app.modules.module_demos.coroutines.simple_structured_concurrency.SimpleStructuredConcurrencyDemo
 import com.istudio.app.modules.module_demos.coroutines.suspend_and_launch_demo.SuspendAndLaunchDemo
 import com.istudio.app.modules.module_demos.flows.FlowsDemo
@@ -159,6 +160,10 @@ class MainActivity : ComponentActivity() {
                         // Suspend and Launch demo
                         composable(ModuleDemo.SuspendAndLaunchDemo.rout) {
                             SuspendAndLaunchDemo(navController = navController)
+                        }
+                        // Launch And WithContext demo
+                        composable(ModuleDemo.LaunchAndWithContextDemo.rout) {
+                            LaunchAndWithContextDemo(navController = navController)
                         }
                     }
                 }

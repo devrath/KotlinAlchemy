@@ -73,6 +73,11 @@ fun CoroutinesDemo(navController: NavController){
             navController.navigate(ModuleDemo.SuspendAndLaunchDemo.rout)
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Launch and with context demo", onClick = {
+            navController.navigate(ModuleDemo.LaunchAndWithContextDemo.rout)
+        })
     }
 
 }
