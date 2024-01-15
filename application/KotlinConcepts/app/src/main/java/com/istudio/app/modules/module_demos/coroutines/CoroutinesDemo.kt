@@ -78,6 +78,13 @@ fun CoroutinesDemo(navController: NavController){
         AppButton(text = "Launch and with context demo", onClick = {
             navController.navigate(ModuleDemo.LaunchAndWithContextDemo.rout)
         })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Job Demos", onClick = {
+            navController.navigate(ModuleDemo.JobDemoSelection.rout)
+        })
+
     }
 
 }
