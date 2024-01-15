@@ -27,9 +27,11 @@ class LaunchAndWithContextDemoVm @Inject constructor( ) : ViewModel() {
         printCoroutineScopeInfo()
         childScope.launch {
             printCoroutineScopeInfo()
-            withContext(Dispatchers.Main + CoroutineName("Child-nested-Coroutine")){
+            val result = withContext(Dispatchers.Main + CoroutineName("Child-nested-Coroutine")){
                 printCoroutineScopeInfo()
+                100
             }
+            println("Returned value $result")
         }
     }
 
