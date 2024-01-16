@@ -30,11 +30,6 @@ fun UsingAsyncExceptionHandleDemo(navController: NavHostController) {
             viewModel.demo()
         }
 
-        Spacer(modifier = Modifier.height(20.dp))
-
-        AppButton(text = "Cancel-Root") {
-            viewModel.rootCancel()
-        }
     }
 
 }
