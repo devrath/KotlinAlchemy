@@ -35,6 +35,12 @@ fun UsingLaunchExceptionHandleDemo(navController: NavHostController) {
         AppButton(text = "Catch locally using try catch") {
             viewModel.demo2()
         }
+
+        Spacer(modifier = Modifier.height(20.dp))
+
+        AppButton(text = "Try to catch on external catch") {
+            viewModel.demo3()
+        }
     }
 
 }
