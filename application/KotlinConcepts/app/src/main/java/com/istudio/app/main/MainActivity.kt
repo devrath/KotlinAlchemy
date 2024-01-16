@@ -24,6 +24,8 @@ import com.istudio.app.modules.module_demos.coroutines.job.JobDemoSelection
 import com.istudio.app.modules.module_demos.coroutines.launch_and_withcontext.LaunchAndWithContextDemo
 import com.istudio.app.modules.module_demos.coroutines.simple_structured_concurrency.SimpleStructuredConcurrencyDemo
 import com.istudio.app.modules.module_demos.coroutines.suspend_and_launch_demo.SuspendAndLaunchDemo
+import com.istudio.app.modules.module_demos.coroutines.using_async_await.UsingAsyncAwaitDemo
+import com.istudio.app.modules.module_demos.coroutines.using_async_await.UsingAsyncAwaitDemoVm
 import com.istudio.app.modules.module_demos.coroutines.using_join.UsingJoinDemo
 import com.istudio.app.modules.module_demos.flows.FlowsDemo
 import com.istudio.app.modules.module_demos.flows.modules.flow_basics.chapters.display_data_from_server.DisplayDataFromServerDemo
@@ -174,6 +176,10 @@ class MainActivity : ComponentActivity() {
                         // Using Join Demo
                         composable(ModuleDemo.UsingJoinDemo.rout) {
                             UsingJoinDemo(navController = navController)
+                        }
+                        // Using Async Await Demo
+                        composable(ModuleDemo.UsingAsyncAwaitDemo.rout) {
+                            UsingAsyncAwaitDemo(navController = navController)
                         }
                     }
                 }

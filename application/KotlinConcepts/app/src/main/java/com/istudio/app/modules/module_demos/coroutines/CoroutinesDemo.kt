@@ -91,6 +91,12 @@ fun CoroutinesDemo(navController: NavController){
             navController.navigate(ModuleDemo.UsingJoinDemo.rout)
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Using Async Await Demo", onClick = {
+            navController.navigate(ModuleDemo.UsingAsyncAwaitDemo.rout)
+        })
+
     }
 
 }

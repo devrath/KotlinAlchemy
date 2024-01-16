@@ -29,5 +29,6 @@ sealed class ModuleDemo(val rout: String) {
     data object LaunchAndWithContextDemo : ModuleDemo("LaunchAndWithContextDemo")
     data object JobDemoSelection : ModuleDemo("JobDemoSelection")
     data object UsingJoinDemo : ModuleDemo("UsingJoinDemo")
+    data object UsingAsyncAwaitDemo : ModuleDemo("UsingAsyncAwaitDemo")
 
 }
