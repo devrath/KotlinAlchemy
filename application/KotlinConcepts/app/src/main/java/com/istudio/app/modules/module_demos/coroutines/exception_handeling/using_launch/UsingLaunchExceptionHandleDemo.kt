@@ -26,14 +26,14 @@ fun UsingLaunchExceptionHandleDemo(navController: NavHostController) {
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        AppButton(text = "Demo") {
-            viewModel.demo()
+        AppButton(text = "No Exception Handler") {
+            viewModel.demo1()
         }
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        AppButton(text = "Cancel-Root") {
-            viewModel.rootCancel()
+        AppButton(text = "Catch locally using try catch") {
+            viewModel.demo2()
         }
     }
 
