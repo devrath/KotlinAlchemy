@@ -119,8 +119,11 @@
   * [**`𝙹𝚘𝚋-𝙷𝚒𝚎𝚛𝚊𝚛𝚌𝚑𝚢`**](https://github.com/devrath/KotlinAlchemy/wiki/Job%E2%80%90Hierarchy)
 * Parallel Decomposition
   * [**`𝙰𝚋𝚘𝚞𝚝 𝚙𝚊𝚛𝚊𝚕𝚕𝚎𝚕 𝚍𝚎𝚌𝚘𝚖𝚙𝚘𝚜𝚒𝚝𝚒𝚘𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/About-parallel-decomposition)
+  * [**`𝙰𝚋𝚘𝚞𝚝 𝙰𝚜𝚢𝚗𝚌 𝚊𝚗𝚍 𝙰𝚠𝚊𝚒𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/About-Async-and-Await)
   * [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚓𝚘𝚒𝚗 𝚟𝚜 𝚊𝚠𝚊𝚒𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Coroutines-join-vs-await)
-  
+* Exception Handling
+  * [**`𝙴𝚡𝚌𝚎𝚙𝚝𝚒𝚘𝚗 𝚑𝚊𝚗𝚍𝚕𝚒𝚗𝚐 𝚒𝚗 𝚕𝚊𝚞𝚗𝚌𝚑`**](https://github.com/devrath/KotlinAlchemy/wiki/Exception-handling-in-launch)
+  * [**`𝙴𝚡𝚌𝚎𝚙𝚝𝚒𝚘𝚗 𝚑𝚊𝚗𝚍𝚕𝚒𝚗𝚐 𝚒𝚗 𝚊𝚜𝚢𝚗𝚌`**](https://github.com/devrath/KotlinAlchemy/wiki/Exception-handling-in-async) 
 
 
 #### `𝙺𝚘𝚝𝚕𝚒𝚗 𝙵𝚕𝚘𝚠 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`
