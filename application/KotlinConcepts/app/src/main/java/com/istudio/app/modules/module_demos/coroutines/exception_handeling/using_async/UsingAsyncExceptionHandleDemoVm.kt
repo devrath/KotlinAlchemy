@@ -26,19 +26,28 @@ class UsingAsyncExceptionHandleDemoVm @Inject constructor( ) : ViewModel() {
             println("Caught an exception: $exception")
         }
         viewModelScope.launch {
-            ourScope.async(CoroutineName("Parent") + handler) {
-                val child1 = ourScope.async (CoroutineName("Child-1")) {
-                    delay(10000)
-                }
-                val child2 = ourScope.async(CoroutineName("Child-2")) {
-                    throw RuntimeException("Child-2 throws exception")
-                    delay(10000)
-                }
-                awaitAll(child1,child2)
-                // Outer delay
-                delay(15000)
-            }.await()
+            val deferredResult = async(handler) {
+                // Call the function that performs the asynchronous task
+                performAsyncTask()
+            }
+
+            try {
+                // Wait for the result of the async task
+                val result = deferredResult.await()
+                println("Async task result: $result")
+            } catch (e: Exception) {
+                // Exception will be caught by the exception handler
+                println("Exception caught in main: $e")
+            }
         }
+    }
+
+    private suspend fun performAsyncTask(): String {
+        // Simulate some asynchronous work
+        delay(1000)
+
+        // Simulate an exception
+        throw RuntimeException("Simulated exception in async task")
     }
     // <----------------------->   Using Exception Handler   <------------------->
 
