@@ -20,6 +20,9 @@ import com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.is
 import com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.non_cancellable_job.NonCancellableDemo
 import com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.root_children_cencel_demo.RootChildrenCancelDemo
 import com.istudio.app.modules.module_demos.coroutines.dispatchers.DispatchersDemo
+import com.istudio.app.modules.module_demos.coroutines.exception_handeling.ExceptionHandlingSelectionDemo
+import com.istudio.app.modules.module_demos.coroutines.exception_handeling.using_async.UsingAsyncExceptionHandleDemo
+import com.istudio.app.modules.module_demos.coroutines.exception_handeling.using_launch.UsingLaunchExceptionHandleDemo
 import com.istudio.app.modules.module_demos.coroutines.job.JobDemoSelection
 import com.istudio.app.modules.module_demos.coroutines.launch_and_withcontext.LaunchAndWithContextDemo
 import com.istudio.app.modules.module_demos.coroutines.simple_structured_concurrency.SimpleStructuredConcurrencyDemo
@@ -63,7 +66,7 @@ class MainActivity : ComponentActivity() {
 
                     NavHost(
                         navController = navController,
-                        startDestination = ModuleDemo.CoroutinesDemo.rout
+                        startDestination = ModuleDemo.ExceptionHandlingSelectionDemo.rout
                     ) {
                         // Selection Screen
                         composable(ModuleDemo.DemoSelection.rout) {
@@ -181,6 +184,21 @@ class MainActivity : ComponentActivity() {
                         composable(ModuleDemo.UsingAsyncAwaitDemo.rout) {
                             UsingAsyncAwaitDemo(navController = navController)
                         }
+                        // Exception Handling Selection Demo
+                        composable(ModuleDemo.ExceptionHandlingSelectionDemo.rout) {
+                            ExceptionHandlingSelectionDemo(navController = navController)
+                        }
+
+                        // Using Launch Exception Handle Demo
+                        composable(ModuleDemo.UsingLaunchExceptionHandleDemo.rout) {
+                            UsingLaunchExceptionHandleDemo(navController = navController)
+                        }
+
+                        // Using Async Exception Handle Demo
+                        composable(ModuleDemo.UsingAsyncExceptionHandleDemo.rout) {
+                            UsingAsyncExceptionHandleDemo(navController = navController)
+                        }
+
                     }
                 }
             }

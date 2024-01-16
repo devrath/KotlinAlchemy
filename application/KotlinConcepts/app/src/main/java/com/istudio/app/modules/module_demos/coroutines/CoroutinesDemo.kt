@@ -97,6 +97,12 @@ fun CoroutinesDemo(navController: NavController){
             navController.navigate(ModuleDemo.UsingAsyncAwaitDemo.rout)
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Exception Handling Selection", onClick = {
+            navController.navigate(ModuleDemo.ExceptionHandlingSelectionDemo.rout)
+        })
+
     }
 
 }

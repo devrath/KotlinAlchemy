@@ -30,5 +30,8 @@ sealed class ModuleDemo(val rout: String) {
     data object JobDemoSelection : ModuleDemo("JobDemoSelection")
     data object UsingJoinDemo : ModuleDemo("UsingJoinDemo")
     data object UsingAsyncAwaitDemo : ModuleDemo("UsingAsyncAwaitDemo")
+    data object ExceptionHandlingSelectionDemo : ModuleDemo("ExceptionHandlingSelectionDemo")
+    data object UsingLaunchExceptionHandleDemo : ModuleDemo("UsingLaunchExceptionHandleDemo")
+    data object UsingAsyncExceptionHandleDemo : ModuleDemo("UsingAsyncExceptionHandleDemo")
 
 }
