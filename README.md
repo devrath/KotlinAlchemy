@@ -126,14 +126,15 @@
   * [**`𝙴𝚡𝚌𝚎𝚙𝚝𝚒𝚘𝚗 𝚑𝚊𝚗𝚍𝚕𝚒𝚗𝚐 𝚒𝚗 𝚊𝚜𝚢𝚗𝚌`**](https://github.com/devrath/KotlinAlchemy/wiki/Exception-handling-in-async) 
 
 
-#### `𝙺𝚘𝚝𝚕𝚒𝚗 𝙵𝚕𝚘𝚠 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`
+#### `𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚗𝚐 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚌𝚘-𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`
+##### `𝙺𝚘𝚝𝚕𝚒𝚗 𝙵𝚕𝚘𝚠 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`
 * [𝙵𝚕𝚘𝚠 𝙱𝚞𝚒𝚕𝚍𝚎𝚛𝚜](https://github.com/devrath/KotlinAlchemy/wiki/KotlinFlow:-Flow-Builders)
 * Operators
   * [𝚃𝚎𝚛𝚖𝚒𝚗𝚊𝚕 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Flow:-Terminal-operators)
   * [𝙸𝚗𝚝𝚎𝚛𝚖𝚎𝚍𝚒𝚊𝚝𝚎 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Flow:-Intermediate-operators)
   * [𝙻𝚒𝚏𝚎𝚌𝚢𝚌𝚕𝚎 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Flow:-Lifecycle-operators)
 
-#### `𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜`
+##### `𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜`
 * [**`𝙰𝚋𝚘𝚞𝚝 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-About)
 * [**`𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-Communication-between-coroutines)</br>
 * [**`𝚄𝚜𝚒𝚗𝚐 𝙿𝚛𝚘𝚍𝚞𝚌𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Channel-%E2%80%90-Using-produce
