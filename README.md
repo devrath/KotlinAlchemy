@@ -135,7 +135,7 @@
 
 * Kotlin Channels
    * [**`𝙰𝚋𝚘𝚞𝚝 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-About)
-   * [**`𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-Communication-between-coroutines)</br>
+   * [**`𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-Communication-between-coroutines)
    * [**`𝚄𝚜𝚒𝚗𝚐 𝙿𝚛𝚘𝚍𝚞𝚌𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Channel-%E2%80%90-Using-produce
    )
    * [**`𝙲𝚑𝚊𝚗𝚗𝚎𝚕 𝚝𝚢𝚙𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Channel-Types)
