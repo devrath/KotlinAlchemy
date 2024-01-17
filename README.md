@@ -126,6 +126,7 @@
 
 
 #### `𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚗𝚐 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚌𝚘-𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`
+* [𝙰𝚋𝚘𝚞𝚝 𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚗𝚐 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚝𝚑𝚎 𝚌𝚘‐𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜](https://github.com/devrath/KotlinAlchemy/wiki/About-Communicating-between-the-co%E2%80%90routines)
 * Kotlin flow Operators
    * [𝙵𝚕𝚘𝚠 𝙱𝚞𝚒𝚕𝚍𝚎𝚛𝚜](https://github.com/devrath/KotlinAlchemy/wiki/KotlinFlow:-Flow-Builders)
    * Operators
@@ -134,11 +135,11 @@
      * [𝙻𝚒𝚏𝚎𝚌𝚢𝚌𝚕𝚎 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Flow:-Lifecycle-operators)
 
 * Kotlin Channels
-   * [**`𝙰𝚋𝚘𝚞𝚝 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-About)
-   * [**`𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-Communication-between-coroutines)
-   * [**`𝚄𝚜𝚒𝚗𝚐 𝙿𝚛𝚘𝚍𝚞𝚌𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Channel-%E2%80%90-Using-produce
+   * [𝙰𝚋𝚘𝚞𝚝 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-About)
+   * [𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-Communication-between-coroutines)
+   * [𝚄𝚜𝚒𝚗𝚐 𝙿𝚛𝚘𝚍𝚞𝚌𝚎](https://github.com/devrath/KotlinAlchemy/wiki/Channel-%E2%80%90-Using-produce
    )
-   * [**`𝙲𝚑𝚊𝚗𝚗𝚎𝚕 𝚝𝚢𝚙𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Channel-Types)
+   * [𝙲𝚑𝚊𝚗𝚗𝚎𝚕 𝚝𝚢𝚙𝚎𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Channel-Types)
 
 #### `𝙶𝚒𝚜𝚝 𝚎𝚡𝚊𝚖𝚙𝚕𝚎𝚜 𝚘𝚏 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚌𝚝𝚒𝚘𝚗`
 * [**`𝚂𝚒𝚗𝚐𝚕𝚎 𝚗𝚎𝚝𝚠𝚘𝚛𝚔 𝚛𝚎𝚚𝚞𝚎𝚜𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Single-network-request)
