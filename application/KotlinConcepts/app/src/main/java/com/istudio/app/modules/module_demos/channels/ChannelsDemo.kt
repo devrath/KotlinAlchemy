@@ -80,6 +80,23 @@ fun ChannelsDemo(navController: NavHostController) {
             viewModel.usingUnlimited()
         })
         // <! ------------------- USING CHANNELS - BUFFERED -------------------------->
+        AppText(text = "Types of communication")
 
+        Spacer(modifier = Modifier.height(16.dp))
+        AppButton(text = "1-1 --> Communication", onClick = {
+
+        })
+        Spacer(modifier = Modifier.height(16.dp))
+        AppButton(text = "1-n --> Communication", onClick = {
+            viewModel.usingOneToMany()
+        })
+        Spacer(modifier = Modifier.height(16.dp))
+        AppButton(text = "n-1 --> Communication", onClick = {
+
+        })
+        Spacer(modifier = Modifier.height(16.dp))
+        AppButton(text = "n-n --> Communication", onClick = {
+
+        })
     }
 }

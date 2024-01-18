@@ -12,6 +12,7 @@ import kotlinx.coroutines.channels.ReceiveChannel
 import kotlinx.coroutines.channels.consumeEach
 import kotlinx.coroutines.channels.produce
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.joinAll
 import kotlinx.coroutines.launch
 import java.lang.Exception
 import javax.inject.Inject
@@ -295,4 +296,47 @@ class ChannelsDemoVm @Inject constructor( ) : ViewModel() {
         }
     }
     // <! ------------------- USING CHANNELS - UNLIMITED-------------------------->
+
+    // <! ------------------- 1-1 - COMMUNICATION--------------------------------->
+    private var one_to_n_channel : ReceiveChannel<Int> = Channel()
+
+    fun usingOneToMany() {
+       viewModelScope.launch {
+           // Producer -1
+           one_to_n_channel = produce(capacity = UNLIMITED){
+               repeat(10){ currentValue -> send(currentValue) }
+           }
+       }
+
+      viewModelScope.launch {
+          // Coroutine - 1
+          viewModelScope.launch {
+              // Consumer - 1
+              one_to_n_channel.consumeEach {
+                  println("Consumer-1 <-> (1-n) : ----> ${one_to_n_channel.receive()}")
+                  delay(300)
+              }
+          }
+
+          // Coroutine - 2
+          viewModelScope.launch {
+              // Consumer - 2
+              one_to_n_channel.consumeEach {
+                  println("Consumer-2 <-> (1-n) : ----> ${one_to_n_channel.receive()}")
+                  delay(100)
+              }
+          }
+          // Coroutine - 3
+          viewModelScope.launch {
+              // Consumer - 3
+              one_to_n_channel.consumeEach {
+                  println("Consumer-3 <-> (1-n) : ----> ${one_to_n_channel.receive()}")
+                  delay(150)
+              }
+          }
+      }
+    }
+    // <! ------------------- 1-1 - COMMUNICATION--------------------------------->
+
+
 }

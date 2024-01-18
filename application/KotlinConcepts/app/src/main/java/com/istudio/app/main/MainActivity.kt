@@ -66,7 +66,7 @@ class MainActivity : ComponentActivity() {
 
                     NavHost(
                         navController = navController,
-                        startDestination = ModuleDemo.ExceptionHandlingSelectionDemo.rout
+                        startDestination = ModuleDemo.ChannelsDemo.rout
                     ) {
                         // Selection Screen
                         composable(ModuleDemo.DemoSelection.rout) {
