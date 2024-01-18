@@ -39,6 +39,22 @@ fun FlowBasics(navController: NavHostController){
             navController.navigate(ModuleDemo.DisplayDataFromServer.rout)
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppText(text = "Stopping Flow - Demo")
+
+        AppButton(text = "Start", onClick = {
+            viewModel.stoppingFlowDemoStart()
+        })
+
+        Spacer(modifier = Modifier.height(5.dp))
+
+        AppButton(text = "Cancel", onClick = {
+            viewModel.invokeCancel()
+        })
+
+
+
     }
 
 

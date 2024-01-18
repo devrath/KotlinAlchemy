@@ -12,6 +12,8 @@ import com.istudio.app.modules.module_demos.flows.modules.flow_basics.data.Stock
 import com.istudio.app.modules.module_demos.flows.modules.flow_basics.state.UiState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asFlow
@@ -72,6 +74,25 @@ class FlowBasicsVm @Inject constructor(
             }
             println("<---------------- Builder: emit ---------------------->")
 
+        }
+    }
+
+
+
+    private val input = listOf(1,2,3,4,5,6,7,8,9).asFlow()
+    private var jobIp : Job? = null
+    fun stoppingFlowDemoStart() {
+        jobIp = viewModelScope.launch {
+            input.collect{
+                println("CurrentElement -> $it")
+                delay(1500)
+            }
+        }
+    }
+
+    fun invokeCancel(){
+        jobIp?.let {
+            it.cancel(cause = CancellationException("Cancelled by the user"))
         }
     }
 
