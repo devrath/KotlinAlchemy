@@ -139,6 +139,7 @@
    * [𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-Communication-between-coroutines)
    * [𝚄𝚜𝚒𝚗𝚐 𝙿𝚛𝚘𝚍𝚞𝚌𝚎](https://github.com/devrath/KotlinAlchemy/wiki/Channel-%E2%80%90-Using-produce
    )
+   * [𝙴𝚗𝚍-𝚝𝚘-𝚎𝚗𝚍 𝚌𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚝𝚢𝚙𝚎𝚜](https://github.com/devrath/KotlinAlchemy/wiki/End-to-end-communication-types-in-channels)
    * [𝙲𝚑𝚊𝚗𝚗𝚎𝚕 𝚝𝚢𝚙𝚎𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Channel-Types)
 
 #### `𝙶𝚒𝚜𝚝 𝚎𝚡𝚊𝚖𝚙𝚕𝚎𝚜 𝚘𝚏 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚌𝚝𝚒𝚘𝚗`
