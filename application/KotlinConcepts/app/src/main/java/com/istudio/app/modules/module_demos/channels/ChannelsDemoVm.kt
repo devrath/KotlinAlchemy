@@ -5,6 +5,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.channels.Channel.Factory.CONFLATED
 import kotlinx.coroutines.channels.Channel.Factory.UNLIMITED
@@ -297,7 +299,7 @@ class ChannelsDemoVm @Inject constructor( ) : ViewModel() {
     }
     // <! ------------------- USING CHANNELS - UNLIMITED-------------------------->
 
-    // <! ------------------- 1-1 - COMMUNICATION--------------------------------->
+    // <! ------------------- 1-N - COMMUNICATION--------------------------------->
     private var one_to_n_channel : ReceiveChannel<Int> = Channel()
 
     fun usingOneToMany() {
@@ -313,7 +315,7 @@ class ChannelsDemoVm @Inject constructor( ) : ViewModel() {
           viewModelScope.launch {
               // Consumer - 1
               one_to_n_channel.consumeEach {
-                  println("Consumer-1 <-> (1-n) : ----> ${one_to_n_channel.receive()}")
+                  println("Consumer-1 <-> (1-n) : ----> $it")
                   delay(300)
               }
           }
@@ -322,7 +324,7 @@ class ChannelsDemoVm @Inject constructor( ) : ViewModel() {
           viewModelScope.launch {
               // Consumer - 2
               one_to_n_channel.consumeEach {
-                  println("Consumer-2 <-> (1-n) : ----> ${one_to_n_channel.receive()}")
+                  println("Consumer-2 <-> (1-n) : ----> $it")
                   delay(100)
               }
           }
@@ -330,13 +332,44 @@ class ChannelsDemoVm @Inject constructor( ) : ViewModel() {
           viewModelScope.launch {
               // Consumer - 3
               one_to_n_channel.consumeEach {
-                  println("Consumer-3 <-> (1-n) : ----> ${one_to_n_channel.receive()}")
+                  println("Consumer-3 <-> (1-n) : ----> $it")
                   delay(150)
               }
           }
       }
     }
-    // <! ------------------- 1-1 - COMMUNICATION--------------------------------->
+    // <! ------------------- 1-N - COMMUNICATION--------------------------------->
 
+    // <! ------------------- N-1 - COMMUNICATION--------------------------------->
+    private var n_to_one_channel : Channel<String> = Channel()
+
+    fun usingManyToOne() {
+        viewModelScope.launch {
+            // Producer -1
+            val firstProducer = viewModelScope.async {
+                repeat(3){ currentValue ->
+                    n_to_one_channel.send("FromProducer-1 $currentValue")
+                    delay(150)
+                }
+            }
+            // Producer -2
+            val secondProducer = viewModelScope.async {
+                repeat(3){ currentValue ->
+                    n_to_one_channel.send("FromProducer-2 $currentValue")
+                    delay(100)
+                }
+            }
+            awaitAll(secondProducer,firstProducer)
+        }
+
+
+        // Consumer-1
+        viewModelScope.launch {
+            n_to_one_channel.consumeEach {
+                println("Consumer <-> (N-1) : ----> $it")
+            }
+        }
+    }
+    // <! ------------------- N-1 - COMMUNICATION--------------------------------->
 
 }

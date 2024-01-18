@@ -92,7 +92,7 @@ fun ChannelsDemo(navController: NavHostController) {
         })
         Spacer(modifier = Modifier.height(16.dp))
         AppButton(text = "n-1 --> Communication", onClick = {
-
+            viewModel.usingManyToOne()
         })
         Spacer(modifier = Modifier.height(16.dp))
         AppButton(text = "n-n --> Communication", onClick = {
