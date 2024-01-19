@@ -21,6 +21,7 @@ import kotlinx.coroutines.flow.mapLatest
 import kotlinx.coroutines.flow.mapNotNull
 import kotlinx.coroutines.flow.take
 import kotlinx.coroutines.flow.takeWhile
+import kotlinx.coroutines.flow.transform
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 import kotlin.coroutines.EmptyCoroutineContext
@@ -123,6 +124,27 @@ class IntermediateOperatorsVm @Inject constructor(
         val scope = CoroutineScope(EmptyCoroutineContext)
         scope.launch {
             flowOfIntegers.drop(1).collect{
+                println("Received value: -->$it")
+            }
+        }
+    }
+
+    /**
+     * OPERATOR: Transform Operator
+     * DESCRIPTION:
+     * We can transform the data apply some predicate conditions and emit the new value,
+     * We can also emit multiple emissions
+     * This is basically applying a collection of operators together and emitting the emission downstream
+     */
+    fun transformOperator() {
+        val scope = CoroutineScope(EmptyCoroutineContext)
+        scope.launch {
+            flowOfIntegers.transform {
+                if((it%2)==0){
+                    // Elements that are divisible by 2
+                    emit(it)
+                }
+            }.collect{
                 println("Received value: -->$it")
             }
         }

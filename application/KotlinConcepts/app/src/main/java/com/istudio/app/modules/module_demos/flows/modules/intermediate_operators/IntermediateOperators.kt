@@ -45,6 +45,10 @@ fun IntermediateOperators(navController: NavHostController) {
 
         AppButton(text = "Drop Operator", onClick = { viewModel.dropOperator() })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Transform Operator", onClick = { viewModel.transformOperator() })
+
     }
 
 }
