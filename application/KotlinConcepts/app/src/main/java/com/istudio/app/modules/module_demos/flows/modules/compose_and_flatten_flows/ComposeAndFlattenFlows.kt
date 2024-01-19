@@ -29,6 +29,10 @@ fun ComposeAndFlattenFlows(navController: NavHostController){
 
         AppButton(text = "Buffering", onClick = { viewModel.buffering() })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Conflating", onClick = { viewModel.conflating() })
+
     }
 
 

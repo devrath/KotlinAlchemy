@@ -9,6 +9,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.buffer
+import kotlinx.coroutines.flow.conflate
 import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
@@ -16,6 +17,7 @@ import kotlinx.coroutines.flow.lastOrNull
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.singleOrNull
+import kotlinx.coroutines.flow.take
 import kotlinx.coroutines.flow.toList
 import kotlinx.coroutines.flow.toSet
 import kotlinx.coroutines.launch
@@ -51,5 +53,27 @@ class ComposeAndFlattenFlowsVm @Inject constructor(
         println("Time Taken:-> $time")
     }
     /** *********************** Buffering *********************** **/
+
+    /** *********************** Conflating *********************** **/
+    private val conflatingDemoFlow = flow {
+        // Make 10 emissions in iteration
+        repeat(10){
+            // Give some delay
+            println("Emission -> $it")
+            emit(it)
+        }
+    }.flowOn(Dispatchers.Default)
+
+    fun conflating() = viewModelScope.launch{
+        // It will show the time taken to execute this block of code
+        val time = measureTimeMillis {
+            conflatingDemoFlow.take(5).conflate().collect {
+                delay(100)
+                println("Collection -> $it")
+            }
+        }
+        println("Time Taken:-> $time")
+    }
+    /** *********************** Conflating *********************** **/
 
 }
