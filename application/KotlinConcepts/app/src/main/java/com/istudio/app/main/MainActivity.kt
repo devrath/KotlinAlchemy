@@ -31,6 +31,7 @@ import com.istudio.app.modules.module_demos.coroutines.using_async_await.UsingAs
 import com.istudio.app.modules.module_demos.coroutines.using_async_await.UsingAsyncAwaitDemoVm
 import com.istudio.app.modules.module_demos.coroutines.using_join.UsingJoinDemo
 import com.istudio.app.modules.module_demos.flows.FlowsDemo
+import com.istudio.app.modules.module_demos.flows.modules.compose_and_flatten_flows.ComposeAndFlattenFlows
 import com.istudio.app.modules.module_demos.flows.modules.flow_basics.chapters.display_data_from_server.DisplayDataFromServerDemo
 import com.istudio.app.modules.module_demos.flows.modules.intermediate_operators.IntermediateOperators
 import com.istudio.app.modules.module_demos.flows.modules.terminal_operators.TerminalOperators
@@ -66,7 +67,7 @@ class MainActivity : ComponentActivity() {
 
                     NavHost(
                         navController = navController,
-                        startDestination = ModuleDemo.FlowBasics.rout
+                        startDestination = ModuleDemo.ComposingAndFlatteningTheFlows.rout
                     ) {
                         // Selection Screen
                         composable(ModuleDemo.DemoSelection.rout) {
@@ -197,6 +198,11 @@ class MainActivity : ComponentActivity() {
                         // Using Async Exception Handle Demo
                         composable(ModuleDemo.UsingAsyncExceptionHandleDemo.rout) {
                             UsingAsyncExceptionHandleDemo(navController = navController)
+                        }
+
+                        // Compose And Flatten Flows
+                        composable(ModuleDemo.ComposingAndFlatteningTheFlows.rout) {
+                            ComposeAndFlattenFlows(navController = navController)
                         }
 
                     }

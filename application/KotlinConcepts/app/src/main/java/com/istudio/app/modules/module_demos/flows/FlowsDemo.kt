@@ -46,6 +46,12 @@ fun FlowsDemo (navController: NavHostController) {
             navController.navigate(ModuleDemo.IntermediateOperators.rout)
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Composing and Flattening the flows", onClick = {
+            navController.navigate(ModuleDemo.ComposingAndFlatteningTheFlows.rout)
+        })
+
     }
 
 }
