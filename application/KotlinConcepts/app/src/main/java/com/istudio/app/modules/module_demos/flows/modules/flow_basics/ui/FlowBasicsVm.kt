@@ -13,6 +13,7 @@ import com.istudio.app.modules.module_demos.flows.modules.flow_basics.state.UiSt
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -20,10 +21,12 @@ import kotlinx.coroutines.flow.asFlow
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOf
+import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onCompletion
 import kotlinx.coroutines.flow.onStart
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
 @HiltViewModel
@@ -78,7 +81,9 @@ class FlowBasicsVm @Inject constructor(
     }
 
 
-
+    /**
+     * **************************** Cancelling the flow ****************************
+     */
     private val input = listOf(1,2,3,4,5,6,7,8,9).asFlow()
     private var jobIp : Job? = null
     fun stoppingFlowDemoStart() {
@@ -95,5 +100,34 @@ class FlowBasicsVm @Inject constructor(
             it.cancel(cause = CancellationException("Cancelled by the user"))
         }
     }
+    /**
+     * **************************** Cancelling the flow ****************************
+     */
+
+    /**
+     * **************************** Flow Context ****************************
+     */
+    private fun generateIntegers() = flow {
+        var currentValue = 0
+        repeat(15){
+            // Increment value
+            currentValue ++
+            // keep a delay
+            delay(1000)
+            // Emit a value
+            println("Value on emission: $currentValue")
+            emit(currentValue)
+        }
+    }.flowOn(Dispatchers.IO)
+
+    fun flowContextDemo() = viewModelScope.launch {
+        generateIntegers().collect{
+            println("Value on received: $it")
+        }
+    }
+    /**
+     * **************************** Flow Context ****************************
+     */
+
 
 }

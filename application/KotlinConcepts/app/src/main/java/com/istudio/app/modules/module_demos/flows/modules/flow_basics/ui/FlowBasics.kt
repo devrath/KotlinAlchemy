@@ -53,6 +53,11 @@ fun FlowBasics(navController: NavHostController){
             viewModel.invokeCancel()
         })
 
+        Spacer(modifier = Modifier.height(5.dp))
+
+        AppButton(text = "Flow Context", onClick = {
+            viewModel.flowContextDemo()
+        })
 
 
     }
