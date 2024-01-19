@@ -135,6 +135,7 @@
      * [𝙰𝚋𝚘𝚞𝚝 𝚌𝚘𝚖𝚙𝚘𝚜𝚒𝚗𝚐 𝚊𝚗𝚍 𝚏𝚕𝚊𝚝𝚝𝚎𝚗𝚒𝚗𝚐 𝚏𝚕𝚘𝚠𝚜](https://github.com/devrath/KotlinAlchemy/wiki/About-composing-and-flattening-flows)
      * [𝙱𝚞𝚏𝚏𝚎𝚛𝚒𝚗𝚐](https://github.com/devrath/KotlinAlchemy/wiki/Flows:-Buffering)
      * [𝙲𝚘𝚗𝚏𝚕𝚊𝚝𝚒𝚘𝚗](https://github.com/devrath/KotlinAlchemy/wiki/Flows:-Conflation)
+     * [𝙲𝚘𝚕𝚕𝚎𝚌𝚝𝚒𝚗𝚐 𝙻𝚊𝚝𝚎𝚜𝚝](https://github.com/devrath/KotlinAlchemy/wiki/Flows:-Collecting-Latest)
    * Operators
      * [𝚃𝚎𝚛𝚖𝚒𝚗𝚊𝚕 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Flow:-Terminal-operators)
      * [𝙸𝚗𝚝𝚎𝚛𝚖𝚎𝚍𝚒𝚊𝚝𝚎 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Flow:-Intermediate-operators)
