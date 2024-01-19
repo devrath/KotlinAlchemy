@@ -150,5 +150,4 @@ class IntermediateOperatorsVm @Inject constructor(
         }
     }
 
-
 }

@@ -49,6 +49,7 @@ fun IntermediateOperators(navController: NavHostController) {
 
         AppButton(text = "Transform Operator", onClick = { viewModel.transformOperator() })
 
+        
     }
 
 }
