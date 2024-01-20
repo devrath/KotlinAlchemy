@@ -37,6 +37,13 @@ fun ComposeAndFlattenFlows(navController: NavHostController){
 
         AppButton(text = "Collect Latest", onClick = { viewModel.collectLatest() })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Zipping", onClick = { viewModel.zipping() })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Combining", onClick = { viewModel.combining() })
 
     }
 

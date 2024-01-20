@@ -10,6 +10,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.buffer
 import kotlinx.coroutines.flow.collectLatest
+import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.conflate
 import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.flow.flow
@@ -21,6 +22,7 @@ import kotlinx.coroutines.flow.singleOrNull
 import kotlinx.coroutines.flow.take
 import kotlinx.coroutines.flow.toList
 import kotlinx.coroutines.flow.toSet
+import kotlinx.coroutines.flow.zip
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 import kotlin.coroutines.EmptyCoroutineContext
@@ -99,5 +101,59 @@ class ComposeAndFlattenFlowsVm @Inject constructor(
         println("Time Taken:-> $time")
     }
     /** *********************** Collect Latest ******************* **/
+
+    /** *********************** Zipping ************************** **/
+    private val flowOne = flow {
+        emit("x")
+        emit("y")
+        emit("z")
+    }.flowOn(Dispatchers.Default)
+
+    private val flowTwo = flow {
+        emit("x")
+        emit("y")
+        emit("z")
+    }.flowOn(Dispatchers.Default)
+
+    fun zipping() = viewModelScope.launch{
+        // It will show the time taken to execute this block of code
+        val time = measureTimeMillis {
+            flowOne.zip(flowTwo){ one , two ->
+                one+two
+            }.collect{
+                println("Result:-> $it")
+            }
+        }
+        println("Time Taken:-> $time")
+    }
+
+    /** *********************** Zipping ************************** **/
+
+    /** *********************** Combining ************************ **/
+    private val flowCombineOne = flow {
+        emit("x")
+        delay(5000)
+        emit("y")
+        emit("z")
+    }.flowOn(Dispatchers.Default)
+
+    private val flowCombineTwo = flow {
+        emit("x")
+        emit("y")
+        emit("z")
+    }.flowOn(Dispatchers.Default)
+
+    fun combining() = viewModelScope.launch{
+        // It will show the time taken to execute this block of code
+        val time = measureTimeMillis {
+            flowCombineOne.combine(flowCombineTwo){ one , two ->
+                one+two
+            }.collect{
+                println("Result:-> $it")
+            }
+        }
+        println("Time Taken:-> $time")
+    }
+    /** *********************** Combining ************************ **/
 
 }
