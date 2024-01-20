@@ -9,6 +9,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.buffer
+import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.conflate
 import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.flow.flow
@@ -75,5 +76,28 @@ class ComposeAndFlattenFlowsVm @Inject constructor(
         println("Time Taken:-> $time")
     }
     /** *********************** Conflating *********************** **/
+
+    /** *********************** Collect Latest ******************* **/
+    private val collectLatestDemoFlow = flow {
+        // Make 10 emissions in iteration
+        repeat(3){
+            // Give some delay
+            println("Emission -> $it")
+            emit(it)
+        }
+    }.flowOn(Dispatchers.Default)
+
+    fun collectLatest() = viewModelScope.launch{
+        // It will show the time taken to execute this block of code
+        val time = measureTimeMillis {
+            collectLatestDemoFlow.collectLatest {
+                println("Processing emission -> $it")
+                delay(1000)
+                println("Processed emission -> $it")
+            }
+        }
+        println("Time Taken:-> $time")
+    }
+    /** *********************** Collect Latest ******************* **/
 
 }

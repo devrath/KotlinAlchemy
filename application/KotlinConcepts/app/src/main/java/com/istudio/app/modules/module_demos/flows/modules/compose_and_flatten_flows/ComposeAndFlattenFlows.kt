@@ -33,6 +33,11 @@ fun ComposeAndFlattenFlows(navController: NavHostController){
 
         AppButton(text = "Conflating", onClick = { viewModel.conflating() })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Collect Latest", onClick = { viewModel.collectLatest() })
+
+
     }
 
 
