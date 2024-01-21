@@ -35,5 +35,6 @@ sealed class ModuleDemo(val rout: String) {
     data object UsingAsyncExceptionHandleDemo : ModuleDemo("UsingAsyncExceptionHandleDemo")
     data object ComposingAndFlatteningTheFlows : ModuleDemo("ComposingAndFlatteningTheFlows")
     data object StateAndSharedFlowDemo : ModuleDemo("StateAndSharedFlowDemo")
+    data object MutableStateOfFlowDemo : ModuleDemo("MutableStateOfFlowDemo")
 
 }

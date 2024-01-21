@@ -58,6 +58,12 @@ fun FlowsDemo (navController: NavHostController) {
             navController.navigate(ModuleDemo.StateAndSharedFlowDemo.rout)
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Mutable State of Flow Demo", onClick = {
+            navController.navigate(ModuleDemo.MutableStateOfFlowDemo.rout)
+        })
+
     }
 
 }

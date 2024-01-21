@@ -36,6 +36,7 @@ import com.istudio.app.modules.module_demos.flows.modules.flow_basics.chapters.d
 import com.istudio.app.modules.module_demos.flows.modules.intermediate_operators.IntermediateOperators
 import com.istudio.app.modules.module_demos.flows.modules.terminal_operators.TerminalOperators
 import com.istudio.app.modules.module_demos.flows.modules.flow_basics.ui.FlowBasics
+import com.istudio.app.modules.module_demos.flows.modules.mutable_state_of_flow.MutableStateOfFlowDemo
 import com.istudio.app.modules.module_demos.flows.modules.state_and_shared_flows.StateAndSharedFlowDemo
 import com.istudio.app.modules.module_demos.higher_order_functions.ui.HigherOrderFunctionDemo
 import com.istudio.app.modules.module_demos.kotlin_annotations.ui.KotlinAnnotationsDemo
@@ -68,7 +69,7 @@ class MainActivity : ComponentActivity() {
 
                     NavHost(
                         navController = navController,
-                        startDestination = ModuleDemo.StateAndSharedFlowDemo.rout
+                        startDestination = ModuleDemo.MutableStateOfFlowDemo.rout
                     ) {
                         // Selection Screen
                         composable(ModuleDemo.DemoSelection.rout) {
@@ -209,6 +210,11 @@ class MainActivity : ComponentActivity() {
                         // State And Shared Flows
                         composable(ModuleDemo.StateAndSharedFlowDemo.rout) {
                             StateAndSharedFlowDemo(navController = navController)
+                        }
+
+                        // Mutable state of flow demo
+                        composable(ModuleDemo.MutableStateOfFlowDemo.rout) {
+                            MutableStateOfFlowDemo(navController = navController)
                         }
                     }
                 }
