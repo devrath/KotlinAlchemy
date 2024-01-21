@@ -15,6 +15,7 @@ import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.shareIn
 import kotlinx.coroutines.flow.singleOrNull
+import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.toList
 import kotlinx.coroutines.flow.toSet
 import kotlinx.coroutines.launch
@@ -26,6 +27,9 @@ class StateAndSharedFlowsDemoVm @Inject constructor(
     @ApplicationContext private val context: Context,
 ) : ViewModel() {
 
+    /**
+     * ********************************* SharedIn *********************************
+     */
     // Cold Flow
     private fun generateDemoFlow() = flow {
         repeat(1000){
@@ -52,6 +56,42 @@ class StateAndSharedFlowsDemoVm @Inject constructor(
             println("Collected value (B) => $it")
         }
     }
+    /**
+     * ********************************* SharedIn *********************************
+     */
 
+
+    /**
+     * ********************************* StateIn *********************************
+     */
+    private suspend fun generateDemoFlowTwo() = flow {
+        repeat(1000){
+            emit("Emitting value => $it")
+            delay(2000)
+        }
+    }.stateIn(
+        scope = viewModelScope
+    )
+
+    fun demoTwo() = viewModelScope.launch {
+
+        println("Before second subscriber subscription -> ${generateDemoFlowTwo().value}")
+
+        // Give a delay of 1 second before subscribing
+        delay(1000)
+
+        generateDemoFlowTwo().collect{
+            println("Collected value (A) => $it")
+        }
+    }
+
+    fun addNewSubscriberDemoTwo() = viewModelScope.launch{
+        generateDemoFlow().collect{
+            println("Collected value (B) => $it")
+        }
+    }
+    /**
+     * ********************************* StateIn *********************************
+     */
 
 }
