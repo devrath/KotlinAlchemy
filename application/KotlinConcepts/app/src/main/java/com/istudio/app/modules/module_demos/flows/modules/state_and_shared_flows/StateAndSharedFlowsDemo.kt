@@ -31,9 +31,9 @@ fun StateAndSharedFlowDemo(navController: NavHostController){
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        AppButton(text = "WhileSubscribed", onClick = { viewModel.demo() })
+        AppButton(text = "First subscription", onClick = { viewModel.demo() })
         Spacer(modifier = Modifier.height(10.dp))
-        AppButton(text = "WhileSubscribed", onClick = { viewModel.addNewSubscriber() })
+        AppButton(text = "Add second subscription", onClick = { viewModel.addNewSubscriber() })
 
     }
 
