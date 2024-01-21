@@ -36,6 +36,7 @@ import com.istudio.app.modules.module_demos.flows.modules.flow_basics.chapters.d
 import com.istudio.app.modules.module_demos.flows.modules.intermediate_operators.IntermediateOperators
 import com.istudio.app.modules.module_demos.flows.modules.terminal_operators.TerminalOperators
 import com.istudio.app.modules.module_demos.flows.modules.flow_basics.ui.FlowBasics
+import com.istudio.app.modules.module_demos.flows.modules.state_and_shared_flows.StateAndSharedFlowDemo
 import com.istudio.app.modules.module_demos.higher_order_functions.ui.HigherOrderFunctionDemo
 import com.istudio.app.modules.module_demos.kotlin_annotations.ui.KotlinAnnotationsDemo
 import com.istudio.app.modules.module_demos.nested_vs_inner.ui.NestedVsInner
@@ -67,7 +68,7 @@ class MainActivity : ComponentActivity() {
 
                     NavHost(
                         navController = navController,
-                        startDestination = ModuleDemo.ComposingAndFlatteningTheFlows.rout
+                        startDestination = ModuleDemo.StateAndSharedFlowDemo.rout
                     ) {
                         // Selection Screen
                         composable(ModuleDemo.DemoSelection.rout) {
@@ -205,6 +206,10 @@ class MainActivity : ComponentActivity() {
                             ComposeAndFlattenFlows(navController = navController)
                         }
 
+                        // State And Shared Flows
+                        composable(ModuleDemo.StateAndSharedFlowDemo.rout) {
+                            StateAndSharedFlowDemo(navController = navController)
+                        }
                     }
                 }
             }
