@@ -149,7 +149,7 @@
      * [𝚄𝚜𝚒𝚗𝚐 𝙼𝚞𝚝𝚊𝚋𝚕𝚎 𝚂𝚑𝚊𝚛𝚎𝚍 𝙵𝚕𝚘𝚠](https://github.com/devrath/KotlinAlchemy/wiki/Using-Mutable-Shared-Flow)
    * State Flow
      * [𝙲𝚛𝚎𝚊𝚝𝚒𝚗𝚐 𝚊 𝚂𝚝𝚊𝚝𝚎 𝙵𝚕𝚘𝚠 𝚠𝚒𝚝𝚑 𝚂𝚝𝚊𝚝𝚎‐𝙸𝚗](https://github.com/devrath/KotlinAlchemy/wiki/Creating-a-state-flow-with-state-in)
-     * [𝚄𝚜𝚒𝚗𝚐 𝙼𝚞𝚝𝚊𝚋𝚕𝚎 𝚂𝚝𝚊𝚝𝚎 𝙵𝚕𝚘𝚠]()
+     * [𝚄𝚜𝚒𝚗𝚐 𝙼𝚞𝚝𝚊𝚋𝚕𝚎 𝚂𝚝𝚊𝚝𝚎 𝙵𝚕𝚘𝚠](https://github.com/devrath/KotlinAlchemy/wiki/Using-Mutable-State-Flow)
 * Kotlin Channels
    * [𝙰𝚋𝚘𝚞𝚝 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-About)
    * [𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-Communication-between-coroutines)
