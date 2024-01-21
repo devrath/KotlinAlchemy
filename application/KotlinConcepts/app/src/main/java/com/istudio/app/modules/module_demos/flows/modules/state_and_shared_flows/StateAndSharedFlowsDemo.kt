@@ -27,7 +27,13 @@ fun StateAndSharedFlowDemo(navController: NavHostController){
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        AppButton(text = "Demo", onClick = { viewModel.demo() })
+        AppText(text = "Using Shared-In\nto convert into Hot-Flow")
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "WhileSubscribed", onClick = { viewModel.demo() })
+        Spacer(modifier = Modifier.height(10.dp))
+        AppButton(text = "WhileSubscribed", onClick = { viewModel.addNewSubscriber() })
 
     }
 
