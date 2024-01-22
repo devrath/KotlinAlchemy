@@ -64,6 +64,10 @@ fun FlowsDemo (navController: NavHostController) {
             navController.navigate(ModuleDemo.MutableStateOfFlowDemo.rout)
         })
 
+        AppButton(text = "Flatten Flows", onClick = {
+            navController.navigate(ModuleDemo.FlattenFlowsDemo.rout)
+        })
+
     }
 
 }

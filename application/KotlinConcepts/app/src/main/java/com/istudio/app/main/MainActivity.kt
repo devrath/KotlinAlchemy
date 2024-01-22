@@ -32,6 +32,7 @@ import com.istudio.app.modules.module_demos.coroutines.using_async_await.UsingAs
 import com.istudio.app.modules.module_demos.coroutines.using_join.UsingJoinDemo
 import com.istudio.app.modules.module_demos.flows.FlowsDemo
 import com.istudio.app.modules.module_demos.flows.modules.compose_and_flatten_flows.ComposeAndFlattenFlows
+import com.istudio.app.modules.module_demos.flows.modules.flatten_flows.FlattenFlowsDemo
 import com.istudio.app.modules.module_demos.flows.modules.flow_basics.chapters.display_data_from_server.DisplayDataFromServerDemo
 import com.istudio.app.modules.module_demos.flows.modules.intermediate_operators.IntermediateOperators
 import com.istudio.app.modules.module_demos.flows.modules.terminal_operators.TerminalOperators
@@ -215,6 +216,11 @@ class MainActivity : ComponentActivity() {
                         // Mutable state of flow demo
                         composable(ModuleDemo.MutableStateOfFlowDemo.rout) {
                             MutableStateOfFlowDemo(navController = navController)
+                        }
+
+                        // Flatten Flows
+                        composable(ModuleDemo.FlattenFlowsDemo.rout) {
+                            FlattenFlowsDemo(navController = navController)
                         }
                     }
                 }
