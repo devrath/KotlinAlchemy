@@ -91,7 +91,7 @@
 * About asynchronous code, suspending code, co-routines
   * [**`𝙷𝚘𝚠 𝚊𝚜𝚢𝚗𝚌𝚑𝚛𝚘𝚗𝚘𝚞𝚜 𝚙𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚒𝚗𝚐 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-asynchronous-programming-works)
   * [**`𝙷𝚘𝚠 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚙𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚒𝚗𝚐 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-coroutines-programming-works)
-  * [**`𝙷𝚘𝚠 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚒𝚗 𝚊𝚗𝚍𝚛𝚘𝚒𝚍 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-coroutines-in-android-works)
+  * [**`𝚆𝚑𝚊𝚝 𝚒𝚜 𝚊 𝚌𝚘-𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚊𝚗𝚍 𝙷𝚘𝚠 𝚒𝚝 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/What-is-Coroutine-and-How-it-works)
   * [**`𝙲𝚘𝚖𝚙𝚊𝚛𝚒𝚗𝚐 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚟𝚜 𝚜𝚞𝚜𝚙𝚎𝚗𝚍 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Comparing-coroutine-vs-suspend-function)
   * [**`𝙷𝚘𝚠 𝚜𝚞𝚜𝚙𝚎𝚗𝚍𝚒𝚗𝚐 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-suspending-functions-works)
 * Context and Scope
