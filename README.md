@@ -143,6 +143,7 @@
      * [𝚃𝚎𝚛𝚖𝚒𝚗𝚊𝚕 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Flow:-Terminal-operators)
      * [𝙸𝚗𝚝𝚎𝚛𝚖𝚎𝚍𝚒𝚊𝚝𝚎 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Flow:-Intermediate-operators)
      * [𝙻𝚒𝚏𝚎𝚌𝚢𝚌𝚕𝚎 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Flow:-Lifecycle-operators)
+   * [𝙴𝚡𝚌𝚎𝚙𝚝𝚒𝚘𝚗 𝙷𝚊𝚗𝚍𝚕𝚒𝚗𝚐](https://github.com/devrath/KotlinAlchemy/wiki/Flows:-Exception-Handeling)
 * [𝚂𝚝𝚊𝚝𝚎 𝙵𝚕𝚘𝚠 𝚊𝚗𝚍 𝚂𝚑𝚊𝚛𝚎𝚍 𝙵𝚕𝚘𝚠](https://github.com/devrath/KotlinAlchemy/wiki/State-Flow-and-Shared-Flow)
    * Shared Flow
      * [𝙲𝚛𝚎𝚊𝚝𝚒𝚗𝚐 𝚊 𝚂𝚑𝚊𝚛𝚎𝚍 𝙵𝚕𝚘𝚠 𝚠𝚒𝚝𝚑 𝚂𝚑𝚊𝚛𝚎𝚍‐𝙸𝚗](https://github.com/devrath/KotlinAlchemy/wiki/Creating-a-Shared-Flow-with-Shared%E2%80%90In)
