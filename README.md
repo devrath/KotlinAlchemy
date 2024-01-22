@@ -92,8 +92,8 @@
   * [**`𝙷𝚘𝚠 𝚊𝚜𝚢𝚗𝚌𝚑𝚛𝚘𝚗𝚘𝚞𝚜 𝚙𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚒𝚗𝚐 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-asynchronous-programming-works)
   * [**`𝙷𝚘𝚠 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚙𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚒𝚗𝚐 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-coroutines-programming-works)
   * [**`𝚆𝚑𝚊𝚝 𝚒𝚜 𝚊 𝚌𝚘-𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚊𝚗𝚍 𝙷𝚘𝚠 𝚒𝚝 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/What-is-Coroutine-and-How-it-works)
-  * [**`𝙲𝚘𝚖𝚙𝚊𝚛𝚒𝚗𝚐 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚟𝚜 𝚜𝚞𝚜𝚙𝚎𝚗𝚍 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Comparing-coroutine-vs-suspend-function)
   * [**`𝙷𝚘𝚠 𝚜𝚞𝚜𝚙𝚎𝚗𝚍𝚒𝚗𝚐 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚠𝚘𝚛𝚔𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/How-suspending-functions-works)
+  * [**`𝙲𝚘𝚖𝚙𝚊𝚛𝚒𝚗𝚐 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚟𝚜 𝚜𝚞𝚜𝚙𝚎𝚗𝚍 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Comparing-coroutine-vs-suspend-function)
 * Context and Scope
   * [**`𝙳𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚌𝚎 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚕𝚊𝚞𝚗𝚌𝚑 𝚊𝚗𝚍 𝚠𝚒𝚝𝚑𝙲𝚘𝚗𝚝𝚎𝚡𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Difference-between-launch--and--withContext)
   * [**`𝚁𝚎𝚕𝚊𝚝𝚒𝚘𝚗𝚜𝚑𝚒𝚙 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚜𝚌𝚘𝚙𝚎 𝚊𝚗𝚍 𝚌𝚘𝚗𝚝𝚎𝚡𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Coroutines:-Relationship-between-Scope-and-Context)
