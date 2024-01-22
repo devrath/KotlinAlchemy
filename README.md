@@ -110,8 +110,8 @@
   * [**`𝚂𝚎𝚚𝚞𝚎𝚗𝚝𝚒𝚊𝚕 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚎𝚡𝚎𝚌𝚞𝚝𝚒𝚘𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Coroutines:-Sequential-coroutines-execution) 
 * Cancelling the coroutines
   * [**`𝙱𝚕𝚘𝚌𝚔 𝙳𝚒𝚊𝚐𝚛𝚊𝚖 𝚘𝚏 𝚌𝚊𝚗𝚌𝚎𝚕𝚕𝚊𝚝𝚒𝚘𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Block-Diagram-of-cancellation)
+ * [**`𝚂𝚒𝚐𝚗𝚒𝚏𝚒𝚌𝚊𝚗𝚌𝚎 𝚘𝚏 𝚎𝚗𝚜𝚞𝚛𝚎 𝚊𝚌𝚝𝚒𝚟𝚎 𝚌𝚘‐𝚘𝚙𝚎𝚛𝚊𝚝𝚒𝚟𝚎 𝚌𝚊𝚗𝚌𝚎𝚕𝚕𝚊𝚝𝚒𝚘𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Significance-of-ensureActive-co%E2%80%90operative-cancellation)
   * [**`𝚄𝚜𝚒𝚗𝚐 𝙸𝚜𝙰𝚌𝚝𝚒𝚟𝚎 𝚏𝚘𝚛 𝚌𝚘‐𝚘𝚙𝚎𝚛𝚊𝚝𝚒𝚟𝚎 𝚌𝚊𝚗𝚌𝚎𝚕𝚕𝚊𝚝𝚒𝚘𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Using-IsActive-for-co%E2%80%90operative-cancellation)
-  * [**`𝚂𝚒𝚐𝚗𝚒𝚏𝚒𝚌𝚊𝚗𝚌𝚎 𝚘𝚏 𝚎𝚗𝚜𝚞𝚛𝚎 𝚊𝚌𝚝𝚒𝚟𝚎 𝚌𝚘‐𝚘𝚙𝚎𝚛𝚊𝚝𝚒𝚟𝚎 𝚌𝚊𝚗𝚌𝚎𝚕𝚕𝚊𝚝𝚒𝚘𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Significance-of-ensureActive-co%E2%80%90operative-cancellation)
   * [**`𝙲𝚊𝚗𝚌𝚎𝚕𝚕𝚒𝚗𝚐 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎 𝚅𝚜 𝙲𝚊𝚗𝚌𝚎𝚕𝚕𝚒𝚗𝚐 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚌𝚑𝚒𝚕𝚍𝚛𝚎𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Cancelling-Coroutine-Vs-Cancelling-Coroutines-children)
   * [**`𝙽𝚘𝚗-𝚌𝚊𝚗𝚌𝚎𝚕𝚕𝚊𝚋𝚕𝚎 𝚓𝚘𝚋`**](https://github.com/devrath/KotlinAlchemy/wiki/Non-Cancellable-job)
 * Structured Concurrency
