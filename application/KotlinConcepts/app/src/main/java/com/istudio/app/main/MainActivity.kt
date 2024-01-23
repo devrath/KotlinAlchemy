@@ -28,7 +28,6 @@ import com.istudio.app.modules.module_demos.coroutines.launch_and_withcontext.La
 import com.istudio.app.modules.module_demos.coroutines.simple_structured_concurrency.SimpleStructuredConcurrencyDemo
 import com.istudio.app.modules.module_demos.coroutines.suspend_and_launch_demo.SuspendAndLaunchDemo
 import com.istudio.app.modules.module_demos.coroutines.using_async_await.UsingAsyncAwaitDemo
-import com.istudio.app.modules.module_demos.coroutines.using_async_await.UsingAsyncAwaitDemoVm
 import com.istudio.app.modules.module_demos.coroutines.using_join.UsingJoinDemo
 import com.istudio.app.modules.module_demos.flows.FlowsDemo
 import com.istudio.app.modules.module_demos.flows.modules.compose_and_flatten_flows.ComposeAndFlattenFlows
@@ -70,7 +69,7 @@ class MainActivity : ComponentActivity() {
 
                     NavHost(
                         navController = navController,
-                        startDestination = ModuleDemo.StateAndSharedFlowDemo.rout
+                        startDestination = ModuleDemo.FlattenFlowsDemo.rout
                     ) {
                         // Selection Screen
                         composable(ModuleDemo.DemoSelection.rout) {

@@ -27,27 +27,9 @@ fun FlattenFlowsDemo(navController: NavHostController){
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        AppText(text = "Terminal Operators")
+        AppText(text = "Flattening")
 
-        Spacer(modifier = Modifier.height(16.dp))
-
-        AppButton(text = "First", onClick = { viewModel.demoFirst() })
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        AppButton(text = "Last", onClick = { viewModel.demoLast() })
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        AppButton(text = "Single", onClick = { viewModel.single() })
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        AppButton(text = "ToList And ToSet", onClick = { viewModel.toListAndToSet() })
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        AppButton(text = "LaunchIn", onClick = { viewModel.launchIn() })
+        AppButton(text = "FlattenConcat", onClick = { viewModel.flattenConcat() })
 
     }
 
