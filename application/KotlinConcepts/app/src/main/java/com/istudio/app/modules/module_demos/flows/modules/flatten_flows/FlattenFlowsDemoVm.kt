@@ -101,6 +101,7 @@ class FlattenFlowsDemoVm @Inject constructor(
             .flatMapLatest {
                 generateFlowOfStrings(it)
             }.collect{
+                delay(2000)
                 println("collected: ---> $it")
             }
     }
