@@ -144,7 +144,7 @@
        * [𝙲𝚘𝚖𝚋𝚒𝚗𝚒𝚗𝚐](https://github.com/devrath/KotlinAlchemy/wiki/Flows:-Combining)
      * Flattening
        * [𝚆𝚑𝚊𝚝 𝚒𝚜 𝚖𝚎𝚊𝚗𝚝 𝚋𝚢 𝚏𝚕𝚊𝚝𝚝𝚎𝚗𝚒𝚗𝚐](https://github.com/devrath/KotlinAlchemy/wiki/Flows:-What-is-meant-by-flattening)
-       * [𝚏𝚕𝚊𝚝𝙼𝚊𝚙𝙲𝚘𝚗𝚌𝚊𝚝]()
+       * [𝙵𝚕𝚊𝚝𝚝𝚎𝚗𝙲𝚘𝚗𝚌𝚊𝚝](https://github.com/devrath/KotlinAlchemy/wiki/Flattening-Flow:-FlattenConcat)
        * [𝚏𝚕𝚊𝚝𝙼𝚊𝚙𝙼𝚎𝚛𝚐𝚎]()
        * [𝚏𝚕𝚊𝚝𝙼𝚊𝚙𝙻𝚊𝚝𝚎𝚜𝚝]() 
    * Operators
