@@ -29,7 +29,7 @@ fun FlattenFlowsDemo(navController: NavHostController){
 
         AppText(text = "Flattening")
 
-        AppButton(text = "FlattenConcat", onClick = { viewModel.flattenConcat() })
+        AppButton(text = "FlatmapConcat", onClick = { viewModel.flatMapConcat() })
 
     }
 

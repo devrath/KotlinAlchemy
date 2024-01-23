@@ -48,15 +48,16 @@ class FlattenFlowsDemoVm @Inject constructor(
      * Generate a flow of strings
      */
     fun generateFlowOfStrings(value : Int) = flow {
-        val content = "Current string no -->$value"
+        val content = "Current string no -->$value at the thread${Thread.currentThread().name}"
         println("<Emitted> -->$value")
         emit(content)
     }
 
 
-    fun flattenConcat() = rootScope.launch(CoroutineName("FlatMapConcatDemo")){
+    fun flatMapConcat() = rootScope.launch(CoroutineName("FlatMapConcatDemo")){
 
-       val result : Flow<Flow<String>> = generateIntegers()
+       // Way-1
+       /* val result : Flow<Flow<String>> = generateIntegers()
            .take(5)
            .map {
                generateFlowOfStrings(it)
@@ -64,7 +65,18 @@ class FlattenFlowsDemoVm @Inject constructor(
 
         result.flattenConcat().collect{
             println(it)
-        }
+        }*/
+
+
+        //Way-2
+        generateIntegers()
+            .take(5)
+            .flatMapConcat {
+                generateFlowOfStrings(it)
+            }.collect{
+                println(it)
+            }
+
     }
 
 }
