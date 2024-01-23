@@ -12,6 +12,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.flow.flatMapConcat
+import kotlinx.coroutines.flow.flatMapMerge
 import kotlinx.coroutines.flow.flattenConcat
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.lastOrNull
@@ -72,6 +73,20 @@ class FlattenFlowsDemoVm @Inject constructor(
         generateIntegers()
             .take(5)
             .flatMapConcat {
+                generateFlowOfStrings(it)
+            }.collect{
+                println(it)
+            }
+
+    }
+
+
+
+    fun flatMapMerge() = rootScope.launch(CoroutineName("flatMapMerge")){
+
+        generateIntegers()
+            .take(5)
+            .flatMapMerge() {
                 generateFlowOfStrings(it)
             }.collect{
                 println(it)
