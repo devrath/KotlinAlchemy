@@ -45,7 +45,9 @@
 * [**`𝙻𝚘𝚘𝚙𝚒𝚗𝚐 𝚖𝚎𝚌𝚑𝚊𝚗𝚒𝚜𝚖𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Looping-mechanisms)
 * [**`𝙲𝚞𝚜𝚝𝚘𝚖 𝙰𝚌𝚌𝚎𝚜𝚜𝚘𝚛𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Custom-Accessors)
 * [**`𝙴𝚗𝚞𝚖 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Enum-in-Kotlin)
-
+* **Classes and Interfaces**
+  * [**`𝙲𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Fundamentals:-Classes)
+ 
 # `Kotlin Powers`
 
 <div align="center">
@@ -146,7 +148,7 @@
        * [𝚆𝚑𝚊𝚝 𝚒𝚜 𝚖𝚎𝚊𝚗𝚝 𝚋𝚢 𝚏𝚕𝚊𝚝𝚝𝚎𝚗𝚒𝚗𝚐](https://github.com/devrath/KotlinAlchemy/wiki/Flows:-What-is-meant-by-flattening)
        * [𝙵𝚕𝚊𝚝𝙼𝚊𝚙𝙲𝚘𝚗𝚌𝚊𝚝 𝚘𝚛 𝙵𝚕𝚊𝚝𝚝𝚎𝚗𝙲𝚘𝚗𝚌𝚊𝚝](https://github.com/devrath/KotlinAlchemy/wiki/Flattening-Flow:-FlatMapConcat-or-FlattenConcat)
        * [𝙵𝚕𝚊𝚝𝙼𝚊𝚙𝙼𝚎𝚛𝚐𝚎 𝚘𝚛 𝙵𝚕𝚊𝚝𝚝𝚎𝚗𝙼𝚎𝚛𝚐𝚎](https://github.com/devrath/KotlinAlchemy/wiki/Flattening-Flow:-FlatMapMerge-or-FlattenMerge)
-       * [𝚏𝚕𝚊𝚝𝙼𝚊𝚙𝙻𝚊𝚝𝚎𝚜𝚝]() 
+       * [𝙵𝚕𝚊𝚝𝙼𝚊𝚙𝙻𝚊𝚝𝚎𝚜𝚝 𝚘𝚛 𝙵𝚕𝚊𝚝𝚝𝚎𝚗𝙻𝚊𝚝𝚎𝚜𝚝](https://github.com/devrath/KotlinAlchemy/wiki/Flattening-Flow:-FlatMapLatest-or-FlattenLatest) 
    * Operators
      * [𝚃𝚎𝚛𝚖𝚒𝚗𝚊𝚕 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Flow:-Terminal-operators)
      * [𝙸𝚗𝚝𝚎𝚛𝚖𝚎𝚍𝚒𝚊𝚝𝚎 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Flow:-Intermediate-operators)
