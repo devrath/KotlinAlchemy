@@ -237,4 +237,46 @@ class KotlinBasicsDemoVm  @Inject constructor( ) : ViewModel() {
     class Person(name: String)
     class Student(val name: String)
 
+
+    /**
+     * Init block significance
+     */
+    fun initBlockSignificanceDemo() {
+        println("Before City Class construction")
+        val demo = City("New York")
+        println("After City Class construction")
+        demo.demo()
+    }
+
+    class City(val name: String){
+        init {
+            println("City is created with Name:-> $name")
+        }
+
+        fun demo(){
+            println("City construction is in progress")
+        }
+    }
+
+
+    /**
+     * Primary constructor demo
+     */
+    fun primaryConstructorDemo() {
+        val science = Science()
+        val history = History()
+        // val maths = Maths() // Cannot access '<init>': it is private in 'Maths'
+    }
+
+    // Class with default constructor(way 1)
+    class Science()
+    // Class with default constructor(way 2)
+    class History constructor()
+    // Class with private constructor
+    class Maths private constructor()
+    // Class with protected constructor constructor
+    class Computers protected constructor()
+
+
+
 }

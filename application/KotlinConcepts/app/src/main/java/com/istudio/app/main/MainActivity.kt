@@ -69,7 +69,7 @@ class MainActivity : ComponentActivity() {
 
                     NavHost(
                         navController = navController,
-                        startDestination = ModuleDemo.FlattenFlowsDemo.rout
+                        startDestination = ModuleDemo.DemoSelection.rout
                     ) {
                         // Selection Screen
                         composable(ModuleDemo.DemoSelection.rout) {

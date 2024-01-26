@@ -14,6 +14,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import com.istudio.app.ui.composables.AppButton
+import com.istudio.app.ui.composables.AppText
 
 @Composable
 fun KotlinBasicsDemo(navController: NavHostController) {
@@ -101,6 +102,22 @@ fun KotlinBasicsDemo(navController: NavHostController) {
 
         AppButton(text = "Members are private by default", onClick = {
             viewModel.membersPrivateDemo()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Init block significance", onClick = {
+            viewModel.initBlockSignificanceDemo()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppText(text = "Constructors Demo")
+
+        Spacer(modifier = Modifier.height(5.dp))
+
+        AppButton(text = "Primary Constructor", onClick = {
+            viewModel.primaryConstructorDemo()
         })
 
     }
