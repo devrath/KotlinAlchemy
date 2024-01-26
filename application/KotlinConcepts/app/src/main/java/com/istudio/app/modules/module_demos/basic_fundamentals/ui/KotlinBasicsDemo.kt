@@ -97,6 +97,12 @@ fun KotlinBasicsDemo(navController: NavHostController) {
             viewModel.enumInKotlin()
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Members are private by default", onClick = {
+            viewModel.membersPrivateDemo()
+        })
+
     }
 
 }

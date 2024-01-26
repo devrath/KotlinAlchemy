@@ -222,4 +222,19 @@ class KotlinBasicsDemoVm  @Inject constructor( ) : ViewModel() {
         anotherProperty = "New Value"
         println(anotherProperty) // Output: Setting anotherProperty value to New Value
     }
+
+    /**
+     * Members are private by default
+     */
+    fun membersPrivateDemo() {
+        val person = Person("Donald")
+        //person.name // Unresolved reference: name
+
+        val student = Student("Einstein")
+        student.name // We can access the name variable
+    }
+
+    class Person(name: String)
+    class Student(val name: String)
+
 }
