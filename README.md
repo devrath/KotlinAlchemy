@@ -45,7 +45,9 @@
 * [**`𝙻𝚘𝚘𝚙𝚒𝚗𝚐 𝚖𝚎𝚌𝚑𝚊𝚗𝚒𝚜𝚖𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Looping-mechanisms)
 * [**`𝙲𝚞𝚜𝚝𝚘𝚖 𝙰𝚌𝚌𝚎𝚜𝚜𝚘𝚛𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Custom-Accessors)
 * [**`𝙴𝚗𝚞𝚖 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Enum-in-Kotlin)
-
+* **Classes and Interfaces**
+  * [**`𝙲𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Fundamentals:-Classes)
+ 
 # `Kotlin Powers`
 
 <div align="center">
