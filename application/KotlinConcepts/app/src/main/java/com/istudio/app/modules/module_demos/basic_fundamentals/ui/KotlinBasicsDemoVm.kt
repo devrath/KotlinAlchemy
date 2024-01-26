@@ -277,6 +277,15 @@ class KotlinBasicsDemoVm  @Inject constructor( ) : ViewModel() {
     // Class with protected constructor constructor
     class Computers protected constructor()
 
+    /**
+     * Secondary constructor demo
+     */
+    fun secondaryConstructorDemo(){
+        val mechanical = Mechanical(name = "CustomName", noOfPages = 10)
+    }
 
+    class Mechanical(val name:String){
+        constructor(name: String, noOfPages:Int) : this(name)
+    }
 
 }

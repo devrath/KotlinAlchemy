@@ -120,6 +120,12 @@ fun KotlinBasicsDemo(navController: NavHostController) {
             viewModel.primaryConstructorDemo()
         })
 
+        Spacer(modifier = Modifier.height(5.dp))
+
+        AppButton(text = "Secondary Constructor", onClick = {
+            viewModel.secondaryConstructorDemo()
+        })
+
     }
 
 }
