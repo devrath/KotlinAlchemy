@@ -47,6 +47,8 @@
 * [**`𝙴𝚗𝚞𝚖 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Enum-in-Kotlin)
 * **Classes and Interfaces**
   * [**`𝙲𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Fundamentals:-Classes)
+  * [**`𝙸𝚗𝚑𝚎𝚛𝚒𝚝𝚊𝚗𝚌𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Fundamentals:-Inheritance)
+
  
 # `Kotlin Powers`
 
