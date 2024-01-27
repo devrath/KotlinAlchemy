@@ -49,6 +49,12 @@ fun KotlinAnnotationsDemo(navController: NavHostController) {
             viewModel.stringResDemo()
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "@Nullable And @NotNull", onClick = {
+            viewModel.nullableNotNull()
+        })
+
     }
 
 }
