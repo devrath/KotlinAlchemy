@@ -2,6 +2,7 @@ package com.istudio.app.modules.module_demos.basic_fundamentals.ui
 
 import androidx.lifecycle.ViewModel
 import com.istudio.app.modules.module_demos.basic_fundamentals.utils.Student
+import com.istudio.app.modules.module_demos.basic_fundamentals.utils.multipleInheritance.in_kotlin.KotlinImplementation
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
@@ -286,6 +287,15 @@ class KotlinBasicsDemoVm  @Inject constructor( ) : ViewModel() {
 
     class Mechanical(val name:String){
         constructor(name: String, noOfPages:Int) : this(name)
+    }
+
+    /**
+     * Multiple Inheritance Alternatively using delegation
+     */
+    fun multipleInheritanceInKotlin(){
+        val kotlinImplementation = KotlinImplementation()
+        kotlinImplementation.methodA()
+        kotlinImplementation.methodB()
     }
 
 }

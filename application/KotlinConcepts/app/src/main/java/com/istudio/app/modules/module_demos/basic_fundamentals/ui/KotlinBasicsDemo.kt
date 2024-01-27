@@ -126,6 +126,18 @@ fun KotlinBasicsDemo(navController: NavHostController) {
             viewModel.secondaryConstructorDemo()
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppText(text = "Multiple Inheritance")
+
+        Spacer(modifier = Modifier.height(5.dp))
+
+        AppButton(text = "Multiple Inheritance In Kotlin", onClick = {
+            viewModel.multipleInheritanceInKotlin()
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
     }
 
 }
