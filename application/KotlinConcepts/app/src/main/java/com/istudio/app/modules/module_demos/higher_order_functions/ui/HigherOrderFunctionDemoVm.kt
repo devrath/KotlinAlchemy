@@ -26,4 +26,31 @@ class HigherOrderFunctionDemoVm @Inject constructor( ) : ViewModel() {
     // <-------------- Returning Functions as Parameters ------------>
 
 
+
+    // 1- With Parameters and Return Value
+    fun type1() {
+        val add1:(Int,Int) -> Int = { a:Int , b:Int -> a+b }
+        println(add1(1,2))
+    }
+
+    // 2- With Parameters and no return value
+    fun type2() {
+        val add2 : (Int,Int) -> Unit = { a,b -> println(a+b) }
+        add2(1,2)
+    }
+
+    // 3- No Parameters but with return value
+    fun type3() {
+        val add3 : () -> String = { "Hello world" }
+        println(add3())
+    }
+
+
+    // 4- No Parameters and no return value
+    fun type4() {
+        val add4 : () -> Unit = { println("Hello World") }
+        add4.invoke()
+    }
+
+
 }
