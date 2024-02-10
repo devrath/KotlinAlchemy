@@ -37,6 +37,7 @@
 * [**`𝙻𝚊𝚛𝚐𝚎 𝚝𝚛𝚎𝚎 𝚘𝚏 𝚌𝚘𝚗𝚍𝚒𝚝𝚒𝚘𝚗 𝚜𝚝𝚊𝚝𝚎𝚖𝚎𝚗𝚝𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basics:-Large-tree-of-condition-statements)
 * [**`𝙳𝚎𝚏𝚒𝚗𝚒𝚗𝚐 𝚊𝚗𝚍 𝚞𝚜𝚒𝚗𝚐 𝙽𝚞𝚕𝚕𝚊𝚋𝚕𝚎 𝚟𝚊𝚕𝚞𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basics:-Defining-and-using-Nullable-values)
 * [**`𝚆𝚑𝚊𝚝 𝚊𝚛𝚎 𝚙𝚊𝚒𝚛𝚜 𝚊𝚗𝚍 𝚝𝚛𝚒𝚙𝚕𝚎𝚝𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basics-:-What-are-pairs-and-triplets)
+* [**`𝙼𝚎𝚖𝚋𝚎𝚛 𝚁𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗: 𝚄𝚜𝚒𝚗𝚐 (::) 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛`**](https://github.com/devrath/KotlinAlchemy/wiki/Member-Reference-in-Kotlin:-Using-(::)-Operator)
 * **Kotlin collections**
   * [**`𝚄𝚜𝚒𝚗𝚐 𝚊𝚛𝚛𝚊𝚢𝚜 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Using-arrays-in-the-code)
   * [**`𝚄𝚜𝚒𝚗𝚐 𝚕𝚒𝚜𝚝 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Using-list-in-the-code)
