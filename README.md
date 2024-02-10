@@ -30,6 +30,7 @@
 ![Android-discountinuing-kotlin-synthetics-for-views-header](https://github.com/devrath/KotlinAlchemy/assets/1456191/ea264b24-ae7d-499c-ba2a-b07c9cb2e589)
 
 </div>
+
 * [**`𝚄𝚜𝚒𝚗𝚐 𝚅𝙰𝙻 𝚊𝚗𝚍 𝚅𝙰𝚁 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Using-val-and-var-in-Kotlin)
 * [**`𝚄𝚜𝚒𝚗𝚐 𝚂𝚝𝚛𝚒𝚗𝚐𝚜 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basics-:-Strings)
 * [**`𝚄𝚜𝚒𝚗𝚐 𝚌𝚘𝚖𝚙𝚊𝚛𝚒𝚜𝚘𝚗 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basics-:-Comparison-Operators)
