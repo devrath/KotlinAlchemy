@@ -32,6 +32,7 @@
 </div>
 
 * [**`𝚄𝚜𝚒𝚗𝚐 𝚅𝙰𝙻 𝚊𝚗𝚍 𝚅𝙰𝚁 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Using-val-and-var-in-Kotlin)
+* [**`𝚄𝚜𝚒𝚗𝚐 (𝚅𝙰𝙻) 𝚊𝚗𝚍 (𝙲𝙾𝙽𝚂𝚃 𝚅𝙰𝙻) 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Using-(val)-and-(const-val)-in-Kotlin)
 * [**`𝚄𝚜𝚒𝚗𝚐 𝚂𝚝𝚛𝚒𝚗𝚐𝚜 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basics-:-Strings)
 * [**`𝚄𝚜𝚒𝚗𝚐 𝚌𝚘𝚖𝚙𝚊𝚛𝚒𝚜𝚘𝚗 𝚘𝚙𝚎𝚛𝚊𝚝𝚘𝚛𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basics-:-Comparison-Operators)
 * [**`𝚆𝚑𝚊𝚝 𝚒𝚜 𝚝𝚑𝚎 𝚜𝚌𝚘𝚙𝚎 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basics-:-Using-Scopes-in-kotlin)
