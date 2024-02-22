@@ -5,6 +5,7 @@ import kotlinx.coroutines.CoroutineName
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
+import kotlinx.coroutines.async
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -15,13 +16,37 @@ class CompareJoinAsyncDemoVm @Inject constructor( ) : ViewModel() {
 
     private val ourScope =  CoroutineScope(scopeJob + Dispatchers.Default)
 
-    fun demo() {
+    fun joinDemo() {
         try {
             ourScope.launch(CoroutineName("GrandParent")) {
                 try {
+
+                    println("Before calling Join")
+
                     parent1Block().join()
-                    parent2Block().join()
-                    println("Both parent code blocks are completed")
+
+                    println("After calling Join")
+                }catch (ex:Exception){
+                    println("Exception caught inside GrandParent scope")
+                }
+            }.invokeOnCompletion {
+                println("GrandParent invokeOnCompletion triggered")
+            }
+        }catch (ex:Exception){
+            println("Exception caught outside GrandParent scope")
+        }
+    }
+
+    fun asyncDemo() {
+        try {
+            ourScope.launch(CoroutineName("GrandParent")) {
+                try {
+
+                    println("Before calling Async")
+
+                    parent2Block().await()
+
+                    println("After calling Async")
                 }catch (ex:Exception){
                     println("Exception caught inside GrandParent scope")
                 }
@@ -45,27 +70,15 @@ class CompareJoinAsyncDemoVm @Inject constructor( ) : ViewModel() {
         }
     }
 
-    private suspend fun parent2Block() = ourScope.launch(CoroutineName("Parent-2")) {
-        try {
-            parent2Child1Block().join()
-            println("Parent-2-Child-1 block is completed")
-            repeat(10){
-                println("Parent-2-Child-1 ----- tick ----->$it")
-                delay(1000)
-            }
-        }catch (ex:Exception){
-            println("Exception caught inside Parent-2 coroutine")
-        }
-    }
 
-    private suspend fun parent2Child1Block() = ourScope.launch(CoroutineName("Parent-2-Child-1")) {
+    private suspend fun parent2Block() = ourScope.async (CoroutineName("Parent-2")) {
         try {
             repeat(10){
-                println("Parent-2-Child-1 ----- tick ----->$it")
+                println("Parent-1 ----- tick ----->$it")
                 delay(1000)
             }
         }catch (ex:Exception){
-            println("Exception caught inside Parent-2-Child-1 coroutine")
+            println("Exception caught inside Parent-1 coroutine")
         }
     }
 

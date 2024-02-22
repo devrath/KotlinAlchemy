@@ -26,8 +26,14 @@ fun CompareJoinAsyncDemo(navController: NavHostController) {
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        AppButton(text = "Demo") {
-            viewModel.demo()
+        AppButton(text = "Join Demo") {
+            viewModel.joinDemo()
+        }
+
+        Spacer(modifier = Modifier.height(5.dp))
+
+        AppButton(text = "Async Demo") {
+            viewModel.asyncDemo()
         }
 
         Spacer(modifier = Modifier.height(20.dp))
