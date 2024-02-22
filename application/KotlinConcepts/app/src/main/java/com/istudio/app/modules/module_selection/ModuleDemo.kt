@@ -37,5 +37,6 @@ sealed class ModuleDemo(val rout: String) {
     data object StateAndSharedFlowDemo : ModuleDemo("StateAndSharedFlowDemo")
     data object MutableStateOfFlowDemo : ModuleDemo("MutableStateOfFlowDemo")
     data object FlattenFlowsDemo : ModuleDemo("FlattenFlowsDemo")
+    data object CompareJoinAsyncDemo : ModuleDemo("CompareJoinAsyncDemo")
 
 }

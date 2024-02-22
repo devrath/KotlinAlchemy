@@ -14,6 +14,7 @@ import androidx.navigation.compose.rememberNavController
 import com.istudio.app.modules.module_demos.basic_fundamentals.ui.KotlinBasicsDemo
 import com.istudio.app.modules.module_demos.channels.ChannelsDemo
 import com.istudio.app.modules.module_demos.coroutines.CoroutinesDemo
+import com.istudio.app.modules.module_demos.coroutines.compare_join_and_async.CompareJoinAsyncDemo
 import com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.CoroutinesCancellationSelection
 import com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.ensure_active_demo.EnsureActiveDemo
 import com.istudio.app.modules.module_demos.coroutines.coroutine_cancellation.is_active_demo.IsActiveDemo
@@ -220,6 +221,10 @@ class MainActivity : ComponentActivity() {
                         // Flatten Flows
                         composable(ModuleDemo.FlattenFlowsDemo.rout) {
                             FlattenFlowsDemo(navController = navController)
+                        }
+                        // Compare Join Async Demo
+                        composable(ModuleDemo.CompareJoinAsyncDemo.rout) {
+                            CompareJoinAsyncDemo(navController = navController)
                         }
                     }
                 }

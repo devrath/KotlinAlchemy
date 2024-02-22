@@ -5,6 +5,8 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -18,11 +20,13 @@ import com.istudio.app.ui.composables.AppButton
 fun CoroutinesDemo(navController: NavController){
 
     val viewModel: CoroutinesDemoVm = hiltViewModel()
+    val scrollState = rememberScrollState()
 
     Column(
-        modifier = Modifier.fillMaxSize(),
+        modifier = Modifier.fillMaxSize() .verticalScroll(state = scrollState),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
+
     ) {
 
         Spacer(modifier = Modifier.height(16.dp))
@@ -95,6 +99,12 @@ fun CoroutinesDemo(navController: NavController){
 
         AppButton(text = "Using Async Await Demo", onClick = {
             navController.navigate(ModuleDemo.UsingAsyncAwaitDemo.rout)
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Compare Join Async Demo", onClick = {
+            navController.navigate(ModuleDemo.CompareJoinAsyncDemo.rout)
         })
 
         Spacer(modifier = Modifier.height(16.dp))
