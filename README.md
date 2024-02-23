@@ -40,6 +40,7 @@
 * [**`𝙳𝚎𝚏𝚒𝚗𝚒𝚗𝚐 𝚊𝚗𝚍 𝚞𝚜𝚒𝚗𝚐 𝙽𝚞𝚕𝚕𝚊𝚋𝚕𝚎 𝚟𝚊𝚕𝚞𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basics:-Defining-and-using-Nullable-values)
 * [**`𝚆𝚑𝚊𝚝 𝚊𝚛𝚎 𝚙𝚊𝚒𝚛𝚜 𝚊𝚗𝚍 𝚝𝚛𝚒𝚙𝚕𝚎𝚝𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basics-:-What-are-pairs-and-triplets)
 * [**`𝙼𝚎𝚖𝚋𝚎𝚛 𝚁𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗: 𝚄𝚜𝚒𝚗𝚐 (::) 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛`**](https://github.com/devrath/KotlinAlchemy/wiki/Member-Reference-in-Kotlin:-Using-(::)-Operator)
+* [**`𝚆𝚑𝚊𝚝 𝚊𝚛𝚎 𝚝𝚑𝚎 𝚍𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚊𝚗 𝙴𝚚𝚞𝚊𝚕𝚒𝚝𝚢 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛 𝚊𝚗𝚍 𝚊 𝚁𝚎𝚏𝚎𝚛𝚎𝚗𝚝𝚒𝚊𝚕 𝙴𝚚𝚞𝚊𝚕𝚒𝚝𝚢 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛?`**](https://github.com/devrath/KotlinAlchemy/wiki/What-are-the-difference-between-Equality-Operator-and-Referential-Equality-Operator)
 * **Kotlin collections**
   * [**`𝚄𝚜𝚒𝚗𝚐 𝚊𝚛𝚛𝚊𝚢𝚜 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Using-arrays-in-the-code)
   * [**`𝚄𝚜𝚒𝚗𝚐 𝚕𝚒𝚜𝚝 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Using-list-in-the-code)
