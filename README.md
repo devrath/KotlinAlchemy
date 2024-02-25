@@ -1,4 +1,3 @@
-
 <h1 align="center">𝙺𝚘𝚝𝚕𝚒𝚗𝙰𝚕𝚌𝚑𝚎𝚖𝚢</h1>
 
 <div align="center">
@@ -52,6 +51,7 @@
 * **Classes and Interfaces**
   * [**`𝙲𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Fundamentals:-Classes)
   * [**`𝙸𝚗𝚑𝚎𝚛𝚒𝚝𝚊𝚗𝚌𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Fundamentals:-Inheritance)
+* [**`𝚆𝚑𝚊𝚝 𝚒𝚜 "𝚋𝚢 𝙻𝚊𝚣𝚢" 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/What-is-%22by-Lazy%22-in-kotlin) 
 
  
 # `Kotlin Powers`
