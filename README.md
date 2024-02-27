@@ -134,7 +134,8 @@
   * [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚓𝚘𝚒𝚗 𝚟𝚜 𝚊𝚠𝚊𝚒𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Coroutines-join-vs-await)
 * Exception Handling
   * [**`𝙴𝚡𝚌𝚎𝚙𝚝𝚒𝚘𝚗 𝚑𝚊𝚗𝚍𝚕𝚒𝚗𝚐 𝚒𝚗 𝚕𝚊𝚞𝚗𝚌𝚑`**](https://github.com/devrath/KotlinAlchemy/wiki/Exception-handling-in-launch)
-  * [**`𝙴𝚡𝚌𝚎𝚙𝚝𝚒𝚘𝚗 𝚑𝚊𝚗𝚍𝚕𝚒𝚗𝚐 𝚒𝚗 𝚊𝚜𝚢𝚗𝚌`**](https://github.com/devrath/KotlinAlchemy/wiki/Exception-handling-in-async) 
+  * [**`𝙴𝚡𝚌𝚎𝚙𝚝𝚒𝚘𝚗 𝚑𝚊𝚗𝚍𝚕𝚒𝚗𝚐 𝚒𝚗 𝚊𝚜𝚢𝚗𝚌`**](https://github.com/devrath/KotlinAlchemy/wiki/Exception-handling-in-async)
+* [**`𝚂𝚞𝚙𝚎𝚛𝚟𝚒𝚜𝚘𝚛 𝚂𝚌𝚘𝚙𝚎 𝚊𝚗𝚍 𝚂𝚞𝚙𝚎𝚛𝚟𝚒𝚜𝚘𝚛 𝙹𝚘𝚋 𝚒𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Supervisor-Scope-and-Supervisor-Job-in-coroutines)
 
 
 #### `𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚗𝚐 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚌𝚘-𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`
