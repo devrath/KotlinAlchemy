@@ -136,7 +136,7 @@
   * [**`𝙴𝚡𝚌𝚎𝚙𝚝𝚒𝚘𝚗 𝚑𝚊𝚗𝚍𝚕𝚒𝚗𝚐 𝚒𝚗 𝚕𝚊𝚞𝚗𝚌𝚑`**](https://github.com/devrath/KotlinAlchemy/wiki/Exception-handling-in-launch)
   * [**`𝙴𝚡𝚌𝚎𝚙𝚝𝚒𝚘𝚗 𝚑𝚊𝚗𝚍𝚕𝚒𝚗𝚐 𝚒𝚗 𝚊𝚜𝚢𝚗𝚌`**](https://github.com/devrath/KotlinAlchemy/wiki/Exception-handling-in-async)
 * [**`𝚂𝚞𝚙𝚎𝚛𝚟𝚒𝚜𝚘𝚛 𝚂𝚌𝚘𝚙𝚎 𝚊𝚗𝚍 𝚂𝚞𝚙𝚎𝚛𝚟𝚒𝚜𝚘𝚛 𝙹𝚘𝚋 𝚒𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Supervisor-Scope-and-Supervisor-Job-in-coroutines)
-
+* [**`𝚆𝚑𝚊𝚝 𝚒𝚜 𝚝𝚊𝚒𝚕𝚛𝚎𝚌 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/What-is-tailrec-in-kotlin)
 
 #### `𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚗𝚐 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚌𝚘-𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`
 * [𝙰𝚋𝚘𝚞𝚝 𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚗𝚐 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚝𝚑𝚎 𝚌𝚘‐𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜](https://github.com/devrath/KotlinAlchemy/wiki/About-Communicating-between-the-co%E2%80%90routines)
