@@ -69,7 +69,7 @@
 | [`𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`](https://github.com/devrath/KotlinAlchemy/wiki/Annotations-in-kotlin) | [`𝚃𝚢𝚙𝚎 𝙰𝚕𝚒𝚊𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Type-Alias) | [`𝙸𝚗𝚕𝚒𝚗𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Inline-Functions) |
 | [`𝚂𝚖𝚊𝚛𝚝 𝙲𝚊𝚜𝚝𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Smart-Casts) | [`𝙽𝚎𝚜𝚝𝚎𝚍 𝚌𝚕𝚊𝚜𝚜 𝚟𝚜 𝙸𝚗𝚗𝚎𝚛 𝚌𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Nested-class-vs-Inner-class) | [`𝚂𝚎𝚊𝚕𝚎𝚍 𝙲𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Sealed-Class) |
 | [`𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`](https://github.com/devrath/KotlinAlchemy/wiki/Annotations-in-kotlin) | [`𝙶𝚎𝚗𝚎𝚛𝚒𝚌𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Generics)                                            | [`𝚁𝚎𝚒𝚏𝚒𝚎𝚍`](https://github.com/devrath/KotlinAlchemy/wiki/Reified)                                              |
-| [`𝙲𝚛𝚘𝚜𝚜𝚕𝚒𝚗𝚎 𝚖𝚘𝚍𝚒𝚏𝚒𝚎𝚛`](https://github.com/devrath/KotlinAlchemy/wiki/Crossline-modifier) | [ `𝚍𝚎𝚕𝚎𝚐𝚊𝚝𝚒𝚘𝚗 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗` ](https://github.com/devrath/KotlinAlchemy/wiki/what-is-delegation-in-kotlin)  |  |
+| [`𝙲𝚛𝚘𝚜𝚜𝚕𝚒𝚗𝚎 𝚖𝚘𝚍𝚒𝚏𝚒𝚎𝚛`](https://github.com/devrath/KotlinAlchemy/wiki/Crossline-modifier) | [ `𝚍𝚎𝚕𝚎𝚐𝚊𝚝𝚒𝚘𝚗 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗` ](https://github.com/devrath/KotlinAlchemy/wiki/what-is-delegation-in-kotlin)  | [`𝚂𝚎𝚚𝚞𝚎𝚗𝚌𝚎𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Sequences-in-kotlin) |
 
 </div>
 
