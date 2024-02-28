@@ -56,7 +56,7 @@
 
 <div align="center">
 
- ![tumblr_mtjtx9PG6E1rey868o1_500](https://github.com/devrath/KotlinAlchemy/assets/1456191/47ad907b-845e-4f96-a538-335ea1b4c89b)
+![tumblr_494f694ef543a2a87ebdc029cb963097_29510838_540](https://github.com/devrath/KotlinAlchemy/assets/1456191/e8da4540-39e3-4ca3-abab-b0c3ecbedea0)
 
 </div>
 
