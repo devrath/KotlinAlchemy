@@ -46,12 +46,21 @@
 * **Classes and Interfaces**
   * [**`𝙲𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Fundamentals:-Classes)
   * [**`𝙸𝚗𝚑𝚎𝚛𝚒𝚝𝚊𝚗𝚌𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Fundamentals:-Inheritance)
-* **Kotlin collections**
+* **Kotlin Basic collections**
   * [**`𝚄𝚜𝚒𝚗𝚐 𝚊𝚛𝚛𝚊𝚢𝚜 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Using-arrays-in-the-code)
   * [**`𝚄𝚜𝚒𝚗𝚐 𝚕𝚒𝚜𝚝 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Using-list-in-the-code)
   * [**`𝚄𝚜𝚒𝚗𝚐 𝙼𝚊𝚙 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Using-Map-in-the-code)
   * [**`𝚄𝚜𝚒𝚗𝚐 𝚂𝚎𝚝 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/kotlin-basics-:-Using-Set-in-the-code)
- 
+
+# `Kotlin Collection Functions`
+
+<div align="center">
+
+ ![tumblr_mtjtx9PG6E1rey868o1_500](https://github.com/devrath/KotlinAlchemy/assets/1456191/47ad907b-845e-4f96-a538-335ea1b4c89b)
+
+</div>
+
+  
 # `Kotlin Powers`
 
 <div align="center">
