@@ -40,17 +40,17 @@
 * [**`𝚆𝚑𝚊𝚝 𝚊𝚛𝚎 𝚙𝚊𝚒𝚛𝚜 𝚊𝚗𝚍 𝚝𝚛𝚒𝚙𝚕𝚎𝚝𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basics-:-What-are-pairs-and-triplets)
 * [**`𝙼𝚎𝚖𝚋𝚎𝚛 𝚁𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗: 𝚄𝚜𝚒𝚗𝚐 (::) 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛`**](https://github.com/devrath/KotlinAlchemy/wiki/Member-Reference-in-Kotlin:-Using-(::)-Operator)
 * [**`𝚆𝚑𝚊𝚝 𝚊𝚛𝚎 𝚝𝚑𝚎 𝚍𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚊𝚗 𝙴𝚚𝚞𝚊𝚕𝚒𝚝𝚢 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛 𝚊𝚗𝚍 𝚊 𝚁𝚎𝚏𝚎𝚛𝚎𝚗𝚝𝚒𝚊𝚕 𝙴𝚚𝚞𝚊𝚕𝚒𝚝𝚢 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛?`**](https://github.com/devrath/KotlinAlchemy/wiki/What-are-the-difference-between-Equality-Operator-and-Referential-Equality-Operator)
-* **Kotlin collections**
-  * [**`𝚄𝚜𝚒𝚗𝚐 𝚊𝚛𝚛𝚊𝚢𝚜 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Using-arrays-in-the-code)
-  * [**`𝚄𝚜𝚒𝚗𝚐 𝚕𝚒𝚜𝚝 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Using-list-in-the-code)
-  * [**`𝚄𝚜𝚒𝚗𝚐 𝙼𝚊𝚙 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Using-Map-in-the-code)
-  * [**`𝚄𝚜𝚒𝚗𝚐 𝚂𝚎𝚝 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/kotlin-basics-:-Using-Set-in-the-code)
 * [**`𝙻𝚘𝚘𝚙𝚒𝚗𝚐 𝚖𝚎𝚌𝚑𝚊𝚗𝚒𝚜𝚖𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Looping-mechanisms)
 * [**`𝙲𝚞𝚜𝚝𝚘𝚖 𝙰𝚌𝚌𝚎𝚜𝚜𝚘𝚛𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Custom-Accessors)
 * [**`𝙴𝚗𝚞𝚖 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Enum-in-Kotlin)
 * **Classes and Interfaces**
   * [**`𝙲𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Fundamentals:-Classes)
   * [**`𝙸𝚗𝚑𝚎𝚛𝚒𝚝𝚊𝚗𝚌𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Fundamentals:-Inheritance)
+* **Kotlin collections**
+  * [**`𝚄𝚜𝚒𝚗𝚐 𝚊𝚛𝚛𝚊𝚢𝚜 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Using-arrays-in-the-code)
+  * [**`𝚄𝚜𝚒𝚗𝚐 𝚕𝚒𝚜𝚝 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Using-list-in-the-code)
+  * [**`𝚄𝚜𝚒𝚗𝚐 𝙼𝚊𝚙 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Using-Map-in-the-code)
+  * [**`𝚄𝚜𝚒𝚗𝚐 𝚂𝚎𝚝 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/kotlin-basics-:-Using-Set-in-the-code)
  
 # `Kotlin Powers`
 
