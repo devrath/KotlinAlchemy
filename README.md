@@ -75,6 +75,7 @@
 | [`Find a particular element based on a certain condition`](https://github.com/devrath/KotlinAlchemy/wiki/Collection:-Find-a-particular-element-based-on-a-certain-condition) | `single`,`all` |
 | [`Break the list of items to sub‐chunks of items`](https://github.com/devrath/KotlinAlchemy/wiki/Collections:-Break-the-list-of-items-to-sub%E2%80%90chunks-of-items) | `chunked` |
 | [`Associating the data using some key`](https://github.com/devrath/KotlinAlchemy/wiki/Collections:-Associating-the-data-using-some-key) | `AssociateBy` |
+| [`Using the Intersection and Union`](https://github.com/devrath/KotlinAlchemy/wiki/Collection:-Intersection-&-Union) | `union`,`intersect` |
 
 </div>      
 
