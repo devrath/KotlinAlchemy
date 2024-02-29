@@ -56,7 +56,10 @@
 
 <div align="center">
 
-![tumblr_494f694ef543a2a87ebdc029cb963097_29510838_540](https://github.com/devrath/KotlinAlchemy/assets/1456191/e8da4540-39e3-4ca3-abab-b0c3ecbedea0)
+  <img src="https://github.com/devrath/KotlinAlchemy/assets/1456191/e8da4540-39e3-4ca3-abab-b0c3ecbedea0" 
+       alt="collection"
+       width="450"
+       height="300">
 
 </div>
 
@@ -64,10 +67,12 @@
 
   
 # `Kotlin Powers`
-
 <div align="center">
 
-![giphy](https://github.com/devrath/KotlinAlchemy/assets/1456191/629a6f77-5853-418c-8aa9-360df6f957bd)
+  <img src="https://github.com/devrath/KotlinAlchemy/assets/1456191/629a6f77-5853-418c-8aa9-360df6f957bd" 
+       alt="kotlin  powers"
+       width="450"
+       height="270">
 
 </div>
 
