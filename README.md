@@ -64,7 +64,16 @@
 
 </div>
 
+<div align="center">
+ 
+| `Operation` | `Operators`                                                  |
+| ----------- | ------------------------------------------------------------ |
+| [`Removing Duplicates`](https://github.com/devrath/KotlinAlchemy/wiki/Collections:-Removing-duplicates) | `distinct` , `toSet` . `toMutableSet`, `toHashSet` |
+| [`Combining a list of items to a string`](https://github.com/devrath/KotlinAlchemy/wiki/Collections:-Converting--a-list-array-to-string) | `joinToString` |
+| [`Transform a collection into a single result`](https://github.com/devrath/KotlinAlchemy/wiki/Collections:-Transform-a-collection-into-a-single-result) | `reduce` |
+| [`Find if all elements are satisfying a particular condition`](https://github.com/devrath/KotlinAlchemy/wiki/Collection:-Find-if-all-elements-are-satisfying-a-particular-condition) | `all` |
 
+</div>      
 
   
 # `Kotlin Powers`
