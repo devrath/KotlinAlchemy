@@ -72,6 +72,10 @@
 | [`Combining a list of items to a string`](https://github.com/devrath/KotlinAlchemy/wiki/Collections:-Converting--a-list-array-to-string) | `joinToString` |
 | [`Transform a collection into a single result`](https://github.com/devrath/KotlinAlchemy/wiki/Collections:-Transform-a-collection-into-a-single-result) | `reduce` |
 | [`Find if all elements are satisfying a particular condition`](https://github.com/devrath/KotlinAlchemy/wiki/Collection:-Find-if-all-elements-are-satisfying-a-particular-condition) | `all` |
+| [`Find a particular element based on a certain condition`](https://github.com/devrath/KotlinAlchemy/wiki/Collection:-Find-a-particular-element-based-on-a-certain-condition
+) | `single`,`all` |
+| [`Break the list of items to sub‐chunks of items`](https://github.com/devrath/KotlinAlchemy/wiki/Collections:-Break-the-list-of-items-to-sub%E2%80%90chunks-of-items) | `chunked` |
+| [`Associating the data using some key`](https://github.com/devrath/KotlinAlchemy/wiki/Collections:-Associating-the-data-using-some-key) | `AssociateBy` |
 
 </div>      
 
