@@ -199,7 +199,8 @@
    * State Flow
      * [𝙲𝚛𝚎𝚊𝚝𝚒𝚗𝚐 𝚊 𝚂𝚝𝚊𝚝𝚎 𝙵𝚕𝚘𝚠 𝚠𝚒𝚝𝚑 𝚂𝚝𝚊𝚝𝚎‐𝙸𝚗](https://github.com/devrath/KotlinAlchemy/wiki/Creating-a-state-flow-with-state-in)
      * [𝚄𝚜𝚒𝚗𝚐 𝙼𝚞𝚝𝚊𝚋𝚕𝚎 𝚂𝚝𝚊𝚝𝚎 𝙵𝚕𝚘𝚠](https://github.com/devrath/KotlinAlchemy/wiki/Using-Mutable-State-Flow)
-   * [𝙷𝚘𝚠 𝚝𝚘 𝚖𝚊𝚔𝚎 𝚜𝚝𝚊𝚝𝚎 𝚏𝚕𝚘𝚠 𝚕𝚒𝚏𝚎𝚌𝚢𝚌𝚕𝚎 𝚊𝚠𝚊𝚛𝚎]()  
+   * Collecting the flows
+     * [𝙲𝚘𝚗𝚜𝚞𝚖𝚒𝚗𝚐 𝚝𝚑𝚎 𝚏𝚕𝚘𝚠𝚜 𝚜𝚊𝚏𝚎𝚕𝚢 𝚒𝚗 𝙲𝚘𝚖𝚙𝚘𝚜𝚎](https://github.com/devrath/KotlinAlchemy/wiki/Consuming-the-flows-safely-in-Compose)
 * Kotlin Channels
    * [𝙰𝚋𝚘𝚞𝚝 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-About)
    * [𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-Communication-between-coroutines)
