@@ -5,13 +5,18 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavHostController
 import com.istudio.app.ui.composables.AppButton
 import kotlinx.coroutines.launch
@@ -20,6 +25,8 @@ import kotlinx.coroutines.launch
 fun CollectAsStateWithLifeCycleDemo(navController: NavHostController){
 
     val viewModel: CollectAsStateWithLifeCycleVm = hiltViewModel()
+    //val time = viewModel.data.collectAsStateWithLifecycle()
+    val time = viewModel.newTimer.collectAsStateWithLifecycle()
 
     Column(
         modifier = Modifier.fillMaxSize(),
@@ -27,27 +34,14 @@ fun CollectAsStateWithLifeCycleDemo(navController: NavHostController){
         verticalArrangement = Arrangement.Center
     ) {
 
-        val coroutineScope = rememberCoroutineScope()
+
 
         Spacer(modifier = Modifier.height(16.dp))
-
-        AppButton(text = "Start producing emissions", onClick = {
-            coroutineScope.launch {
-                repeat(100){
-                    viewModel.produce(it)
-                }
-            }
-        })
-
-        Spacer(modifier = Modifier.height(10.dp))
-
-        LaunchedEffect(key1 = true){
-            coroutineScope.launch {
-                viewModel.data.collect{
-                    println("Consumed -> $it")
-                }
-            }
-        }
+        
+        Text(
+            text = time.value.toString(),
+            fontSize = 30.sp
+        )
 
     }
 
