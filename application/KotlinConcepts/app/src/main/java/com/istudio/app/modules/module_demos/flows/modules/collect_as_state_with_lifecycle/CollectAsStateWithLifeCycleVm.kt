@@ -27,7 +27,7 @@ class CollectAsStateWithLifeCycleVm @Inject constructor(
 
     private var currentTime = INITIAL_VALUE
 
-    private val _data = MutableStateFlow<Int>(0)
+    private val _data = MutableStateFlow(0)
     val data = _data.asStateFlow()
 
 
