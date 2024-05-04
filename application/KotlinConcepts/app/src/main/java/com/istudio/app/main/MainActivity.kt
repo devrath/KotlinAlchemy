@@ -31,6 +31,7 @@ import com.istudio.app.modules.module_demos.coroutines.suspend_and_launch_demo.S
 import com.istudio.app.modules.module_demos.coroutines.using_async_await.UsingAsyncAwaitDemo
 import com.istudio.app.modules.module_demos.coroutines.using_join.UsingJoinDemo
 import com.istudio.app.modules.module_demos.flows.FlowsDemo
+import com.istudio.app.modules.module_demos.flows.modules.collect_as_state_with_lifecycle.CollectAsStateWithLifeCycleDemo
 import com.istudio.app.modules.module_demos.flows.modules.compose_and_flatten_flows.ComposeAndFlattenFlows
 import com.istudio.app.modules.module_demos.flows.modules.flatten_flows.FlattenFlowsDemo
 import com.istudio.app.modules.module_demos.flows.modules.flow_basics.chapters.display_data_from_server.DisplayDataFromServerDemo
@@ -225,6 +226,10 @@ class MainActivity : ComponentActivity() {
                         // Compare Join Async Demo
                         composable(ModuleDemo.CompareJoinAsyncDemo.rout) {
                             CompareJoinAsyncDemo(navController = navController)
+                        }
+                        // Collect As Life Cycle Demo
+                        composable(ModuleDemo.CollectAsStateWithLifeCycle.rout) {
+                            CollectAsStateWithLifeCycleDemo(navController = navController)
                         }
                     }
                 }

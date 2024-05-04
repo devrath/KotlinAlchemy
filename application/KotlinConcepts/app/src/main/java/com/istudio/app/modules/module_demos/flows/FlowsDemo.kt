@@ -64,8 +64,16 @@ fun FlowsDemo (navController: NavHostController) {
             navController.navigate(ModuleDemo.MutableStateOfFlowDemo.rout)
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
         AppButton(text = "Flatten Flows", onClick = {
             navController.navigate(ModuleDemo.FlattenFlowsDemo.rout)
+        })
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "Collect As State With Life Cycle", onClick = {
+            navController.navigate(ModuleDemo.CollectAsStateWithLifeCycle.rout)
         })
 
     }
