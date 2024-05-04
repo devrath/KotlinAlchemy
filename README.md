@@ -1,4 +1,3 @@
-
 <h1 align="center">𝙺𝚘𝚝𝚕𝚒𝚗𝙰𝚕𝚌𝚑𝚎𝚖𝚢</h1>
 
 <div align="center">
@@ -18,6 +17,7 @@
 | `𝙲𝙾𝙽𝚃𝙴𝙽𝚃𝚂` |
 | ---------- |
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙱𝚊𝚜𝚒𝚌 𝙵𝚞𝚗𝚍𝚊𝚖𝚎𝚗𝚝𝚊𝚕𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basic-Fundamentals) |
+| [`𝙺𝚘𝚝𝚕𝚒𝚗 𝚌𝚘𝚕𝚕𝚎𝚌𝚝𝚒𝚘𝚗 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#kotlin-collection-functions)
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙿𝚘𝚠𝚎𝚛𝚜`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#kotlin-powers) |
 | [`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`](https://github.com/devrath/KotlinAlchemy/blob/main/README.md#kotlin-coroutines) |
 
@@ -40,24 +40,54 @@
 * [**`𝙳𝚎𝚏𝚒𝚗𝚒𝚗𝚐 𝚊𝚗𝚍 𝚞𝚜𝚒𝚗𝚐 𝙽𝚞𝚕𝚕𝚊𝚋𝚕𝚎 𝚟𝚊𝚕𝚞𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basics:-Defining-and-using-Nullable-values)
 * [**`𝚆𝚑𝚊𝚝 𝚊𝚛𝚎 𝚙𝚊𝚒𝚛𝚜 𝚊𝚗𝚍 𝚝𝚛𝚒𝚙𝚕𝚎𝚝𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Basics-:-What-are-pairs-and-triplets)
 * [**`𝙼𝚎𝚖𝚋𝚎𝚛 𝚁𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗: 𝚄𝚜𝚒𝚗𝚐 (::) 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛`**](https://github.com/devrath/KotlinAlchemy/wiki/Member-Reference-in-Kotlin:-Using-(::)-Operator)
-* **Kotlin collections**
-  * [**`𝚄𝚜𝚒𝚗𝚐 𝚊𝚛𝚛𝚊𝚢𝚜 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Using-arrays-in-the-code)
-  * [**`𝚄𝚜𝚒𝚗𝚐 𝚕𝚒𝚜𝚝 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Using-list-in-the-code)
-  * [**`𝚄𝚜𝚒𝚗𝚐 𝙼𝚊𝚙 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Using-Map-in-the-code)
-  * [**`𝚄𝚜𝚒𝚗𝚐 𝚂𝚎𝚝 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/kotlin-basics-:-Using-Set-in-the-code)
+* [**`𝚆𝚑𝚊𝚝 𝚊𝚛𝚎 𝚝𝚑𝚎 𝚍𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚊𝚗 𝙴𝚚𝚞𝚊𝚕𝚒𝚝𝚢 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛 𝚊𝚗𝚍 𝚊 𝚁𝚎𝚏𝚎𝚛𝚎𝚗𝚝𝚒𝚊𝚕 𝙴𝚚𝚞𝚊𝚕𝚒𝚝𝚢 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛?`**](https://github.com/devrath/KotlinAlchemy/wiki/What-are-the-difference-between-Equality-Operator-and-Referential-Equality-Operator)
 * [**`𝙻𝚘𝚘𝚙𝚒𝚗𝚐 𝚖𝚎𝚌𝚑𝚊𝚗𝚒𝚜𝚖𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Looping-mechanisms)
 * [**`𝙲𝚞𝚜𝚝𝚘𝚖 𝙰𝚌𝚌𝚎𝚜𝚜𝚘𝚛𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Custom-Accessors)
 * [**`𝙴𝚗𝚞𝚖 𝚒𝚗 𝙺𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Enum-in-Kotlin)
 * **Classes and Interfaces**
   * [**`𝙲𝚕𝚊𝚜𝚜𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Fundamentals:-Classes)
   * [**`𝙸𝚗𝚑𝚎𝚛𝚒𝚝𝚊𝚗𝚌𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Fundamentals:-Inheritance)
+* **Kotlin Basic collections**
+  * [**`𝚄𝚜𝚒𝚗𝚐 𝚊𝚛𝚛𝚊𝚢𝚜 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Using-arrays-in-the-code)
+  * [**`𝚄𝚜𝚒𝚗𝚐 𝚕𝚒𝚜𝚝 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Using-list-in-the-code)
+  * [**`𝚄𝚜𝚒𝚗𝚐 𝙼𝚊𝚙 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-basics-:-Using-Map-in-the-code)
+  * [**`𝚄𝚜𝚒𝚗𝚐 𝚂𝚎𝚝 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎`**](https://github.com/devrath/KotlinAlchemy/wiki/kotlin-basics-:-Using-Set-in-the-code)
 
- 
-# `Kotlin Powers`
+# `Kotlin Collection Functions`
 
 <div align="center">
 
-![giphy](https://github.com/devrath/KotlinAlchemy/assets/1456191/629a6f77-5853-418c-8aa9-360df6f957bd)
+  <img src="https://github.com/devrath/KotlinAlchemy/assets/1456191/e8da4540-39e3-4ca3-abab-b0c3ecbedea0" 
+       alt="collection"
+       width="450"
+       height="300">
+
+</div>
+
+<div align="center">
+ 
+| `Operation` | `Operators`                                                  |
+| ----------- | ------------------------------------------------------------ |
+| [`Removing Duplicates`](https://github.com/devrath/KotlinAlchemy/wiki/Collections:-Removing-duplicates) | `distinct` , `toSet` . `toMutableSet`, `toHashSet` |
+| [`Combining a list of items to a string`](https://github.com/devrath/KotlinAlchemy/wiki/Collections:-Converting--a-list-array-to-string) | `joinToString` |
+| [`Transform a collection into a single result`](https://github.com/devrath/KotlinAlchemy/wiki/Collections:-Transform-a-collection-into-a-single-result) | `reduce` |
+| [`Find if all elements are satisfying a particular condition`](https://github.com/devrath/KotlinAlchemy/wiki/Collection:-Find-if-all-elements-are-satisfying-a-particular-condition) | `all` |
+| [`Find a particular element based on a certain condition`](https://github.com/devrath/KotlinAlchemy/wiki/Collection:-Find-a-particular-element-based-on-a-certain-condition) | `single`,`all` |
+| [`Break the list of items to sub‐chunks of items`](https://github.com/devrath/KotlinAlchemy/wiki/Collections:-Break-the-list-of-items-to-sub%E2%80%90chunks-of-items) | `chunked` |
+| [`Associating the data using some key`](https://github.com/devrath/KotlinAlchemy/wiki/Collections:-Associating-the-data-using-some-key) | `AssociateBy` |
+| [`Using the Intersection and Union`](https://github.com/devrath/KotlinAlchemy/wiki/Collection:-Intersection-&-Union) | `union`,`intersect` |
+| [`Sorting a collection of objects based on a parameter in the object`](https://github.com/devrath/KotlinAlchemy/wiki/Collection:-Sorting-a-collection-of-objects-based-on-a-parameter-in-the-object) | `sortBy` |
+
+</div>      
+
+  
+# `Kotlin Powers`
+<div align="center">
+
+  <img src="https://github.com/devrath/KotlinAlchemy/assets/1456191/629a6f77-5853-418c-8aa9-360df6f957bd" 
+       alt="kotlin  powers"
+       width="450"
+       height="270">
 
 </div>
 
@@ -70,7 +100,8 @@
 | [`𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`](https://github.com/devrath/KotlinAlchemy/wiki/Annotations-in-kotlin) | [`𝚃𝚢𝚙𝚎 𝙰𝚕𝚒𝚊𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Type-Alias) | [`𝙸𝚗𝚕𝚒𝚗𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Inline-Functions) |
 | [`𝚂𝚖𝚊𝚛𝚝 𝙲𝚊𝚜𝚝𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin:-Smart-Casts) | [`𝙽𝚎𝚜𝚝𝚎𝚍 𝚌𝚕𝚊𝚜𝚜 𝚟𝚜 𝙸𝚗𝚗𝚎𝚛 𝚌𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Nested-class-vs-Inner-class) | [`𝚂𝚎𝚊𝚕𝚎𝚍 𝙲𝚕𝚊𝚜𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Sealed-Class) |
 | [`𝙰𝚗𝚗𝚘𝚝𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`](https://github.com/devrath/KotlinAlchemy/wiki/Annotations-in-kotlin) | [`𝙶𝚎𝚗𝚎𝚛𝚒𝚌𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Generics)                                            | [`𝚁𝚎𝚒𝚏𝚒𝚎𝚍`](https://github.com/devrath/KotlinAlchemy/wiki/Reified)                                              |
-| [`𝙲𝚛𝚘𝚜𝚜𝚕𝚒𝚗𝚎 𝚖𝚘𝚍𝚒𝚏𝚒𝚎𝚛`](https://github.com/devrath/KotlinAlchemy/wiki/Crossline-modifier) |   |  |
+| [`𝙲𝚛𝚘𝚜𝚜𝚕𝚒𝚗𝚎 𝚖𝚘𝚍𝚒𝚏𝚒𝚎𝚛`](https://github.com/devrath/KotlinAlchemy/wiki/Crossline-modifier) | [ `𝚍𝚎𝚕𝚎𝚐𝚊𝚝𝚒𝚘𝚗 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗` ](https://github.com/devrath/KotlinAlchemy/wiki/what-is-delegation-in-kotlin)  | [`𝚂𝚎𝚚𝚞𝚎𝚗𝚌𝚎𝚜`](https://github.com/devrath/KotlinAlchemy/wiki/Sequences-in-kotlin) |
+| [`noinline`](https://github.com/devrath/KotlinAlchemy/wiki/noinline) | [`𝚆𝚑𝚊𝚝 𝚊𝚛𝚎 𝚎𝚡𝚝𝚎𝚗𝚜𝚒𝚘𝚗 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜?`](https://github.com/devrath/KotlinAlchemy/wiki/What-are-extension-functions)  |   |
 
 </div>
 
@@ -133,8 +164,9 @@
   * [**`𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜 𝚓𝚘𝚒𝚗 𝚟𝚜 𝚊𝚠𝚊𝚒𝚝`**](https://github.com/devrath/KotlinAlchemy/wiki/Kotlin-Coroutines-join-vs-await)
 * Exception Handling
   * [**`𝙴𝚡𝚌𝚎𝚙𝚝𝚒𝚘𝚗 𝚑𝚊𝚗𝚍𝚕𝚒𝚗𝚐 𝚒𝚗 𝚕𝚊𝚞𝚗𝚌𝚑`**](https://github.com/devrath/KotlinAlchemy/wiki/Exception-handling-in-launch)
-  * [**`𝙴𝚡𝚌𝚎𝚙𝚝𝚒𝚘𝚗 𝚑𝚊𝚗𝚍𝚕𝚒𝚗𝚐 𝚒𝚗 𝚊𝚜𝚢𝚗𝚌`**](https://github.com/devrath/KotlinAlchemy/wiki/Exception-handling-in-async) 
-
+  * [**`𝙴𝚡𝚌𝚎𝚙𝚝𝚒𝚘𝚗 𝚑𝚊𝚗𝚍𝚕𝚒𝚗𝚐 𝚒𝚗 𝚊𝚜𝚢𝚗𝚌`**](https://github.com/devrath/KotlinAlchemy/wiki/Exception-handling-in-async)
+* [**`𝚂𝚞𝚙𝚎𝚛𝚟𝚒𝚜𝚘𝚛 𝚂𝚌𝚘𝚙𝚎 𝚊𝚗𝚍 𝚂𝚞𝚙𝚎𝚛𝚟𝚒𝚜𝚘𝚛 𝙹𝚘𝚋 𝚒𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`**](https://github.com/devrath/KotlinAlchemy/wiki/Supervisor-Scope-and-Supervisor-Job-in-coroutines)
+* [**`𝚆𝚑𝚊𝚝 𝚒𝚜 𝚝𝚊𝚒𝚕𝚛𝚎𝚌 𝚒𝚗 𝚔𝚘𝚝𝚕𝚒𝚗`**](https://github.com/devrath/KotlinAlchemy/wiki/What-is-tailrec-in-kotlin)
 
 #### `𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚗𝚐 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚌𝚘-𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜`
 * [𝙰𝚋𝚘𝚞𝚝 𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚗𝚐 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚝𝚑𝚎 𝚌𝚘‐𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜](https://github.com/devrath/KotlinAlchemy/wiki/About-Communicating-between-the-co%E2%80%90routines)
@@ -167,6 +199,8 @@
    * State Flow
      * [𝙲𝚛𝚎𝚊𝚝𝚒𝚗𝚐 𝚊 𝚂𝚝𝚊𝚝𝚎 𝙵𝚕𝚘𝚠 𝚠𝚒𝚝𝚑 𝚂𝚝𝚊𝚝𝚎‐𝙸𝚗](https://github.com/devrath/KotlinAlchemy/wiki/Creating-a-state-flow-with-state-in)
      * [𝚄𝚜𝚒𝚗𝚐 𝙼𝚞𝚝𝚊𝚋𝚕𝚎 𝚂𝚝𝚊𝚝𝚎 𝙵𝚕𝚘𝚠](https://github.com/devrath/KotlinAlchemy/wiki/Using-Mutable-State-Flow)
+   * Collecting the flows
+     * [𝙲𝚘𝚗𝚜𝚞𝚖𝚒𝚗𝚐 𝚝𝚑𝚎 𝚏𝚕𝚘𝚠𝚜 𝚜𝚊𝚏𝚎𝚕𝚢 𝚒𝚗 𝙲𝚘𝚖𝚙𝚘𝚜𝚎](https://github.com/devrath/KotlinAlchemy/wiki/Consuming-the-flows-safely-in-Compose)
 * Kotlin Channels
    * [𝙰𝚋𝚘𝚞𝚝 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-About)
    * [𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-Communication-between-coroutines)
