@@ -202,7 +202,8 @@
      * [𝚄𝚜𝚒𝚗𝚐 𝙼𝚞𝚝𝚊𝚋𝚕𝚎 𝚂𝚝𝚊𝚝𝚎 𝙵𝚕𝚘𝚠](https://github.com/devrath/KotlinAlchemy/wiki/Using-Mutable-State-Flow)
    * Collecting the flows
      * [𝙲𝚘𝚗𝚜𝚞𝚖𝚒𝚗𝚐 𝚝𝚑𝚎 𝚏𝚕𝚘𝚠𝚜 𝚜𝚊𝚏𝚎𝚕𝚢 𝚒𝚗 𝙲𝚘𝚖𝚙𝚘𝚜𝚎](https://github.com/devrath/KotlinAlchemy/wiki/Consuming-the-flows-safely-in-Compose)
-* Kotlin Channels
+* [𝙲𝚊𝚕𝚕𝚋𝚊𝚌𝚔 𝙵𝚕𝚘𝚠](https://github.com/devrath/KotlinAlchemy/wiki/CallbackFlow)
+* 𝙺𝚘𝚝𝚕𝚒𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜
    * [𝙰𝚋𝚘𝚞𝚝 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-About)
    * [𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜](https://github.com/devrath/KotlinAlchemy/wiki/Channels-%E2%80%90-Communication-between-coroutines)
    * [𝚄𝚜𝚒𝚗𝚐 𝙿𝚛𝚘𝚍𝚞𝚌𝚎](https://github.com/devrath/KotlinAlchemy/wiki/Channel-%E2%80%90-Using-produce
