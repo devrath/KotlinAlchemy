@@ -55,6 +55,12 @@ fun KotlinAnnotationsDemo(navController: NavHostController) {
             viewModel.nullableNotNull()
         })
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        AppButton(text = "@StringDef", onClick = {
+            viewModel.stringDef()
+        })
+
     }
 
 }
